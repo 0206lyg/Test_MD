@@ -1,0 +1,29 @@
+                      :-) GROMACS - gmx mdrun, 2026.4 (-:
+
+Executable:   /home/lee6456/MD/build/gromacs-2026.4-cpu/bin/gmx
+Data prefix:  /home/lee6456/MD/src/gromacs-2026.4 (source tree)
+Working dir:  /home/lee6456/MD/build/gromacs-2026.4-cpu/tests/complex/acetonitrilRF
+Command line:
+  gmx mdrun -ntmpi 9 -nb cpu -ntomp 1 -notunepme
+
+Reading file topol.tpr, VERSION 2026.4 (single precision)
+Changing nstlist from 5 to 50, rlist from 1.004 to 1.094
+
+Using 9 MPI threads
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per tMPI thread
+
+starting mdrun 'Ch3cn'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.079        0.009      862.2
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:      395.922        0.061        0.436            3.616 
+
+Thanx for Using GROMACS - Have a Nice Day
+

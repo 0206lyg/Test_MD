@@ -1,0 +1,17 @@
+1:GmxapiExternalInterfaceTests
+77:MdrunOutputTests
+78:MdrunModulesTests
+79:MdrunIOTests
+80:MdrunTestsOneRank
+81:MdrunTestsTwoRanks
+82:MdrunSingleRankAlgorithmsTests
+83:Minimize1RankTests
+84:Minimize2RankTests
+85:MdrunNonIntegratorTests
+87:MdrunMpiTests
+91:MdrunMpi1RankPmeTests
+92:MdrunMpi2RankPmeTests
+100:MdrunFEPTests
+101:MdrunPullTests
+102:MdrunRotationTests
+105:regressiontests/complex

@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/lee6456/MD/src/gromacs-2026.4/tests
+# Build directory: /home/lee6456/MD/build/gromacs-2026.4-cpu/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[regressiontests/complex]=] "perl" "/home/lee6456/MD/src/regressiontests-2026.4/gmxtest.pl" "complex" "-crosscompile" "-nt" "2" "-ntomp" "1" "-noverbose" "-nosuffix")
+set_tests_properties([=[regressiontests/complex]=] PROPERTIES  ENVIRONMENT "PATH=/home/lee6456/MD/build/gromacs-2026.4-cpu/lib:/home/lee6456/MD/build/gromacs-2026.4-cpu/bin:/home/lee6456/MD/envs/cmake-3.31.6/bin:/apps/external/apps/xalt3/xalt/xalt/bin:/apps/spack/negishi/apps/gcc/12.2.0-gcc-8.5.0-27t2zcj/bin:/home/lee6456/bin:/home/lee6456/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/hpss/bin:/opt/hsi/bin:/opt/puppetlabs/bin:/usr/site/rcac/sbin:/usr/site/rcac/bin:/usr/site/rcac/scripts:/opt/thinlinc/bin:/opt/thinlinc/sbin" LABELS "SlowGpuTest" RUN_SERIAL "TRUE" _BACKTRACE_TRIPLES "/home/lee6456/MD/src/gromacs-2026.4/tests/CMakeLists.txt;181;add_test;/home/lee6456/MD/src/gromacs-2026.4/tests/CMakeLists.txt;0;")
+add_test([=[regressiontests/essentialdynamics]=] "perl" "/home/lee6456/MD/src/regressiontests-2026.4/gmxtest.pl" "essentialdynamics" "-crosscompile" "-nt" "2" "-ntomp" "1" "-noverbose" "-nosuffix")
+set_tests_properties([=[regressiontests/essentialdynamics]=] PROPERTIES  ENVIRONMENT "PATH=/home/lee6456/MD/build/gromacs-2026.4-cpu/lib:/home/lee6456/MD/build/gromacs-2026.4-cpu/bin:/home/lee6456/MD/envs/cmake-3.31.6/bin:/apps/external/apps/xalt3/xalt/xalt/bin:/apps/spack/negishi/apps/gcc/12.2.0-gcc-8.5.0-27t2zcj/bin:/home/lee6456/bin:/home/lee6456/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/hpss/bin:/opt/hsi/bin:/opt/puppetlabs/bin:/usr/site/rcac/sbin:/usr/site/rcac/bin:/usr/site/rcac/scripts:/opt/thinlinc/bin:/opt/thinlinc/sbin" LABELS "SlowGpuTest" RUN_SERIAL "TRUE" _BACKTRACE_TRIPLES "/home/lee6456/MD/src/gromacs-2026.4/tests/CMakeLists.txt;181;add_test;/home/lee6456/MD/src/gromacs-2026.4/tests/CMakeLists.txt;0;")

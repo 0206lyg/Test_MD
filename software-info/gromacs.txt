@@ -1,0 +1,34 @@
+                         :-) GROMACS - gmx, 2026.4 (-:
+
+Executable:   /home/lee6456/MD/software/gromacs-2026.4-cpu/bin/gmx
+Data prefix:  /home/lee6456/MD/software/gromacs-2026.4-cpu
+Working dir:  /home/lee6456/MD
+Command line:
+  gmx --version
+
+GROMACS version:     2026.4
+Precision:           mixed
+Memory model:        64 bit
+MPI library:         thread_mpi
+MPI version:         built in
+OpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)
+GPU support:         disabled
+SIMD instructions:   AVX2_256
+CPU FFT library:     fftw-3.3.10-sse2-avx-avx2-avx2_128
+GPU FFT library:     none
+Multi-GPU FFT:       none
+RDTSCP:              enabled
+TNG support:         enabled
+Hwloc support:       disabled
+Tracing support:     disabled
+Colvars support:     enabled (version 2025-10-13)
+CP2K support:        disabled
+Torch support:       disabled
+Plumed support:      enabled
+C compiler:          /apps/spack/negishi/apps/gcc/12.2.0-gcc-8.5.0-27t2zcj/bin/gcc GNU 12.2.0
+C compiler flags:    -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -O3 -DNDEBUG
+C++ compiler:        /apps/spack/negishi/apps/gcc/12.2.0-gcc-8.5.0-27t2zcj/bin/g++ GNU 12.2.0
+C++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG
+BLAS library:        Internal
+LAPACK library:      Internal
+

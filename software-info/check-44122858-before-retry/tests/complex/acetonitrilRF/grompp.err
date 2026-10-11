@@ -1,0 +1,38 @@
+                      :-) GROMACS - gmx grompp, 2026.4 (-:
+
+Executable:   /home/lee6456/MD/build/gromacs-2026.4-cpu/bin/gmx
+Data prefix:  /home/lee6456/MD/src/gromacs-2026.4 (source tree)
+Working dir:  /home/lee6456/MD/build/gromacs-2026.4-cpu/tests/complex/acetonitrilRF
+Command line:
+  gmx grompp -f /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/grompp.mdp -c /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/conf -r /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/conf -p /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/topol -maxwarn 10
+
+Ignoring obsolete mdp entry 'optimize_fft'
+Ignoring obsolete mdp entry 'rlistlong'
+Ignoring obsolete mdp entry 'nstcalclr'
+Ignoring obsolete mdp entry 'gb_algorithm'
+Ignoring obsolete mdp entry 'nstgbradii'
+Ignoring obsolete mdp entry 'rgbradii'
+Ignoring obsolete mdp entry 'gb-epsilon-solvent'
+Ignoring obsolete mdp entry 'gb_saltconc'
+Ignoring obsolete mdp entry 'gb-obc-alpha'
+Ignoring obsolete mdp entry 'gb-obc-beta'
+Ignoring obsolete mdp entry 'gb-obc-gamma'
+Ignoring obsolete mdp entry 'gb-dielectric-offset'
+Ignoring obsolete mdp entry 'sa-algorithm'
+Ignoring obsolete mdp entry 'sa-surface-tension'
+Ignoring obsolete mdp entry 'ns_type'
+Replacing old mdp entry 'verlet-buffer-drift' by 'verlet-buffer-tolerance'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc_precision' by 'compressed-x-precision'
+
+WARNING 1 [file /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/grompp.mdp]:
+  The Berendsen thermostat does not generate the correct kinetic energy
+  distribution, and should not be used for new production simulations (in
+  our opinion). We would recommend the V-rescale thermostat.
+
+Number of degrees of freedom in T-Coupling group System is 2627.00
+
+There was 1 WARNING
+
+Thanx for Using GROMACS - Have a Nice Day
+

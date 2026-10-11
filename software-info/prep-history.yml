@@ -1,0 +1,9 @@
+name: /home/lee6456/MD/envs/prep
+channels:
+  - defaults
+dependencies:
+  - packmol
+  - parmed
+  - python=3.11
+  - rdkit
+prefix: /home/lee6456/MD/envs/prep

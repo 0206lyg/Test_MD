@@ -1,0 +1,15 @@
+                      :-) GROMACS - gmx check, 2026.4 (-:
+
+Executable:   /home/lee6456/MD/build/gromacs-2026.4-cpu/bin/gmx
+Data prefix:  /home/lee6456/MD/src/gromacs-2026.4 (source tree)
+Working dir:  /home/lee6456/MD/build/gromacs-2026.4-cpu/tests/complex/acetonitrilRF
+Command line:
+  gmx check -f /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/reference_s.trr -f2 traj.trr -tol 0.001 -abstol 0.05
+
+Comparing trajectory files /home/lee6456/MD/src/regressiontests-2026.4/complex/acetonitrilRF/reference_s.trr and traj.trr
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   Reading frame       0 time    0.000   Reading frame       1 time    0.040   Reading frame       1 time    0.040   Last frame          1 time    0.040   
+Last frame          1 time    0.040   
+
+Thanx for Using GROMACS - Have a Nice Day
+

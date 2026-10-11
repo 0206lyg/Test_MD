@@ -1,0 +1,2338 @@
+[  0%] Generating release version information
+[  1%] Built target fftwBuild
+[  1%] Built target lmfit_objlib
+[  2%] Built target scanner
+[  2%] Built target tng_io_zlib
+[  2%] Built target internal_rpc_xdr
+[  2%] Built target gmx_objlib
+[  2%] Built target release-version-info
+[  3%] Built target tng_io_obj
+[  5%] Built target thread_mpi
+[  5%] Building CXX object src/external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  5%] Built target h5md
+[  5%] Built target muparser
+[  5%] Built target mdrun_objlib
+[  6%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/main.cpp.o
+[  7%] Built target fmm
+[  7%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/reduce.cpp.o
+[  7%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/once.cpp.o
+[  7%] Built target options
+[  7%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/send_recv.cpp.o
+[  8%] Building CXX object src/external/thread_mpi/test/CMakeFiles/sync_cyclecount.dir/sync_cyclecount.cpp.o
+[  8%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/multicast.cpp.o
+[ 11%] Built target colvars_objlib
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/cond-var.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpi_speedtest.dir/mpi_speedtest.cpp.o
+[ 11%] Linking CXX executable ../../../../bin/sync_cyclecount
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpi_speedtest.dir/send_recv.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpi_speedtest.dir/multicast.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/atomic.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/cycles.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/mpithreads.dir/split.cpp.o
+[ 11%] Building CXX object src/external/thread_mpi/test/CMakeFiles/notmpi.dir/notmpi.cpp.o
+[ 22%] Built target linearalgebra
+[ 22%] Building CXX object src/external/thread_mpi/test/CMakeFiles/alloc_check.dir/alloc_check.cpp.o
+[ 22%] Built target energyanalysis
+[ 22%] Linking CXX executable ../../../../bin/mpi_speedtest
+[ 22%] Built target pulling
+[ 22%] Built target sync_cyclecount
+[ 22%] Linking CXX executable ../../../../bin/alloc_check
+[ 22%] Built target taskassignment
+[ 22%] Linking CXX executable ../../../../bin/mpithreads
+[ 23%] Built target modularsimulator
+[ 23%] Built target mpi_speedtest
+[ 23%] Linking CXX executable ../../../../bin/notmpi
+[ 23%] Built target alloc_check
+[ 23%] Built target mpithreads
+[ 23%] Built target notmpi
+[ 64%] Built target libgromacs
+[ 64%] Built target gmx
+[ 64%] Built target gmxtests
+[ 65%] Built target gmxapi
+[ 66%] Built target nblib
+[ 67%] Built target argon-forces-integration
+[ 67%] Built target methane-water-integration
+[ 67%] Linking CXX shared library ../../../../lib/libgtest.so
+[ 67%] Built target gtest
+[ 67%] Building CXX object src/external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 67%] Linking CXX shared library ../../../../lib/libgmock.so
+[ 67%] Built target gmock
+[ 67%] Building CXX object src/testutils/CMakeFiles/testutils.dir/cmdlinetest.cpp.o
+[ 67%] Building CXX object src/testutils/CMakeFiles/testutils.dir/conftest.cpp.o
+[ 67%] Building CXX object src/testutils/CMakeFiles/testutils.dir/filematchers.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/mpitest.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/interactivetest.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/posixmemstream.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/loggertest.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/refdata.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/mpi_printer.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/refdata_xml.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/setenv.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/simulationdatabase.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/stdiohelper.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/stringtest.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testasserts.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testfilemanager.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testfileredirector.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/test_device.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/test_hardware_environment.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testinit.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testmatchers.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/testoptions.cpp.o
+[ 68%] Building CXX object src/testutils/CMakeFiles/testutils.dir/textblockmatchers.cpp.o
+[ 69%] Building CXX object src/testutils/CMakeFiles/testutils.dir/topologyhelpers.cpp.o
+[ 69%] Building CXX object src/testutils/CMakeFiles/testutils.dir/tprfilegenerator.cpp.o
+[ 69%] Building CXX object src/testutils/CMakeFiles/testutils.dir/trajectoryreader.cpp.o
+[ 69%] Building CXX object src/testutils/CMakeFiles/testutils.dir/xvgtest.cpp.o
+[ 69%] Building CXX object src/testutils/CMakeFiles/testutils.dir/__/external/tinyxml2/tinyxml2.cpp.o
+[ 69%] Linking CXX static library ../../lib/libtestutils.a
+[ 69%] Built target testutils
+[ 69%] Building CXX object api/nblib/tests/CMakeFiles/nblib_test_infrastructure.dir/testsystems.cpp.o
+[ 69%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.o
+[ 69%] Building CXX object src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-mpi-test.dir/coordinate_exception_handling.cpp.o
+[ 69%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/awh_setup.cpp.o
+[ 69%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/energyreader.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/mpicomm-test.dir/mpicomm.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/alignedallocator.cpp.o
+[ 69%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o
+[ 69%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/energycomparison.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-mpi-test.dir/physicalnodecommunicator_mpi.cpp.o
+[ 69%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/naming.cpp.o
+[ 69%] Building CXX object src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.o
+[ 69%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calcvir.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/mpicomm-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 69%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 70%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/bias.cpp.o
+[ 70%] Linking CXX executable ../../../bin/testutils-mpi-test
+[ 70%] Built target testutils-mpi-test
+[ 70%] Building CXX object src/gromacs/applied_forces/densityfitting/tests/CMakeFiles/density_fitting_applied_forces-test.dir/densityfitting.cpp.o
+[ 70%] Linking CXX executable ../../../../bin/mpicomm-test
+[ 70%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/moduletest.cpp.o
+[ 70%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/constr.cpp.o
+[ 70%] Built target mpicomm-test
+[ 70%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmminputgenerator.cpp.o
+[ 70%] Building CXX object api/nblib/tests/CMakeFiles/nblib_test_infrastructure.dir/__/__/__/src/testutils/unittest_main.cpp.o
+[ 70%] Linking CXX executable ../../../../bin/utility-mpi-test
+[ 70%] Built target utility-mpi-test
+[ 70%] Building CXX object src/gromacs/applied_forces/colvars/tests/CMakeFiles/colvars_applied_forces-test.dir/colvars.cpp.o
+[ 70%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/arrayref.cpp.o
+[ 70%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/posixmemstream.cpp.o
+[ 70%] Linking CXX static library ../../../lib/libnblib_test_infrastructure.a
+[ 70%] Built target nblib_test_infrastructure
+[ 70%] Building CXX object src/gromacs/applied_forces/plumed/tests/CMakeFiles/plumed_applied_forces-test.dir/plumedOptions.cpp.o
+[ 70%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/simulatorcomparison.cpp.o
+[ 70%] Building CXX object src/gromacs/applied_forces/densityfitting/tests/CMakeFiles/density_fitting_applied_forces-test.dir/densityfittingamplitudelookup.cpp.o
+[ 70%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmmtopologypreprocessor.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/colvars/tests/CMakeFiles/colvars_applied_forces-test.dir/colvarsoptions.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/biasgrid.cpp.o
+[ 71%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/terminationhelper.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/plumed/tests/CMakeFiles/plumed_applied_forces-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/densityfitting/tests/CMakeFiles/density_fitting_applied_forces-test.dir/densityfittingforceprovider.cpp.o
+[ 71%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/constraintgroupsize.cpp.o
+[ 71%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/trajectorycomparison.cpp.o
+[ 71%] Linking CXX executable ../../../../../bin/plumed_applied_forces-test
+[ 71%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/biassharing.cpp.o
+[ 71%] Built target plumed_applied_forces-test
+[ 71%] Building CXX object src/gromacs/applied_forces/colvars/tests/CMakeFiles/colvars_applied_forces-test.dir/colvarspreprocessor.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmmoptions.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/densityfitting/tests/CMakeFiles/density_fitting_applied_forces-test.dir/densityfittingoptions.cpp.o
+[ 71%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.o
+[ 71%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.o
+[ 71%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/constrtestdata.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/biasstate.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/bias_fep_lambda_state.cpp.o
+[ 71%] Building CXX object src/gromacs/applied_forces/colvars/tests/CMakeFiles/colvars_applied_forces-test.dir/colvarsforceprovider.cpp.o
+[ 71%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun_test_infrastructure.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 71%] Building CXX object src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.o
+[ 71%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/constrtestrunners.cpp.o
+[ 71%] Linking CXX static library ../../../../lib/libmdrun_test_infrastructure.a
+[ 72%] Building CXX object src/gromacs/applied_forces/densityfitting/tests/CMakeFiles/density_fitting_applied_forces-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmmforceproviderstate.cpp.o
+[ 72%] Built target mdrun_test_infrastructure
+[ 72%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmmforceprovider.cpp.o
+[ 72%] Linking CXX executable ../../../bin/testutils-test
+[ 72%] Built target testutils-test
+[ 72%] Building CXX object src/gromacs/applied_forces/nnpot/tests/CMakeFiles/nnpot_applied_forces-test.dir/nnpot.cpp.o
+[ 72%] Linking CXX executable ../../../../../bin/density_fitting_applied_forces-test
+[ 72%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/ebin.cpp.o
+[ 72%] Built target density_fitting_applied_forces-test
+[ 72%] Building CXX object src/gromacs/applied_forces/colvars/tests/CMakeFiles/colvars_applied_forces-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 72%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/energydrifttracker.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/qmmm.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/tests/CMakeFiles/applied_forces-test.dir/electricfield.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/friction_metric.cpp.o
+[ 72%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/energyoutput.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/awh/tests/CMakeFiles/awh-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/nnpot/tests/CMakeFiles/nnpot_applied_forces-test.dir/nnpotoptions.cpp.o
+[ 72%] Linking CXX executable ../../../../../bin/colvars_applied_forces-test
+[ 72%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/expanded.cpp.o
+[ 72%] Built target colvars_applied_forces-test
+[ 72%] Building CXX object src/gromacs/listed_forces/tests/CMakeFiles/listed_forces-test.dir/bonded.cpp.o
+[ 72%] Building CXX object src/gromacs/listed_forces/tests/CMakeFiles/listed_forces-test.dir/pairs.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/tests/CMakeFiles/applied_forces-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 72%] Building CXX object src/gromacs/applied_forces/qmmm/tests/CMakeFiles/qmmm_applied_forces-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 72%] Linking CXX executable ../../../../../bin/awh-test
+[ 72%] Linking CXX executable ../../../../bin/applied_forces-test
+[ 72%] Linking CXX executable ../../../../../bin/qmmm_applied_forces-test
+[ 72%] Built target awh-test
+[ 72%] Building CXX object src/gromacs/listed_forces/tests/CMakeFiles/listed_forces-test.dir/position_restraints.cpp.o
+[ 72%] Built target applied_forces-test
+[ 73%] Building CXX object src/gromacs/listed_forces/tests/CMakeFiles/listed_forces-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 73%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/booltype.cpp.o
+[ 73%] Building CXX object src/gromacs/applied_forces/nnpot/tests/CMakeFiles/nnpot_applied_forces-test.dir/nnpottopologypreprocessor.cpp.o
+[ 73%] Built target qmmm_applied_forces-test
+[ 73%] Building CXX object src/gromacs/applied_forces/nnpot/tests/CMakeFiles/nnpot_applied_forces-test.dir/nnpotforceprovider.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/freeenergyparameters.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/langevin.cpp.o
+[ 73%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask32.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/langevintestdata.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/langevintestrunners.cpp.o
+[ 73%] Building CXX object src/gromacs/applied_forces/nnpot/tests/CMakeFiles/nnpot_applied_forces-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/leapfrog.cpp.o
+[ 73%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask64.cpp.o
+[ 73%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/exclusions.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/leapfrogtestdata.cpp.o
+[ 73%] Linking CXX executable ../../../../bin/listed_forces-test
+[ 73%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/kernel_test.cpp.o
+[ 73%] Built target listed_forces-test
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/leapfrogtestrunners.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/parrinellorahman.cpp.o
+[ 73%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask128.cpp.o
+[ 73%] Linking CXX executable ../../../../../bin/nnpot_applied_forces-test
+[ 73%] Built target nnpot_applied_forces-test
+[ 73%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-gpu-test.dir/pairlist.cpp.o
+[ 73%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/cstringutil.cpp.o
+[ 73%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.o
+[ 74%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settletestdata.cpp.o
+[ 75%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-gpu-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 75%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nonbonded-fep-test.dir/freeenergykernel.cpp.o
+[ 75%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/defaultinitializationallocator.cpp.o
+[ 76%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nonbonded-fep-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 76%] Linking CXX executable ../../../../bin/nbnxm-gpu-test
+[ 76%] Built target nbnxm-gpu-test
+[ 76%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nonbonded-fep-gpu-test.dir/freeenergygpukernel.cpp.o
+[ 76%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nonbonded-fep-gpu-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 76%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/kernelsetup.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/enumerationhelpers.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/fixedcapacityvector.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/keyvaluetreetransform.cpp.o
+[ 76%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settletestrunners.cpp.o
+[ 76%] Linking CXX executable ../../../../bin/nonbonded-fep-gpu-test
+[ 76%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.o
+[ 76%] Built target nonbonded-fep-gpu-test
+[ 76%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test-shared.dir/mock_helptopic.cpp.o
+[ 76%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/plainpairlist.cpp.o
+[ 76%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test-shared.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/listoflists.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/logger.cpp.o
+[ 76%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o
+[ 76%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.o
+[ 76%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o
+[ 76%] Linking CXX executable ../../../../bin/nonbonded-fep-test
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/message_string_collector.cpp.o
+[ 76%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/mpicomm.cpp.o
+[ 76%] Linking CXX static library ../../../../lib/libonlinehelp-test-shared.a
+[ 76%] Built target nonbonded-fep-test
+[ 76%] Built target onlinehelp-test-shared
+[ 76%] Building CXX object src/gromacs/domdec/tests/CMakeFiles/domdec-test.dir/hashedmap.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/path.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/vsite.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/physicalnodecommunicator.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/constrtestrunners_gpu.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/leapfrogtestrunners_gpu.cpp.o
+[ 77%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/simd_energy_accumulator.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdgpugraph.cpp.o
+[ 77%] Building CXX object src/gromacs/domdec/tests/CMakeFiles/domdec-test.dir/localatomsetmanager.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settletestrunners_gpu.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/range.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/scope_guard.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/wholemoleculetransform.cpp.o
+[ 77%] Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/strconvert.cpp.o
+[ 77%] Building CXX object src/gromacs/domdec/tests/CMakeFiles/domdec-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/stringtoenumvalueconverter.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/stringutil.cpp.o
+[ 77%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/testsystem.cpp.o
+[ 77%] Building CXX object src/gromacs/nbnxm/tests/CMakeFiles/nbnxm-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/template_mp.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/textreader.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/domdec-test
+[ 77%] Built target domdec-test
+[ 77%] Building CXX object src/gromacs/domdec/tests/CMakeFiles/domdec-mpi-test.dir/haloexchange_mpi.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/textwriter.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/mdlib-test
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/txtdump.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/nbnxm-test
+[ 77%] Built target mdlib-test
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
+[ 77%] Built target nbnxm-test
+[ 77%] Building CXX object src/gromacs/fft/tests/CMakeFiles/fft-test.dir/fft.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/typetraits.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/vecdump.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/vectypes.cpp.o
+[ 77%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/fft/tests/CMakeFiles/fft-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/fmm/tests/CMakeFiles/fmm-interface-tests.dir/fmm_mdpoptions.cpp.o
+[ 77%] Building CXX object src/gromacs/fmm/tests/CMakeFiles/fmm-interface-tests.dir/fmm_mdpvalidator.cpp.o
+[ 77%] Building CXX object src/gromacs/domdec/tests/CMakeFiles/domdec-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Building CXX object src/gromacs/fmm/tests/CMakeFiles/fmm-interface-tests.dir/fmmforceprovider.cpp.o
+[ 77%] Building CXX object src/gromacs/fmm/tests/CMakeFiles/fmm-interface-tests.dir/fmmforceproviderbuilder.cpp.o
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
+[ 77%] Building CXX object src/gromacs/fmm/tests/CMakeFiles/fmm-interface-tests.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/domdec-mpi-test
+[ 77%] Linking CXX executable ../../../../bin/utility-test
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/fft-test
+[ 77%] Built target domdec-mpi-test
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/clfftinitializer.cpp.o
+[ 77%] Built target utility-test
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/device_availability.cpp.o
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/device_stream_manager.cpp.o
+[ 77%] Built target fft-test
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/pinnedmemorychecker.cpp.o
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pme.cpp.o
+[ 77%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
+[ 77%] Linking CXX executable ../../../../bin/fmm-interface-tests
+[ 77%] Built target fmm-interface-tests
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-mpi-test.dir/gpu_aware_mpi.cpp.o
+[ 77%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/devicetransfers.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/device_buffer.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/gpueventsynchronizer.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/hostallocator.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/typecasts.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o
+[ 78%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o
+[ 78%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/mockhardwaretopology.cpp.o
+[ 78%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/device_management.cpp.o
+[ 78%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/arrayrefwithpadding.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/boxmatrix.cpp.o
+[ 78%] Linking CXX executable ../../../../bin/ewald-test
+[ 78%] Linking CXX executable ../../../../bin/gpu_utils-mpi-test
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/complex.cpp.o
+[ 78%] Built target ewald-test
+[ 78%] Built target gpu_utils-mpi-test
+[ 78%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/accessor_policy.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/extents.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/extensions.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/coordinatetransformation.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/densityfit.cpp.o
+[ 78%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/enerdata.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/layouts.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/mdspan.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/dofit.cpp.o
+[ 78%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Linking CXX executable ../../../../bin/hardware-test
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/exponentialmovingaverage.cpp.o
+[ 78%] Built target hardware-test
+[ 78%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpformat.cpp.o
+[ 78%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/observablesreducer.cpp.o
+[ 78%] Linking CXX static library ../../../../lib/libmdrunutility-test-shared.a
+[ 78%] Built target mdrunutility-test-shared
+[ 78%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/abstractoptionstorage.cpp.o
+[ 78%] Building CXX object src/gromacs/pbcutil/tests/CMakeFiles/pbcutil-test.dir/mshift.cpp.o
+[ 78%] Building CXX object src/gromacs/pbcutil/tests/CMakeFiles/pbcutil-test.dir/com.cpp.o
+[ 78%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpmanager.cpp.o
+[ 78%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpwritercontext.cpp.o
+[ 78%] Building CXX object src/gromacs/mdspan/tests/CMakeFiles/mdspan-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/functions.cpp.o
+[ 78%] Linking CXX executable ../../../../bin/gpu_utils-test
+[ 78%] Built target gpu_utils-test
+[ 78%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/exponentialdistribution.cpp.o
+[ 78%] Linking CXX executable ../../../../bin/mdspan-test
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/gausstransform.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/densityfittingforce.cpp.o
+[ 78%] Built target mdspan-test
+[ 78%] Building CXX object src/gromacs/restraint/tests/CMakeFiles/restraintpotential-test.dir/manager.cpp.o
+[ 78%] Building CXX object src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/pbcutil/tests/CMakeFiles/pbcutil-test.dir/pbc.cpp.o
+[ 78%] Building CXX object src/gromacs/restraint/tests/CMakeFiles/restraintpotential-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 78%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/gammadistribution.cpp.o
+[ 78%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/invertmatrix.cpp.o
+[ 79%] Linking CXX executable ../../../../bin/onlinehelp-test
+[ 79%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/checkpointdata.cpp.o
+[ 79%] Built target onlinehelp-test
+[ 79%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/forcebuffers.cpp.o
+[ 80%] Linking CXX executable ../../../../bin/restraintpotential-test
+[ 80%] Building CXX object src/gromacs/pbcutil/tests/CMakeFiles/pbcutil-test.dir/pbcenums.cpp.o
+[ 80%] Built target restraintpotential-test
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/matrix.cpp.o
+[ 80%] Building CXX object src/gromacs/serialization/tests/CMakeFiles/serialization-test.dir/inmemoryserializer.cpp.o
+[ 80%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/filenameoption.cpp.o
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/multidimarray.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/normaldistribution.cpp.o
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/neldermead.cpp.o
+[ 80%] Building CXX object src/gromacs/pbcutil/tests/CMakeFiles/pbcutil-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 80%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/multipletimestepping.cpp.o
+[ 80%] Building CXX object src/gromacs/serialization/tests/CMakeFiles/serialization-test.dir/keyvaluetreeserializer.cpp.o
+[ 80%] Linking CXX executable ../../../../bin/pbcutil-test
+[ 80%] Built target pbcutil-test
+[ 80%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/filenameoptionmanager.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/seed.cpp.o
+[ 80%] Building CXX object src/gromacs/mdtypes/tests/CMakeFiles/mdtypes-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/tabulatednormaldistribution.cpp.o
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/optimization.cpp.o
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/paddedvector.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/threefry.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/uniformintdistribution.cpp.o
+[ 80%] Building CXX object src/gromacs/serialization/tests/CMakeFiles/serialization-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 80%] Building CXX object src/gromacs/math/tests/CMakeFiles/math-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/uniformrealdistribution.cpp.o
+[ 80%] Building CXX object src/gromacs/random/tests/CMakeFiles/random-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 81%] Linking CXX executable ../../../../bin/serialization-test
+[ 81%] Built target serialization-test
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/option.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/mdtypes-test
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/optionsassigner.cpp.o
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/repeatingsection.cpp.o
+[ 82%] Built target mdtypes-test
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/timeunitmanager.cpp.o
+[ 82%] Building CXX object src/gromacs/tables/tests/CMakeFiles/table-test.dir/splinetable.cpp.o
+[ 82%] Building CXX object src/gromacs/tables/tests/CMakeFiles/table-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/treesupport.cpp.o
+[ 82%] Building CXX object src/gromacs/options/tests/CMakeFiles/options-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/random-test
+[ 82%] Built target random-test
+[ 82%] Building CXX object src/gromacs/taskassignment/tests/CMakeFiles/taskassignment-test.dir/usergpuids.cpp.o
+[ 82%] Building CXX object src/gromacs/taskassignment/tests/CMakeFiles/taskassignment-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Building CXX object src/gromacs/timing/tests/CMakeFiles/timing-test.dir/timing.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/atoms.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/exclusionblocks.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/idef.cpp.o
+[ 82%] Building CXX object src/gromacs/timing/tests/CMakeFiles/timing-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/taskassignment-test
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/index.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/mtop.cpp.o
+[ 82%] Built target taskassignment-test
+[ 82%] Building CXX object src/gromacs/pulling/tests/CMakeFiles/pull-test.dir/pull.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/timing-test
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/symtab.cpp.o
+[ 82%] Built target timing-test
+[ 82%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/base.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/topsort.cpp.o
+[ 82%] Building CXX object src/gromacs/topology/tests/CMakeFiles/topology-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/table-test
+[ 82%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/bootstrap_loadstore.cpp.o
+[ 82%] Built target table-test
+[ 82%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/generate_test_points.cpp.o
+[ 82%] Building CXX object src/gromacs/compat/tests/CMakeFiles/compat-test.dir/mp11.cpp.o
+[ 82%] Building CXX object src/gromacs/pulling/tests/CMakeFiles/pull-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Building CXX object src/gromacs/compat/tests/CMakeFiles/compat-test.dir/pointers.cpp.o
+[ 82%] Building CXX object src/gromacs/compat/tests/CMakeFiles/compat-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 82%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/entropy.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/pull-test
+[ 82%] Linking CXX executable ../../../../bin/topology-test
+[ 82%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar.cpp.o
+[ 82%] Built target pull-test
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/convparm.cpp.o
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx1-test.dir/pdb2gmx.cpp.o
+[ 82%] Built target topology-test
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/editconf.cpp.o
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/genconf.cpp.o
+[ 82%] Linking CXX executable ../../../../bin/compat-test
+[ 82%] Built target compat-test
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx2-test.dir/pdb2gmx.cpp.o
+[ 82%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmxanatestbase.cpp.o
+[ 82%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/genion.cpp.o
+[ 83%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_chi.cpp.o
+[ 83%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_util.cpp.o
+[ 84%] Linking CXX executable ../../../../bin/math-test
+[ 84%] Linking CXX executable ../../../../bin/options-test
+[ 84%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_math.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/genrestr.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx1-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 85%] Built target math-test
+[ 85%] Built target options-test
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/gen_maxwell_velocities.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/gpp_atomtype.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_mindist.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/gpp_bond_atomtype.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx2-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 85%] Linking CXX executable ../../../../bin/pdb2gmx1-test
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/grompp_directives.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd.cpp.o
+[ 85%] Built target pdb2gmx1-test
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/insert_molecules.cpp.o
+[ 85%] Linking CXX executable ../../../../bin/pdb2gmx2-test
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_rms.cpp.o
+[ 85%] Built target pdb2gmx2-test
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx3-test.dir/pdb2gmx.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint_util.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/massrepartitioning.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/readir.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_rmsdist.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/solvate.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_integer.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_rmsf.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_sorient.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_rotmat.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/topdirs.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/gmxpreprocess-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_saltbr.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_math.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_memory.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_traj.cpp.o
+[ 85%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_vector_operations.cpp.o
+[ 85%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4.cpp.o
+[ 86%] Building CXX object src/gromacs/gmxpreprocess/tests/CMakeFiles/pdb2gmx3-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 86%] Linking CXX executable ../../../../bin/gmxpreprocess-test
+[ 86%] Built target gmxpreprocess-test
+[ 86%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_floatingpoint.cpp.o
+[ 86%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_math.cpp.o
+[ 86%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_vector_operations.cpp.o
+[ 86%] Linking CXX executable ../../../../bin/pdb2gmx3-test
+[ 86%] Built target pdb2gmx3-test
+[ 86%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.o
+[ 86%] Linking CXX executable ../../../../bin/gmxana-test
+[ 86%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 86%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.o
+[ 86%] Built target gmxana-test
+[ 86%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.o
+[ 86%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.o
+[ 86%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/builder.cpp.o
+[ 86%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 86%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.o
+[ 86%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.o
+[ 86%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 86%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/outputadaptercontainer.cpp.o
+[ 87%] Building CXX object src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/energyterm.cpp.o
+[ 87%] Building CXX object src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/legacyenergy.cpp.o
+[ 87%] Building CXX object src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 87%] Linking CXX executable ../../../../bin/simd-test
+[ 87%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/dump.cpp.o
+[ 87%] Linking CXX executable ../../../../bin/correlations-test
+[ 87%] Built target simd-test
+[ 87%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test-with-leaks.dir/convert-tpr-with-leaks.cpp.o
+[ 87%] Building CXX object src/gromacs/fileio/h5md/tests/CMakeFiles/h5md-test.dir/h5md_disabled.cpp.o
+[ 87%] Built target correlations-test
+[ 87%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/checkpoint.cpp.o
+[ 87%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/confio.cpp.o
+[ 87%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/register.cpp.o
+[ 88%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/outputadapters.cpp.o
+[ 88%] Linking CXX executable ../../../../bin/energyanalysis-test
+[ 88%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/helpwriting.cpp.o
+[ 88%] Built target energyanalysis-test
+[ 88%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/indexutil.cpp.o
+[ 88%] Building CXX object src/gromacs/fileio/h5md/tests/CMakeFiles/h5md-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 88%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test-with-leaks.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 88%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/filemd5.cpp.o
+[ 88%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/requirements.cpp.o
+[ 88%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/make_ndx.cpp.o
+[ 88%] Linking CXX executable ../../../../../bin/h5md-test
+[ 88%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/filetypes.cpp.o
+[ 88%] Linking CXX executable ../../../../bin/tool-test-with-leaks
+[ 88%] Built target h5md-test
+[ 88%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-output-test.dir/compressed_x_output.cpp.o
+[ 88%] Built target tool-test-with-leaks
+[ 88%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-modules-test.dir/densityfittingmodule.cpp.o
+[ 88%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/matio.cpp.o
+[ 89%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/report_methods.cpp.o
+[ 89%] Linking CXX static library ../../../../lib/libanalysisdata-test-shared.a
+[ 89%] Built target analysisdata-test-shared
+[ 89%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/checkpoint.cpp.o
+[ 89%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/setatoms.cpp.o
+[ 89%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/nbsearch.cpp.o
+[ 89%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-output-test.dir/helpwriting.cpp.o
+[ 89%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/trjconv.cpp.o
+[ 89%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-modules-test.dir/interactiveMD.cpp.o
+[ 89%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/convert-tpr.cpp.o
+[ 89%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/mrcserializer.cpp.o
+[ 89%] Building CXX object src/gromacs/tools/tests/CMakeFiles/tool-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 89%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-output-test.dir/outputfiles.cpp.o
+[ 89%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/setbothtime.cpp.o
+[ 89%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/mrcdensitymap.cpp.o
+[ 89%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/exactcontinuation.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-modules-test.dir/mimic.cpp.o
+[ 90%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/poscalc.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/grompp.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/initialconstraints.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/tool-test
+[ 90%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/setstarttime.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-output-test.dir/trajectory_writing.cpp.o
+[ 90%] Built target tool-test
+[ 90%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/settimestep.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-modules-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/mrcdensitymapheader.cpp.o
+[ 90%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/selectioncollection.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/termination.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/mdrun-modules-test
+[ 90%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/testmodule.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-io-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Built target mdrun-modules-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/awh.cpp.o
+[ 90%] Building CXX object src/gromacs/coordinateio/tests/CMakeFiles/coordinateio-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-output-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/multiple_time_stepping.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/readinp.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/swapcoords.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/tabulated_bonded_interactions.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/coordinateio-test
+[ 90%] Linking CXX executable ../../../../bin/mdrun-io-test
+[ 90%] Linking CXX executable ../../../../bin/mdrun-output-test
+[ 90%] Built target coordinateio-test
+[ 90%] Built target mdrun-io-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-single-rank-algorithms-test.dir/dispersion_correction.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/minimize-test.dir/minimize.cpp.o
+[ 90%] Built target mdrun-output-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/nonbonded_bench.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/freezegroups.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/constantacceleration.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/boxdeformation.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/timecontrol.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-single-rank-algorithms-test.dir/ewaldsurfaceterm.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/normalmodes.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/rerun.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/tngio.cpp.o
+[ 90%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/selectionoption.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/minimize-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/xdr_serializer.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-single-rank-algorithms-test.dir/orires.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/xvgio.cpp.o
+[ 90%] Building CXX object src/gromacs/fileio/tests/CMakeFiles/fileio-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/minimize-test
+[ 90%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/toputils.cpp.o
+[ 90%] Built target minimize-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-tpi-test.dir/tpitest.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/mdrun-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-single-rank-algorithms-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Built target mdrun-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/domain_decomposition.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-test.dir/multisim.cpp.o
+[ 90%] Building CXX object src/gromacs/selection/tests/CMakeFiles/selection-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/simple_mdrun.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/mdrun-single-rank-algorithms-test
+[ 90%] Built target mdrun-single-rank-algorithms-test
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-test.dir/multisimtest.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-test.dir/replicaexchange.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-tpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 90%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-equivalence-test.dir/multisimtest.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/selection-test
+[ 90%] Linking CXX executable ../../../../bin/fileio-test
+[ 91%] Linking CXX executable ../../../../bin/mdrun-tpi-test
+[ 91%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-equivalence-test.dir/replicaexchange_equivalence.cpp.o
+[ 91%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 91%] Built target fileio-test
+[ 91%] Built target selection-test
+[ 91%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-test.dir/multisimtest.cpp.o
+[ 91%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-replex-equivalence-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 91%] Built target mdrun-tpi-test
+[ 91%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/mimic.cpp.o
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-multisim-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-pme-test.dir/pmetest.cpp.o
+[ 92%] Linking CXX executable ../../../../bin/mdrun-non-integrator-test
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-basic-test.dir/periodicactions.cpp.o
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-basic-test.dir/periodicactions_basic.cpp.o
+[ 92%] Linking CXX executable ../../../../bin/mdrun-multisim-test
+[ 92%] Built target mdrun-non-integrator-test
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-basic-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-coupling-test.dir/periodicactions.cpp.o
+[ 92%] Built target mdrun-multisim-test
+[ 92%] Linking CXX executable ../../../../bin/mdrun-mpi-test
+[ 92%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-constraints-test.dir/periodicactions.cpp.o
+[ 92%] Linking CXX executable ../../../../bin/mdrun-multisim-replex-test
+[ 92%] Built target mdrun-mpi-test
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-constraints-test.dir/periodicactions_constraints.cpp.o
+[ 93%] Built target mdrun-multisim-replex-test
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-fep-test.dir/expandedensemble.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-fep-test.dir/freeenergy.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-pme-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-pull-test.dir/pull.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/mdrun-coordination-basic-test
+[ 93%] Built target mdrun-coordination-basic-test
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-rotation-test.dir/pull_rotation.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-coupling-test.dir/periodicactions_coupling.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-constraints-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 93%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-rotation-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/mdrun-mpi-pme-test
+[ 93%] Built target mdrun-mpi-pme-test
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-simulator-comparison-test.dir/simulator.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-coordination-constraints-test
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-fep-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-simulator-comparison-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 94%] Built target mdrun-coordination-constraints-test
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-vsites-test.dir/virtualsites.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-multisim-replex-equivalence-test
+[ 94%] Built target mdrun-multisim-replex-equivalence-test
+[ 94%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/restraint.cpp.o
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-vsites-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-pull-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 94%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-coordination-coupling-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-fep-test
+[ 94%] Building CXX object api/gmxapi/cpp/workflow/tests/CMakeFiles/workflow-details-test.dir/workflow.cpp.o
+[ 94%] Building CXX object api/gmxapi/cpp/workflow/tests/CMakeFiles/workflow-details-test.dir/__/__/__/__/__/src/testutils/unittest_main.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-rotation-test
+[ 94%] Built target mdrun-fep-test
+[ 94%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integrator-test.dir/integrator.cpp.o
+[ 94%] Built target mdrun-rotation-test
+[ 94%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/box.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-coordination-coupling-test
+[ 94%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/runner.cpp.o
+[ 94%] Built target mdrun-coordination-coupling-test
+[ 94%] Building CXX object api/nblib/tests/CMakeFiles/nblib-tpr-test.dir/tpr.cpp.o
+[ 94%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integration-test.dir/gmxcalculator.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/mdrun-simulator-comparison-test
+[ 94%] Built target mdrun-simulator-comparison-test
+[ 94%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integration-test.dir/nbkernelsystem.cpp.o
+[ 95%] Linking CXX executable ../../../../../bin/workflow-details-test
+[ 96%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/interactions.cpp.o
+[ 96%] Linking CXX executable ../../../../bin/mdrun-pull-test
+[ 96%] Built target workflow-details-test
+[ 96%] Linking CXX executable ../../../../bin/mdrun-vsites-test
+[ 96%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/particletype.cpp.o
+[ 96%] Built target mdrun-pull-test
+[ 96%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/pbcholder.cpp.o
+[ 96%] Built target mdrun-vsites-test
+[ 96%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/bondtypes.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integration-test.dir/simstate.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-tpr-test.dir/__/__/__/src/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/status.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integrator-test.dir/__/__/__/src/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/stopsignaler.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/molecules.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-integration-test.dir/__/__/__/src/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/nbnxmsetup.cpp.o
+[ 97%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/gmxcalculator.cpp.o
+[ 97%] Linking CXX executable ../../../bin/nblib-tpr-test
+[ 97%] Built target nblib-tpr-test
+[ 97%] Building CXX object api/nblib/util/tests/CMakeFiles/nblib-util-test.dir/setup.cpp.o
+[ 97%] Linking CXX executable ../../../bin/nblib-integrator-test
+[ 97%] Building CXX object api/nblib/util/tests/CMakeFiles/nblib-util-test.dir/traits.cpp.o
+[ 97%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/system.cpp.o
+[ 97%] Built target nblib-integrator-test
+[ 97%] Building CXX object src/gromacs/applied_forces/plumed/tests/CMakeFiles/plumed_md-test.dir/plumed_md_test.cpp.o
+[ 97%] Linking CXX executable ../../../bin/nblib-integration-test
+[ 97%] Built target nblib-integration-test
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o
+[ 97%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/version.cpp.o
+[ 97%] Building CXX object api/nblib/util/tests/CMakeFiles/nblib-util-test.dir/__/__/__/__/src/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/helpers.cpp.o
+[ 97%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/listedtesthelpers.cpp.o
+[ 97%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/mdmodulesnotifier.cpp.o
+[ 97%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/topology.cpp.o
+[ 97%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity_mpi.cpp.o
+[ 97%] Linking CXX executable ../../../../bin/nblib-util-test
+[ 97%] Building CXX object api/gmxapi/cpp/tests/CMakeFiles/gmxapi-test.dir/__/__/__/__/src/testutils/unittest_main.cpp.o
+[ 97%] Built target nblib-util-test
+[ 97%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.o
+[ 97%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/plainpairlistranges.cpp.o
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o
+[ 97%] Building CXX object src/gromacs/applied_forces/plumed/tests/CMakeFiles/plumed_md-test.dir/plumedTestUtils.cpp.o
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o
+[ 97%] Linking CXX executable ../../../../bin/gmxapi-test
+[ 97%] Built target gmxapi-test
+[ 97%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.o
+[ 97%] Building CXX object src/gromacs/applied_forces/plumed/tests/CMakeFiles/plumed_md-test.dir/__/__/__/__/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 97%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.o
+[ 97%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/kernels.cpp.o
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o
+[ 97%] Linking CXX executable ../../../../bin/mdrunutility-mpi-test
+[ 97%] Linking CXX executable ../../../../../bin/plumed_md-test
+[ 97%] Built target mdrunutility-mpi-test
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o
+[ 97%] Built target plumed_md-test
+[ 97%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o
+[ 97%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.o
+[ 97%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/typetests.cpp.o
+[ 98%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.o
+[ 98%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/filenm.cpp.o
+[ 99%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 99%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.o
+[ 99%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.o
+[ 99%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.o
+[ 99%] Linking CXX executable ../../../../bin/mdrunutility-test
+[ 99%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/virials.cpp.o
+[ 99%] Building CXX object api/nblib/tests/CMakeFiles/nblib-setup-test.dir/__/__/__/src/testutils/unittest_main.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/convert_trj.cpp.o
+[ 99%] Built target mdrunutility-test
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/dssp.cpp.o
+[ 99%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/calculator.cpp.o
+[ 99%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.o
+[ 99%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.o
+[ 99%] Linking CXX executable ../../../bin/nblib-setup-test
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/extract_cluster.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.o
+[ 99%] Built target nblib-setup-test
+[ 99%] Linking CXX executable ../../../../bin/commandline-test
+[ 99%] Built target nblib-tests
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/gyrate.cpp.o
+[ 99%] Built target commandline-test
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/hbond.cpp.o
+[ 99%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/msd.cpp.o
+[ 99%] Building CXX object src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.o
+[ 99%] Linking CXX executable ../../../../bin/analysisdata-test
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/scattering.cpp.o
+[ 99%] Built target analysisdata-test
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.o
+[ 99%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/conversions.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.o
+[ 99%] Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.o
+[ 99%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/shiftforces.cpp.o
+[ 99%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/transformations.cpp.o
+[ 99%] Building CXX object api/nblib/listed_forces/tests/CMakeFiles/nblib-listed-forces-test.dir/__/__/__/__/src/testutils/unittest_main.cpp.o
+[100%] Linking CXX executable ../../../../bin/trajectoryanalysis-test
+[100%] Built target trajectoryanalysis-test
+[100%] Linking CXX executable ../../../../bin/nblib-listed-forces-test
+[100%] Built target nblib-listed-forces-test
+[100%] Built target tests
+[100%] Running all tests except physical validation
+Test project /home/lee6456/MD/build/gromacs-2026.4-cpu
+        Start   1: GmxapiExternalInterfaceTests
+  1/106 Test   #1: GmxapiExternalInterfaceTests ..............***Failed    0.24 sec
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from GmxApiTest
+[ RUN      ] GmxApiTest.ApiRunnerRestrainedMD
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file spc_and_methane.top, line 33]:
+  The bond in molecule-type methane between atoms 1 C and 2 H1 has an
+  estimated oscillational period of 1.1e-02 ps, which is less than 10 times
+  the time step of 2.0e-03 ps.
+  Maybe you forgot to change the constraints mdp option.
+
+Number of degrees of freedom in T-Coupling group System is 18.00
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/api/gmxapi/cpp/tests/Testing/Temporary/GmxApiTest_ApiRunnerRestrainedMD_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/api/gmxapi/cpp/tests/Testing/Temporary/GmxApiTest_ApiRunnerRestrainedMD.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     gmxapi-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to 1608492543
+
+Generated 331705 of the 331705 non-bonded parameter combinations
+
+Generated 331705 of the 331705 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 3 bonded neighbours molecule type 'methane'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc_and_methane.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 1.077 nm, buffer size 0.077 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.057 nm, buffer size 0.057 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start   2: GmxapiInternalInterfaceTests
+  2/106 Test   #2: GmxapiInternalInterfaceTests ..............   Passed    0.23 sec
+        Start   3: NbLibListedForcesTests
+  3/106 Test   #3: NbLibListedForcesTests ....................   Passed    0.05 sec
+        Start   4: NbLibSamplesTestArgon
+  4/106 Test   #4: NbLibSamplesTestArgon .....................   Passed    0.01 sec
+        Start   5: NbLibSamplesTestMethaneWater
+  5/106 Test   #5: NbLibSamplesTestMethaneWater ..............   Passed    0.01 sec
+        Start   6: NbLibUtilTests
+  6/106 Test   #6: NbLibUtilTests ............................   Passed    0.01 sec
+        Start   7: NbLibSetupTests
+  7/106 Test   #7: NbLibSetupTests ...........................   Passed    0.02 sec
+        Start   8: NbLibTprTests
+  8/106 Test   #8: NbLibTprTests .............................   Passed    0.04 sec
+        Start   9: NbLibIntegrationTests
+  9/106 Test   #9: NbLibIntegrationTests .....................   Passed    0.01 sec
+        Start  10: NbLibIntegratorTests
+ 10/106 Test  #10: NbLibIntegratorTests ......................   Passed    0.01 sec
+        Start  11: threadMPI-mpithreads
+ 11/106 Test  #11: threadMPI-mpithreads ......................   Passed   11.52 sec
+        Start  12: threadMPI-sync_cyclecount
+ 12/106 Test  #12: threadMPI-sync_cyclecount .................   Passed    0.01 sec
+        Start  13: threadMPI-mpi_speedtest
+ 13/106 Test  #13: threadMPI-mpi_speedtest ...................   Passed    7.68 sec
+        Start  14: threadMPI-notmpi
+ 14/106 Test  #14: threadMPI-notmpi ..........................   Passed    0.01 sec
+        Start  15: threadMPI-alloc_check
+ 15/106 Test  #15: threadMPI-alloc_check .....................   Passed    0.01 sec
+        Start  16: TestUtilsUnitTests
+ 16/106 Test  #16: TestUtilsUnitTests ........................   Passed    0.11 sec
+        Start  17: TestUtilsMpiUnitTests
+ 17/106 Test  #17: TestUtilsMpiUnitTests .....................   Passed    0.03 sec
+        Start  18: UtilityUnitTests
+ 18/106 Test  #18: UtilityUnitTests ..........................   Passed    0.11 sec
+        Start  19: MpiCommTests
+ 19/106 Test  #19: MpiCommTests ..............................   Passed    0.01 sec
+        Start  20: UtilityMpiUnitTests
+ 20/106 Test  #20: UtilityMpiUnitTests .......................   Passed    0.02 sec
+        Start  21: MdlibUnitTest
+ 21/106 Test  #21: MdlibUnitTest .............................   Passed    5.81 sec
+        Start  22: AwhTest
+ 22/106 Test  #22: AwhTest ...................................   Passed    0.06 sec
+        Start  23: DensityFittingAppliedForcesUnitTest
+ 23/106 Test  #23: DensityFittingAppliedForcesUnitTest .......   Passed    0.02 sec
+        Start  24: QMMMAppliedForcesUnitTest
+ 24/106 Test  #24: QMMMAppliedForcesUnitTest .................   Passed    0.07 sec
+        Start  25: ColvarsAppliedForcesUnitTest
+ 25/106 Test  #25: ColvarsAppliedForcesUnitTest ..............   Passed    0.12 sec
+        Start  26: PlumedAppliedForcesUnitTests
+ 26/106 Test  #26: PlumedAppliedForcesUnitTests ..............   Passed    0.17 sec
+        Start  27: PlumedMDTests
+ 27/106 Test  #27: PlumedMDTests .............................   Passed    0.01 sec
+        Start  28: NNPotAppliedForcesUnitTest
+ 28/106 Test  #28: NNPotAppliedForcesUnitTest ................   Passed    0.09 sec
+        Start  29: AppliedForcesUnitTest
+ 29/106 Test  #29: AppliedForcesUnitTest .....................   Passed    0.01 sec
+        Start  30: ListedForcesTest
+ 30/106 Test  #30: ListedForcesTest ..........................   Passed    0.08 sec
+        Start  31: NbnxmTests
+ 31/106 Test  #31: NbnxmTests ................................   Passed    0.48 sec
+        Start  32: NbnxmGpuTests
+ 32/106 Test  #32: NbnxmGpuTests .............................   Passed    0.02 sec
+        Start  33: GmxlibTests
+ 33/106 Test  #33: GmxlibTests ...............................   Passed    0.05 sec
+        Start  34: GmxlibGpuTests
+ 34/106 Test  #34: GmxlibGpuTests ............................   Passed    0.03 sec
+        Start  35: CommandLineUnitTests
+ 35/106 Test  #35: CommandLineUnitTests ......................   Passed    0.03 sec
+        Start  36: DomDecTests
+ 36/106 Test  #36: DomDecTests ...............................   Passed    0.01 sec
+        Start  37: DomDecMpiTests
+ 37/106 Test  #37: DomDecMpiTests ............................   Passed    0.04 sec
+        Start  38: EwaldUnitTests
+ 38/106 Test  #38: EwaldUnitTests ............................   Passed    0.28 sec
+        Start  39: FFTUnitTests
+ 39/106 Test  #39: FFTUnitTests ..............................   Passed    0.08 sec
+        Start  40: FmmInterfaceUnitTests
+ 40/106 Test  #40: FmmInterfaceUnitTests .....................   Passed    0.02 sec
+        Start  41: GpuUtilsUnitTests
+ 41/106 Test  #41: GpuUtilsUnitTests .........................   Passed    0.04 sec
+        Start  42: GpuUtilsMpiTests
+ 42/106 Test  #42: GpuUtilsMpiTests ..........................   Passed    0.03 sec
+        Start  43: HardwareUnitTests
+ 43/106 Test  #43: HardwareUnitTests .........................   Passed    0.16 sec
+        Start  44: MathUnitTests
+ 44/106 Test  #44: MathUnitTests .............................   Passed    0.07 sec
+        Start  45: MdrunUtilityUnitTests
+ 45/106 Test  #45: MdrunUtilityUnitTests .....................   Passed    0.06 sec
+        Start  46: MdrunUtilityMpiUnitTests
+ 46/106 Test  #46: MdrunUtilityMpiUnitTests ..................   Passed    0.02 sec
+        Start  47: MDSpanTests
+ 47/106 Test  #47: MDSpanTests ...............................   Passed    0.01 sec
+        Start  48: MdtypesUnitTest
+ 48/106 Test  #48: MdtypesUnitTest ...........................   Passed    0.05 sec
+        Start  49: OnlineHelpUnitTests
+ 49/106 Test  #49: OnlineHelpUnitTests .......................   Passed    0.02 sec
+        Start  50: OptionsUnitTests
+ 50/106 Test  #50: OptionsUnitTests ..........................   Passed    0.04 sec
+        Start  51: PbcutilUnitTest
+ 51/106 Test  #51: PbcutilUnitTest ...........................   Passed    0.03 sec
+        Start  52: RandomUnitTests
+ 52/106 Test  #52: RandomUnitTests ...........................   Passed    0.02 sec
+        Start  53: RestraintTests
+ 53/106 Test  #53: RestraintTests ............................   Passed    0.01 sec
+        Start  54: SerializationUnitTests
+ 54/106 Test  #54: SerializationUnitTests ....................   Passed    0.01 sec
+        Start  55: TableUnitTests
+ 55/106 Test  #55: TableUnitTests ............................   Passed    0.08 sec
+        Start  56: TaskAssignmentUnitTests
+ 56/106 Test  #56: TaskAssignmentUnitTests ...................   Passed    0.01 sec
+        Start  57: GmxTimingTests
+ 57/106 Test  #57: GmxTimingTests ............................   Passed    0.01 sec
+        Start  58: TopologyTest
+ 58/106 Test  #58: TopologyTest ..............................   Passed    0.14 sec
+        Start  59: PullTest
+ 59/106 Test  #59: PullTest ..................................   Passed    0.02 sec
+        Start  60: SimdUnitTests
+ 60/106 Test  #60: SimdUnitTests .............................   Passed    0.04 sec
+        Start  61: CompatibilityHelpersTests
+ 61/106 Test  #61: CompatibilityHelpersTests .................   Passed    0.01 sec
+        Start  62: GmxAnaTest
+ 62/106 Test  #62: GmxAnaTest ................................   Passed    1.56 sec
+        Start  63: GmxPreprocessTests
+ 63/106 Test  #63: GmxPreprocessTests ........................   Passed    0.94 sec
+        Start  64: Pdb2gmx1Test
+ 64/106 Test  #64: Pdb2gmx1Test ..............................   Passed    0.84 sec
+        Start  65: Pdb2gmx2Test
+ 65/106 Test  #65: Pdb2gmx2Test ..............................   Passed    1.13 sec
+        Start  66: Pdb2gmx3Test
+ 66/106 Test  #66: Pdb2gmx3Test ..............................   Passed    2.11 sec
+        Start  67: CorrelationsTest
+ 67/106 Test  #67: CorrelationsTest ..........................   Passed    0.08 sec
+        Start  68: AnalysisDataUnitTests
+ 68/106 Test  #68: AnalysisDataUnitTests .....................   Passed    0.05 sec
+        Start  69: CoordinateIOTests
+ 69/106 Test  #69: CoordinateIOTests .........................   Passed    0.11 sec
+        Start  70: TrajectoryAnalysisUnitTests
+ 70/106 Test  #70: TrajectoryAnalysisUnitTests ...............   Passed    8.39 sec
+        Start  71: EnergyAnalysisUnitTests
+ 71/106 Test  #71: EnergyAnalysisUnitTests ...................   Passed    0.08 sec
+        Start  72: ToolUnitTests
+ 72/106 Test  #72: ToolUnitTests .............................   Passed    0.91 sec
+        Start  73: ToolWithLeaksUnitTests
+ 73/106 Test  #73: ToolWithLeaksUnitTests ....................   Passed    0.26 sec
+        Start  74: H5mdTests
+ 74/106 Test  #74: H5mdTests .................................   Passed    0.01 sec
+        Start  75: FileIOTests
+ 75/106 Test  #75: FileIOTests ...............................   Passed    0.05 sec
+        Start  76: SelectionUnitTests
+ 76/106 Test  #76: SelectionUnitTests ........................   Passed    0.18 sec
+        Start  77: MdrunOutputTests
+ 77/106 Test  #77: MdrunOutputTests ..........................***Failed    0.09 sec
+[==========] Running 12 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from MdrunTest
+[ RUN      ] MdrunTest.WritesHelp
+[       OK ] MdrunTest.WritesHelp (27 ms)
+[----------] 1 test from MdrunTest (27 ms total)
+
+[----------] 3 tests from WithDifferentOutputGroupSettings/MdrunCompressedXOutput
+[ RUN      ] WithDifferentOutputGroupSettings/MdrunCompressedXOutput.ExitsNormally/0
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 9.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/WithDifferentOutputGroupSettings_MdrunCompressedXOutput_ExitsNormally_0_input.mdp]:
+  NVE simulation: will use the initial temperature of 2573.591 K for
+  determining the Verlet buffer size
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/WithDifferentOutputGroupSettings_MdrunCompressedXOutput_ExitsNormally_0_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/WithDifferentOutputGroupSettings_MdrunCompressedXOutput_ExitsNormally_0.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-output-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to -889192579
+
+Generated 3 of the 3 non-bonded parameter combinations
+
+Generated 3 of the 3 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc2.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 2573.59 K
+
+Calculated rlist for 1x1 atom pair-list as 1.153 nm, buffer size 0.153 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.127 nm, buffer size 0.127 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  78: MdrunModulesTests
+ 78/106 Test  #78: MdrunModulesTests .........................***Failed    0.05 sec
+[==========] Running 15 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from DensityFittingTest
+[ RUN      ] DensityFittingTest.EnergyMinimizationEnergyCorrectInnerProduct
+Number of degrees of freedom in T-Coupling group rest is 33.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/DensityFittingTest_EnergyMinimizationEnergyCorrectInnerProduct.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-modules-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to -329416727
+
+Generated 1 of the 1 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'Argon'
+
+This run will generate roughly 0 Mb of data
+
+        Start  79: MdrunIOTests
+ 79/106 Test  #79: MdrunIOTests ..............................***Failed    0.13 sec
+[==========] Running 76 tests from 13 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from GromppTest
+[ RUN      ] GromppTest.EmptyMdpFileWorks
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 NOTEs
+Setting the LD random seed to -1113038882
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.089 nm, buffer size 0.089 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.072 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.EmptyMdpFileWorks (18 ms)
+[ RUN      ] GromppTest.SimulatedAnnealingWorks
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorks_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Simulated annealing for group rest: Periodic, 4 timepoints
+Time (ps)   Temperature (K)
+      0.0      298.0
+      2.0      320.0
+      4.0      320.0
+      6.0      298.0
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorks_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorks_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 NOTEs
+Setting the LD random seed to 1877964799
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.089 nm, buffer size 0.089 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.072 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.SimulatedAnnealingWorks (7 ms)
+[ RUN      ] GromppTest.SimulatedAnnealingWorksWithMultipleGroups
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorksWithMultipleGroups_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Simulated annealing for group Methanol: Single, 3 timepoints
+Time (ps)   Temperature (K)
+      0.0      298.0
+      3.0      280.0
+      6.0-     270.0
+Simulated annealing for group SOL: Periodic, 4 timepoints
+Time (ps)   Temperature (K)
+      0.0      298.0
+      2.0      320.0
+      4.0      320.0
+      6.0      298.0
+Number of degrees of freedom in T-Coupling group Methanol is 7.20
+Number of degrees of freedom in T-Coupling group SOL is 4.80
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorksWithMultipleGroups_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_SimulatedAnnealingWorksWithMultipleGroups_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 NOTEs
+Setting the LD random seed to -405930066
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.089 nm, buffer size 0.089 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.072 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.SimulatedAnnealingWorksWithMultipleGroups (6 ms)
+[ RUN      ] GromppTest.DeathTestHandlesNoMaxwarnError
+Setting the LD random seed to 1576007654
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 1.040 nm, buffer size 0.040 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.031 nm, buffer size 0.031 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.DeathTestHandlesNoMaxwarnError (7 ms)
+[ RUN      ] GromppTest.HandlesMaxwarn
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_HandlesMaxwarn_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+
+WARNING 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_HandlesMaxwarn_input.mdp]:
+  The Berendsen thermostat does not generate the correct kinetic energy
+  distribution, and should not be used for new production simulations (in
+  our opinion). We would recommend the V-rescale thermostat.
+
+Number of degrees of freedom in T-Coupling group System is 12.00
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_HandlesMaxwarn_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 NOTEs
+
+There was 1 WARNING
+Setting the LD random seed to 1867839231
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 1.040 nm, buffer size 0.040 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.031 nm, buffer size 0.031 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.HandlesMaxwarn (5 ms)
+[ RUN      ] GromppTest.MaxwarnShouldBePositive
+[       OK ] GromppTest.MaxwarnShouldBePositive (2 ms)
+[ RUN      ] GromppTest.ValidTransformationCoord
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_ValidTransformationCoord_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Pull group 1 'SOL' has 3 atoms
+Pull group 2 'Methanol' has 3 atoms
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_ValidTransformationCoord_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_ValidTransformationCoord_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         3         5
+       2         3         2       0.613 nm          0.000 nm
+      0.613 nm          0.000 nm
+
+There were 3 NOTEs
+Setting the LD random seed to 2123955197
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.089 nm, buffer size 0.089 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.072 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.ValidTransformationCoord (5 ms)
+[ RUN      ] GromppTest.InvalidTransformationCoord
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_InvalidTransformationCoord_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Pull group 1 'SOL' has 3 atoms
+Pull group 2 'Methanol' has 3 atoms
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_InvalidTransformationCoord_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/GromppTest_InvalidTransformationCoord_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         3         5
+       2         3         2       0.613 nm          0.000 nm
+Setting the LD random seed to -906503465
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.089 nm, buffer size 0.089 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.072 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+[       OK ] GromppTest.InvalidTransformationCoord (10 ms)
+[ RUN      ] GromppTest.RejectCRescaleAndAnisotropic
+Setting the LD random seed to -352876753
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+[       OK ] GromppTest.RejectCRescaleAndAnisotropic (6 ms)
+[----------] 9 tests from GromppTest (69 ms total)
+
+[----------] 6 tests from MdrunTerminationTest
+[ RUN      ] MdrunTerminationTest.CheckpointRestartAppendsByDefault
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 9.00
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MdrunTerminationTest_CheckpointRestartAppendsByDefault_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There was 1 NOTE
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MdrunTerminationTest_CheckpointRestartAppendsByDefault.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-io-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to 1845476863
+
+Generated 3 of the 3 non-bonded parameter combinations
+
+Generated 3 of the 3 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc2.gro'
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 1.041 nm, buffer size 0.041 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.032 nm, buffer size 0.032 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  80: MdrunTestsOneRank
+ 80/106 Test  #80: MdrunTestsOneRank .........................***Failed    0.04 sec
+[==========] Running 31 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from AwhTest
+[ RUN      ] AwhTest.SingleBiasMultiDimCanRun
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  Setting nstcalcenergy (100) equal to nstenergy (10)
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Generating 1-4 interactions: fudge = 0.5
+Pull group 1 'C_&_r_1' has 1 atoms
+Pull group 2 'N_&_r_2' has 1 atoms
+Pull group 3 'CA' has 1 atoms
+Pull group 4 'C_&_r_2' has 1 atoms
+Pull group 5 'N_&_r_3' has 1 atoms
+Number of degrees of freedom in T-Coupling group System is 51.00
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         1         0
+       2         1         0     179.098 deg          0.000 deg
+       2         1         0
+       3         1         0     158.667 deg          0.000 deg
+
+There were 3 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'ALANINEDIPEPTIDE'
+
+turning H bonds into constraints...
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/alanine_vacuo.gro'
+
+Determining Verlet buffer for a tolerance of 1e-06 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 0.761 nm, buffer size 0.061 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 0.754 nm, buffer size 0.054 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  81: MdrunTestsTwoRanks
+ 81/106 Test  #81: MdrunTestsTwoRanks ........................***Failed    0.02 sec
+[==========] Running 31 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from AwhTest
+[ RUN      ] AwhTest.SingleBiasMultiDimCanRun
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  Setting nstcalcenergy (100) equal to nstenergy (10)
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Generating 1-4 interactions: fudge = 0.5
+Pull group 1 'C_&_r_1' has 1 atoms
+Pull group 2 'N_&_r_2' has 1 atoms
+Pull group 3 'CA' has 1 atoms
+Pull group 4 'C_&_r_2' has 1 atoms
+Pull group 5 'N_&_r_3' has 1 atoms
+Number of degrees of freedom in T-Coupling group System is 51.00
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         1         0
+       2         1         0     179.098 deg          0.000 deg
+       2         1         0
+       3         1         0     158.667 deg          0.000 deg
+
+There were 3 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/AwhTest_SingleBiasMultiDimCanRun.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'ALANINEDIPEPTIDE'
+
+turning H bonds into constraints...
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/alanine_vacuo.gro'
+
+Determining Verlet buffer for a tolerance of 1e-06 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 0.761 nm, buffer size 0.061 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 0.754 nm, buffer size 0.054 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  82: MdrunSingleRankAlgorithmsTests
+ 82/106 Test  #82: MdrunSingleRankAlgorithmsTests ............***Failed    0.03 sec
+[==========] Running 5 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from DispersionCorrectionTest
+[ RUN      ] DispersionCorrectionTest.DispersionCorrectionCanRun
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 30.00
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/DispersionCorrectionTest_DispersionCorrectionCanRun_input.mdp]:
+  There are 9 non-linear virtual site constructions. Their contribution to
+  the energy error is approximated. In most cases this does not affect the
+  error significantly.
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/DispersionCorrectionTest_DispersionCorrectionCanRun_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/DispersionCorrectionTest_DispersionCorrectionCanRun.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-single-rank-algorithms-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to 1073665517
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Alanine_dipeptide'
+
+turning H bonds into constraints...
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/alanine_vsite_vacuo.gro'
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+
+Converted    3            Bonds with virtual sites to connections, 7 left
+
+Removed     18           Angles with virtual sites, 21 left
+
+Removed     10     Proper Dih.s with virtual sites, 44 left
+
+Converted   12      Constraints with virtual sites to connections, 0 left
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.038 nm, buffer size 0.038 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.023 nm, buffer size 0.023 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  83: Minimize1RankTests
+ 83/106 Test  #83: Minimize1RankTests ........................***Failed    0.13 sec
+[==========] Running 12 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  COM removal frequency is set to (4).
+  Other settings require a global communication frequency of 100.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 100.
+
+
+There were 3 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     minimize-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 330891 of the 330891 non-bonded parameter combinations
+
+Generated 330891 of the 330891 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+This run will generate roughly 0 Mb of data
+
+        Start  84: Minimize2RankTests
+ 84/106 Test  #84: Minimize2RankTests ........................***Failed    0.13 sec
+[==========] Running 12 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  COM removal frequency is set to (4).
+  Other settings require a global communication frequency of 100.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 100.
+
+
+There were 3 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     minimize-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 330891 of the 330891 non-bonded parameter combinations
+
+Generated 330891 of the 330891 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+This run will generate roughly 0 Mb of data
+
+        Start  85: MdrunNonIntegratorTests
+ 85/106 Test  #85: MdrunNonIntegratorTests ...................***Failed    0.04 sec
+[==========] Running 46 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from NonbondedBenchTest
+[ RUN      ] NonbondedBenchTest.BasicEndToEndTest
+SIMD width:           8
+System size:          3000 atoms
+Cut-off radius:       1 nm
+Number of threads:    1
+Number of iterations: 1
+Compute energies:     no
+Ewald excl. corr.:    analytical
+
+Coulomb LJ   comb. SIMD intmod.        Mcycles  Mcycles/it.   pairs/cycle
+                                                            total    useful
+Ewald   all  geom. 4xM  PotShift         3.639     3.6390   0.3764   0.1731
+Ewald   all  geom. 2xMM PotShift         4.039     4.0394   0.2947   0.1559
+[       OK ] NonbondedBenchTest.BasicEndToEndTest (15 ms)
+[----------] 1 test from NonbondedBenchTest (15 ms total)
+
+[----------] 12 tests from NormalMdrunIsReproduced/MdrunRerunTest
+[ RUN      ] NormalMdrunIsReproduced/MdrunRerunTest.WithinTolerances/0
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/NormalMdrunIsReproduced_MdrunRerunTest_WithinTolerances_0_input.mdp]:
+  Setting nstcalcenergy (100) equal to nstenergy (4)
+
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/NormalMdrunIsReproduced_MdrunRerunTest_WithinTolerances_0_input.mdp]:
+  NVE simulation: will use the initial temperature of 68.810 K for
+  determining the Verlet buffer size
+
+
+There were 2 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/NormalMdrunIsReproduced_MdrunRerunTest_WithinTolerances_0_sim.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-non-integrator-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 1 of the 1 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'Argon'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/argon12.gro'
+
+Determining Verlet buffer for a tolerance of 1e-06 kJ/mol/ps at 68.8096 K
+
+Calculated rlist for 1x1 atom pair-list as 0.703 nm, buffer size 0.003 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 0.703 nm, buffer size 0.003 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start  86: MdrunTpiTests
+ 86/106 Test  #86: MdrunTpiTests .............................   Passed    0.36 sec
+        Start  87: MdrunMpiTests
+ 87/106 Test  #87: MdrunMpiTests .............................***Failed    0.02 sec
+[==========] Running 16 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from MimicTest
+[ RUN      ] MimicTest.OneQuantumMol
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 21.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 NOTEs
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-mpi-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to -242229286
+
+Generated 10 of the 10 non-bonded parameter combinations
+
+Generated 10 of the 10 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/4water.gro', all velocities are zero
+
+This run will generate roughly 0 Mb of data
+
+        Start  88: MdrunMultiSimTests
+ 88/106 Test  #88: MdrunMultiSimTests ........................   Passed    0.03 sec
+        Start  89: MdrunMultiSimReplexTests
+ 89/106 Test  #89: MdrunMultiSimReplexTests ..................   Passed    0.02 sec
+        Start  90: MdrunMultiSimReplexEquivalenceTests
+ 90/106 Test  #90: MdrunMultiSimReplexEquivalenceTests .......   Passed    0.01 sec
+        Start  91: MdrunMpi1RankPmeTests
+ 91/106 Test  #91: MdrunMpi1RankPmeTests .....................***Failed    0.03 sec
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from ReproducesEnergies/PmeTest
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 2 NOTEs
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Number of degrees of freedom in T-Coupling group rest is 13.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  NVE simulation: will use the initial temperature of 966.268 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 3 NOTEs
+Setting the LD random seed to -537510235
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+The largest distance between excluded atoms is 0.190 nm between atom 1 and 3
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+This run will generate roughly 0 Mb of data
+Setting the LD random seed to -144704257
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Searching the wall atom type(s)
+
+The largest distance between excluded atoms is 0.190 nm between atom 1 and 3
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 966.268 K
+
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x128, spacing 0.108 0.108 0.118
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+This run will generate roughly 0 Mb of data
+[ RUN      ] ReproducesEnergies/PmeTest.Runs/basic__notunepme__npme_0__pme_cpu
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_basic.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-mpi-pme-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+        Start  92: MdrunMpi2RankPmeTests
+ 92/106 Test  #92: MdrunMpi2RankPmeTests .....................***Failed    0.04 sec
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from ReproducesEnergies/PmeTest
+Number of degrees of freedom in T-Coupling group rest is 12.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 2 NOTEs
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Number of degrees of freedom in T-Coupling group rest is 13.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  NVE simulation: will use the initial temperature of 966.268 K for
+  determining the Verlet buffer size
+
+
+NOTE 3 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 3 NOTEs
+Setting the LD random seed to -673191683
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+The largest distance between excluded atoms is 0.190 nm between atom 1 and 3
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+This run will generate roughly 0 Mb of data
+Setting the LD random seed to -147063973
+
+Generated 8 of the 10 non-bonded parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'Methanol'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc-and-methanol.gro'
+
+Searching the wall atom type(s)
+
+The largest distance between excluded atoms is 0.190 nm between atom 1 and 3
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 966.268 K
+
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x128, spacing 0.108 0.108 0.118
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+This run will generate roughly 0 Mb of data
+[ RUN      ] ReproducesEnergies/PmeTest.Runs/basic__notunepme__npme_0__pme_cpu
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ReproducesEnergies_PmeTest_basic.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-mpi-pme-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+        Start  93: MdrunMpi4RankPmeTests
+ 93/106 Test  #93: MdrunMpi4RankPmeTests .....................   Passed    0.97 sec
+        Start  94: MdrunCoordinationBasicTests1Rank
+ 94/106 Test  #94: MdrunCoordinationBasicTests1Rank ..........   Passed    0.07 sec
+        Start  95: MdrunCoordinationBasicTests2Ranks
+ 95/106 Test  #95: MdrunCoordinationBasicTests2Ranks .........   Passed    0.09 sec
+        Start  96: MdrunCoordinationCouplingTests1Rank
+ 96/106 Test  #96: MdrunCoordinationCouplingTests1Rank .......   Passed    1.52 sec
+        Start  97: MdrunCoordinationCouplingTests2Ranks
+ 97/106 Test  #97: MdrunCoordinationCouplingTests2Ranks ......   Passed    1.56 sec
+        Start  98: MdrunCoordinationConstraintsTests1Rank
+ 98/106 Test  #98: MdrunCoordinationConstraintsTests1Rank ....   Passed    8.56 sec
+        Start  99: MdrunCoordinationConstraintsTests2Ranks
+ 99/106 Test  #99: MdrunCoordinationConstraintsTests2Ranks ...   Passed    8.76 sec
+        Start 100: MdrunFEPTests
+100/106 Test #100: MdrunFEPTests .............................***Failed    0.04 sec
+[==========] Running 14 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from ExpandedEnsembleTest
+[ RUN      ] ExpandedEnsembleTest.ContinuationPreservesExpandedEnsembleState
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 79.00
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ExpandedEnsembleTest_ContinuationPreservesExpandedEnsembleState_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There was 1 NOTE
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/ExpandedEnsembleTest_ContinuationPreservesExpandedEnsembleState.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-fep-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 2485 of the 2485 non-bonded parameter combinations
+
+Generated 2485 of the 2485 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'nonanol'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/nonanol_vacuo.gro'
+
+Determining Verlet buffer for a tolerance of 1e-06 kJ/mol/ps at 298 K
+
+Calculated rlist for 1x1 atom pair-list as 0.764 nm, buffer size 0.064 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 0.757 nm, buffer size 0.057 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start 101: MdrunPullTests
+101/106 Test #101: MdrunPullTests ............................***Failed    0.14 sec
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from PullTest/PullIntegrationTest
+[ RUN      ] PullTest/PullIntegrationTest.WithinTolerances/0
+Generating 1-4 interactions: fudge = 0.5
+Pull group 1 'r_1' has 3 atoms
+Pull group 2 'r_2' has 3 atoms
+Number of degrees of freedom in T-Coupling group System is 1293.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/PullTest_PullIntegrationTest_WithinTolerances_0_input.mdp]:
+  NVE simulation: will use the initial temperature of 303.122 K for
+  determining the Verlet buffer size
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1         3         2
+       2         3         5       0.575 nm          0.600 nm
+
+There was 1 NOTE
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/PullTest_PullIntegrationTest_WithinTolerances_0.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-pull-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Generated 330891 of the 330891 non-bonded parameter combinations
+
+Generated 330891 of the 330891 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/spc216.gro'
+
+Determining Verlet buffer for a tolerance of 1e-06 kJ/mol/ps at 303.122 K
+
+Calculated rlist for 1x1 atom pair-list as 0.781 nm, buffer size 0.081 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 0.772 nm, buffer size 0.072 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+This run will generate roughly 0 Mb of data
+
+        Start 102: MdrunRotationTests
+102/106 Test #102: MdrunRotationTests ........................***Failed    0.03 sec
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from RotationWorks/RotationTest
+[ RUN      ] RotationWorks/RotationTest.CheckEnergiesForcesAndTraj/0
+Enforced rotation: Group 0 (iso) normalized rot. vector: 0.267261 0.534522 0.801784
+Rotation group 0 'system' has 4 atoms
+Number of degrees of freedom in T-Coupling group rest is 9.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 1 [file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/RotationWorks_RotationTest_CheckEnergiesForcesAndTraj_0_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+Enforced rotation: group 0 has 4 reference positions.
+  Reading them from /home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/rotref.0.trr.
+trr version: GMX_trn_file (single precision)
+
+There was 1 NOTE
+Reading file /home/lee6456/MD/build/gromacs-2026.4-cpu/src/programs/mdrun/tests/Testing/Temporary/RotationWorks_RotationTest_CheckEnergiesForcesAndTraj_0.tpr, VERSION 2026.4 (single precision)
+
+-------------------------------------------------------
+Program:     mdrun-rotation-test, version 2026.4
+Source file: src/gromacs/mdlib/gmx_omp_nthreads.cpp (line 199)
+
+Fatal error:
+Environment variable OMP_NUM_THREADS (1) and the number of threads requested
+on the command line (2) have different values. Either omit one, or set them
+both to the same value.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Setting the LD random seed to -275191181
+
+Generated 1 of the 1 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'ArgonA'
+
+Excluding 1 bonded neighbours molecule type 'ArgonB'
+
+Excluding 1 bonded neighbours molecule type 'ArgonC'
+
+Excluding 1 bonded neighbours molecule type 'ArgonD'
+
+Taking velocities from '/home/lee6456/MD/src/gromacs-2026.4/src/testutils/simulationdatabase/argon4.gro', all velocities are zero
+
+This run will generate roughly 0 Mb of data
+
+        Start 103: MdrunSimulatorComparison
+103/106 Test #103: MdrunSimulatorComparison ..................   Passed    0.01 sec
+        Start 104: MdrunVirtualSiteTests
+104/106 Test #104: MdrunVirtualSiteTests .....................   Passed    0.38 sec
+        Start 105: regressiontests/complex
+105/106 Test #105: regressiontests/complex ...................***Failed   29.38 sec
+Will test on 9 thread-MPI ranks (if possible)
+FAILED. Check checkforce.out (1 errors) file(s) in acetonitrilRF for acetonitrilRF
+Mdrun cannot use the requested (or automatic) number of ranks, retrying with 8.
+
+Abnormal return value for ' gmx mdrun -ntmpi 9    -nb cpu -ntomp 1  -notunepme >mdrun.out 2>&1' was 1
+Retrying mdrun with better settings...
+1 out of 42 complex tests FAILED
+
+        Start 106: regressiontests/essentialdynamics
+106/106 Test #106: regressiontests/essentialdynamics .........   Passed    3.82 sec
+
+84% tests passed, 17 tests failed out of 106
+
+Label Time Summary:
+GTest              =  65.76 sec*proc (97 tests)
+IntegrationTest    =  10.17 sec*proc (30 tests)
+MpiTest            =  37.54 sec*proc (24 tests)
+QuickGpuTest       =  10.58 sec*proc (25 tests)
+SlowGpuTest        =  68.68 sec*proc (17 tests)
+SlowTest           =  45.63 sec*proc (14 tests)
+UnitTest           =   9.97 sec*proc (53 tests)
+
+Total Test time (real) = 101.90 sec
+
+The following tests FAILED:
+	  1 - GmxapiExternalInterfaceTests (Failed)             GTest IntegrationTest QuickGpuTest
+	 77 - MdrunOutputTests (Failed)                         GTest IntegrationTest QuickGpuTest
+	 78 - MdrunModulesTests (Failed)                        GTest IntegrationTest QuickGpuTest
+	 79 - MdrunIOTests (Failed)                             GTest IntegrationTest SlowGpuTest
+	 80 - MdrunTestsOneRank (Failed)                        GTest IntegrationTest MpiTest SlowGpuTest
+	 81 - MdrunTestsTwoRanks (Failed)                       GTest IntegrationTest MpiTest SlowGpuTest
+	 82 - MdrunSingleRankAlgorithmsTests (Failed)           GTest IntegrationTest SlowGpuTest
+	 83 - Minimize1RankTests (Failed)                       GTest IntegrationTest MpiTest QuickGpuTest
+	 84 - Minimize2RankTests (Failed)                       GTest IntegrationTest MpiTest QuickGpuTest
+	 85 - MdrunNonIntegratorTests (Failed)                  GTest IntegrationTest SlowGpuTest
+	 87 - MdrunMpiTests (Failed)                            GTest IntegrationTest MpiTest QuickGpuTest
+	 91 - MdrunMpi1RankPmeTests (Failed)                    GTest IntegrationTest MpiTest SlowGpuTest
+	 92 - MdrunMpi2RankPmeTests (Failed)                    GTest IntegrationTest MpiTest SlowGpuTest
+	100 - MdrunFEPTests (Failed)                            GTest IntegrationTest SlowGpuTest
+	101 - MdrunPullTests (Failed)                           GTest IntegrationTest QuickGpuTest
+	102 - MdrunRotationTests (Failed)                       GTest IntegrationTest QuickGpuTest
+	105 - regressiontests/complex (Failed)                  SlowGpuTest
+Errors while running CTest
+gmake[3]: *** [CMakeFiles/run-ctest-nophys.dir/build.make:71: CMakeFiles/run-ctest-nophys] Error 8
+gmake[2]: *** [CMakeFiles/Makefile2:4415: CMakeFiles/run-ctest-nophys.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:4455: CMakeFiles/check.dir/rule] Error 2
+gmake: *** [Makefile:628: check] Error 2

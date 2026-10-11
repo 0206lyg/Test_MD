@@ -1,0 +1,29 @@
+# Installed software and build files
+/software/
+/envs/
+/build/
+/downloads/
+/cache/
+/tmp/
+/src/gromacs-*/
+/src/regressiontests-/
+/negishi_md_cpu.zip
+
+# Installation and Slurm logs
+/software-info/*.log
+/software-info/CMakeCache.txt
+setup_md_cpu_*.out
+md_cpu_poc_*.out
+slurm-*.out
+
+# Generated simulation files
+*.tpr
+*.xtc
+*.trr
+*.tng
+*.edr
+*.cpt
+
+# Python cache
+__pycache__/
+*.pyc

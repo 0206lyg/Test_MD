@@ -1,0 +1,10 @@
+
+Currently Loaded Modules:
+  1) xalt/3.0.2 (S)   3) mpfr/4.0.2   5) zlib/1.2.13
+  2) gmp/6.2.1        4) mpc/1.1.0    6) gcc/12.2.0
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+

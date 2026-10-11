@@ -1,0 +1,24 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) xalt/3.0.2
+
+Currently Loaded Modules:
+  1) xalt/3.0.2     (S)  10) libszip/2.1.1           19) bzip2/1.0.8
+  2) gmp/6.2.1           11) hdf/4.2.15              20) boost/1.80.0
+  3) mpfr/4.0.2          12) hdf5/1.13.2             21) berkeley-db/18.1.40
+  4) mpc/1.1.0           13) netcdf-c/4.9.0          22) ncurses/6.3
+  5) zlib/1.2.13         14) netcdf-fortran/4.6.0    23) readline/8.1.2
+  6) gcc/12.2.0          15) parallel-netcdf/1.11.2  24) gdbm/1.23
+  7) numactl/2.0.14      16) openblas/0.3.21         25) perl/5.36.0
+  8) openmpi/4.1.4       17) netlib-lapack/3.8.0     26) amber/24
+  9) cmake/3.24.3        18) fftw/3.3.10
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+/apps/spack/negishi/apps/amber/24-gcc-12.2.0-mnqbqmf/bin/antechamber
+/apps/spack/negishi/apps/amber/24-gcc-12.2.0-mnqbqmf/bin/parmchk2
+/apps/spack/negishi/apps/amber/24-gcc-12.2.0-mnqbqmf/bin/tleap

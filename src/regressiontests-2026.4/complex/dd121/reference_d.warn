@@ -1,0 +1,9 @@
+WARNING 1 [file /home/hess/regressiontests/complex/dd121/grompp.mdp]:
+  The Berendsen barostat does not generate any strictly correct ensemble,
+  and should not be used for new production simulations (in our opinion).
+  We recommend using the C-rescale barostat instead.
+
+WARNING 2 [file /home/hess/regressiontests/complex/dd121/grompp.mdp]:
+  For proper integration of the Berendsen barostat, tau-p (1) should be at
+  least 25 times larger than nstpcouple*dt (0.05)
+
