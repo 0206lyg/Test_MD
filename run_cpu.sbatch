@@ -22,10 +22,16 @@ source "$MD_ROOT/env.sh" md
 [[ "${SLURM_NTASKS:-1}" == 1 ]] || { printf 'Use --ntasks=1 for this thread-MPI build.\n' >&2; exit 1; }
 
 MD_CPUS="${SLURM_CPUS_PER_TASK:-8}"
+[[ "$MD_CPUS" =~ ^[1-9][0-9]*$ ]] || { printf 'Invalid CPU count.\n' >&2; exit 1; }
 MD_NTMPI="${MD_NTMPI:-1}"
 [[ "$MD_NTMPI" =~ ^[1-9][0-9]*$ ]] || { printf 'MD_NTMPI must be a positive integer.\n' >&2; exit 1; }
 (( MD_CPUS % MD_NTMPI == 0 )) || { printf 'CPU count must be divisible by MD_NTMPI.\n' >&2; exit 1; }
 export OMP_NUM_THREADS="$(( MD_CPUS / MD_NTMPI ))"
+# A site adjustment can leave SLURM_TRES_PER_TASK with an older CPU count.
+# Remove that duplicate request only for this CPU-only job step, and pass the
+# allocation's current CPU count explicitly (all thread-MPI ranks share it).
+MD_LAUNCH=(env -u SLURM_TRES_PER_TASK srun --ntasks=1
+    --cpus-per-task="$MD_CPUS" --cpu-bind=cores)
 
 # All large simulation outputs are written in scratch. The Slurm output path
 # above remains relative to the sbatch submission directory.
@@ -43,6 +49,6 @@ MD_COMMAND=("$GMX" mdrun -s input.tpr -deffnm md \
     -ntmpi "$MD_NTMPI" -ntomp "$OMP_NUM_THREADS" \
     -nb cpu -pme cpu -bonded cpu -update cpu \
     -cpt 10 -maxh "${MD_MAXH:-5.5}" "$@")
-printf '%q ' srun --ntasks=1 --cpu-bind=cores "${MD_COMMAND[@]}" > command.sh
+printf '%q ' "${MD_LAUNCH[@]}" "${MD_COMMAND[@]}" > command.sh
 printf '\n' >> command.sh
-exec srun --ntasks=1 --cpu-bind=cores "${MD_COMMAND[@]}"
+exec "${MD_LAUNCH[@]}" "${MD_COMMAND[@]}"

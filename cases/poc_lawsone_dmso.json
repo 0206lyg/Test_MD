@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "box_nm": [8.0, 8.0, 14.0],
+  "temperature_K": 298.15,
+  "polymer": {
+    "chains": 30,
+    "repeat_count": 90,
+    "la_fraction": 0.5,
+    "d_fraction": 0.5,
+    "seed": 1729,
+    "slab_nm": [8.0, 8.0, 8.0],
+    "end_groups": "hydroxyl_carboxyl",
+    "min_nonbonded_angstrom": 1.4
+  },
+  "mixture": {
+    "solvent": "DMSO",
+    "water_mole_fraction": 0.9,
+    "initial_polymer_density_g_cm3": 1.2,
+    "initial_solvent_fill_fraction": 0.97,
+    "packing_seed": 11729,
+    "packing_tolerance_angstrom": 2.0
+  },
+  "drug": {"name": "lawsone", "count": 1, "initial_region": "solvent"},
+  "run": {"nvt_ps": 100.0, "npt_ps": 200.0, "benchmark_ps": 100.0}
+}

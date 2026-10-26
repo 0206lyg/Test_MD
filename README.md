@@ -21,7 +21,7 @@ ZIP 안에 MD 폴더가 이미 있으므로, `MD` 안에서 압축을 풀어 `MD
 설치 스크립트가 순서대로 수행하는 일:
 
 1. 기존 `amber/24` 모듈의 `antechamber`, `parmchk2`, `tleap` 확인.
-2. CMake 3.31.6 전용 Conda 환경과 Packmol·RDKit·ParmEd 준비 환경 생성.
+2. CMake 3.31.6 전용 Conda 환경과 Packmol·RDKit·ParmEd·SciPy 준비 환경 생성.
 3. GROMACS 2026.4 소스와 동일 버전 regression tests 다운로드 및 공식 MD5 확인.
 4. GCC 12.2.0으로 GROMACS 및 필요한 FFTW 빌드.
 5. 공식 `check` target을 실행하고 통과하면 사용자 디렉터리에 설치.
@@ -79,16 +79,20 @@ sbatch setup_cpu.sbatch
 | `/home/lee6456/MD/setup_cpu.sbatch` | 설치 job 제출 스크립트 |
 | `/home/lee6456/MD/tools/install_cpu.sh` | 다운로드·빌드·검사 작업 |
 | `/home/lee6456/MD/run_cpu.sbatch` | 준비된 TPR의 CPU 계산 job |
+| `/home/lee6456/MD/prepare_poc.sbatch` | 조성 JSON에서 분자 좌표·force field·GROMACS 입력 생성 |
+| `/home/lee6456/MD/run_poc.sbatch` | 최소화·초기 MD·성능 측정 및 checkpoint 재시작 |
+| `/home/lee6456/MD/tools/prepare_case.py` | 입력 생성의 세 단계 실행 |
 | `/home/lee6456/MD/software/gromacs-2026.4-cpu/` | 설치된 GROMACS와 자체 빌드 의존성 |
 | `/home/lee6456/MD/envs/cmake-3.31.6/` | 빌드용 CMake 환경 |
 | `/home/lee6456/MD/envs/prep/` | Packmol·RDKit·ParmEd 환경 |
 | `/home/lee6456/MD/downloads/` | 다운로드한 GROMACS·test archive |
 | `/home/lee6456/MD/src/` | 풀어 놓은 소스 및 regression tests |
 | `/home/lee6456/MD/build/` | 컴파일 파일, FFTW 빌드 파일 |
-| `/home/lee6456/MD/cache/` | Conda 패키지 cache |
+| `/home/lee6456/MD/cache/` | Conda 패키지, 재사용하는 PLGA 좌표·전하 계산 cache |
 | `/home/lee6456/MD/tmp/` | 설치 중 임시 파일 |
 | `/home/lee6456/MD/software-info/` | 패키지 목록, 버전, 설정, 설치 검사 기록 |
-| `/home/lee6456/MD/cases/` | 이후 작성할 분자 구조·force field·MDP·TPR |
+| `/home/lee6456/MD/cases/` | 조성 JSON 및 생성한 분자 구조·force field·MDP |
+| `/home/lee6456/MD/validation/` | 로컬에서 실제 수행한 입력 생성 검증의 요약 |
 | `/scratch/negishi/lee6456/md_JOBID_UTC시간/` | 각 계산의 trajectory, energy, checkpoint 등 |
 
 기존 시스템 모듈은 공유 설치본을 그대로 참조합니다. Conda가 자체 환경 등록 정보를 홈에 남길 수 있지만, 새 소프트웨어와 package cache의 설치 위치는 위 표대로 MD 아래입니다. Conda 환경을 만든 뒤 MD 디렉터리를 다른 곳으로 옮기지 않습니다.
@@ -115,46 +119,129 @@ source /home/lee6456/MD/env.sh build
 cmake --version
 ```
 
-## 5. 분자 모델이 준비된 뒤의 계산
+## 5. PLGA / 약물 / 혼합용매 입력 생성
 
-이 ZIP은 설치 환경과 실행 스크립트입니다. PLGA·약물·용매의 좌표, 파라미터, MDP, 실제 `model.tpr`는 아직 포함하지 않습니다. 소프트웨어 설치가 force field의 적합성을 검증하는 것은 아닙니다.
+기존 설치가 완료됐다면 GROMACS를 재설치하지 않습니다. 새 ZIP을 `/home/lee6456/MD/negishi_md_cpu.zip`에 업로드한 뒤 입력 생성 관련 파일만 추가·갱신합니다. 아래 명령은 기존 `config.sh`, `env.sh`와 설치 파일을 덮어쓰지 않습니다.
 
-예를 들어 `cases/poc/model.tpr`를 만든 뒤:
+```bash
+cd /home/lee6456
+unzip -o MD/negishi_md_cpu.zip 'MD/tools/mdprep_*.py' MD/tools/prepare_case.py MD/prepare_poc.sbatch MD/run_poc.sbatch 'MD/cases/*' 'MD/validation/*' MD/README.md
+cd /home/lee6456/MD
+```
+
+ZIP에는 기본 DMSO 계의 **이미 생성한 `cases/poc_lawsone_dmso_input/`**도 포함돼 있습니다. 첫 CPU 실행은 준비 작업을 반복하지 않고 바로 제출할 수 있습니다.
+
+```bash
+sbatch run_poc.sbatch cases/poc_lawsone_dmso_input
+```
+
+아래의 `prepare_poc.sbatch`는 입력을 재생성하거나 다른 조건을 만드는 방법입니다. 용매별 비교 계산을 시작할 때는 기준 DMSO 계를 포함한 모든 조건을 Negishi의 같은 준비 환경에서 생성합니다.
+
+기본 설정은 `cases/poc_lawsone_dmso.json`입니다. **PLGA 30사슬 × 90 반복단위**, LA:GA 50:50, 무작위 D/L 배열, hydroxyl/carboxyl 말단, lawsone 1분자, DMSO/물, 전체 박스 8 × 8 × 14 nm를 사용합니다. 기존 6 × 450과 총 반복단위 수 2,700개를 유지하면서, PoC에서 사슬당 약 5.87 kDa로 줄인 모델입니다. 말단 수와 사슬 이완 시간은 실험 분자량의 사슬과 달라지며, 분자량 의존성을 제거했다고 가정하지 않습니다. 실험 재료 Resomer RG 503 H는 50:50 D,L-PLGA 산 말단 고분자입니다. 반복단위의 실제 LA/GA 배열과 입체화학은 알려져 있지 않아 고정 seed의 무작위 배열로 모델링합니다.
+
+초기 고분자 배치 영역은 **8 × 8 × 8 nm**입니다. 처음부터 4 nm 두께의 조밀한 고분자를 강제로 만들지 않고, 중앙의 느슨한 고분자 영역과 양쪽 약 3 nm의 외부 용매 영역에서 시작합니다. `slab_nm`은 초기 배치 영역이며 MD에서 고분자를 가두는 벽이나 위치 restraint가 아닙니다. 주변 용매는 고분자 사이 빈 공간에도 배치됩니다. 평형 고분자 두께·밀도를 이 초기 설정으로 가정하지 않으며, 이완 이후 고분자 내부·외부의 조성 영역이 실제로 유지되는지 확인해야 합니다.
+
+첫 조성의 `water_mole_fraction = 0.9`는 물+유기용매 분자 수 기준 90 mol% 물이며, 실험의 최종 부피비를 그대로 재현한 값이 아닙니다. 기작 탐색을 위한 시작 조성입니다. 분자 수는 순수액체 밀도를 이용한 부피 가산 근사로 정하고 manifest에 기록합니다. 동일 몰분율에서 유기용매 종류를 바꾸면 분자 부피가 달라지므로 물·유기용매 분자 수도 재계산합니다. 초기 밀도는 NPT에서 이완합니다.
+
+기본 DMSO 계는 PLGA 20,340원자, lawsone 1분자, DMSO 1,628분자, 물 14,655분자로 **총 80,604원자**입니다.
+
+입력 생성은 계산 노드에서 수행합니다. 기존 RDKit, Packmol, ParmEd와 AmberTools를 사용합니다. 사슬 간 초기 겹침을 해소하는 좌표 최적화에 SciPy가 필요하며, 기존 준비 환경에 없으면 `prepare_poc.sbatch`가 계산 노드에서 이 의존성만 추가합니다. 기존 패키지 버전을 동결한 상태로 설치하며 GROMACS를 재빌드하지 않습니다.
 
 ```bash
 cd /home/lee6456/MD
-sbatch run_cpu.sbatch cases/poc/model.tpr
+sbatch prepare_poc.sbatch cases/poc_lawsone_dmso.json
 ```
 
-기본 요청은 1 node, 1 task, 8 CPU, 16 GB, 6시간입니다. thread-MPI 1 rank × OpenMP 8 threads로 시작하며, 모든 계산은 CPU에서 수행합니다. `-maxh 5.5`로 Slurm의 6시간 제한 전에 checkpoint를 기록하고 종료하도록 합니다. TPR에 지정된 계산 길이가 더 짧으면 먼저 종료됩니다.
+완료되면 다음 파일들이 `cases/poc_lawsone_dmso_input/`에 생깁니다.
 
-job log에는 실제 결과 경로가 출력됩니다. 예를 들어:
+| 파일 | 내용 |
+|---|---|
+| `case.json` | 사용한 설정의 사본 |
+| `polymer.json` | 사슬별 LA/GA 배열, D/L 입체화학, 원자 대응표, 생성 기록 |
+| `molecules/` | 분자별 좌표, 결합, 전하, Amber topology 및 계산 로그 |
+| `charge_fragments/` | 짧은 올리고머 전하 계산과 긴 사슬로의 전하 이전 근거 |
+| `manifest.json` | 원자·분자 수, 실제 조성, 설정 식별값 |
+| `packmol.inp`, `packmol.log`, `packed.pdb` | 혼합계 배치 입력·로그·좌표 |
+| `system.gro`, `topol.top` | GROMACS 초기 좌표와 topology |
+| `mdp/` | 최소화·초기 이완·짧은 성능 측정 설정 |
+| `READY.json` | 입력 조립 완료 기록; 평형화 완료를 의미하지 않음 |
 
-`/scratch/negishi/lee6456/md_12345678_20261011T180000Z/`
+좌표와 파라미터를 직접 손으로 입력하지 않습니다. PLGA는 결합 길이·각도·입체화학을 가진 반복단위를 연결해 사슬을 각각 생성합니다. 이어서 결합·각도에 해당하는 거리와 입체화학을 유지하는 기하학적 최적화로 사슬 간 겹침을 해소합니다. 이것은 초기 좌표 준비이며 GAFF2에서 평형화된 구조가 아닙니다. 비결합 heavy atom 1.4 Å, 모든 원자 1.2 Å의 초기 접근거리 검사를 통과한 뒤 실제 GAFF2 에너지 최소화가 수행돼야 합니다. MD의 force field나 최소화 기준을 바꾸는 soft potential은 사용하지 않습니다.
 
-입력 TPR도 `input.tpr`로 해당 폴더에 복사하고, 실제 실행 명령과 GROMACS 버전을 함께 기록합니다. `md.xtc`/`md.trr`, `md.edr`, `md.log`, `md.cpt` 등은 MDP 설정과 계산 진행 상태에 따라 이 폴더에 생성됩니다. `md_cpu_poc_12345678.out`은 제출한 `/home/lee6456/MD`에 남습니다.
+긴 사슬 전체에 ETKDG나 양자화학 계산을 적용하지 않습니다. 약물과 유기용매는 SMILES에서 좌표를 생성하고, Packmol은 준비된 사슬의 내부 결합을 변경하지 않은 채 나머지 분자를 배치합니다. **Packmol에서 고정하는 것은 초기 배치 중의 좌표뿐이며, MD에서 PLGA는 움직입니다.**
 
-짧은 성능 측정:
+### 5.1 Force field와 화학 상태
+
+약물·유기용매·PLGA에는 GAFF2를 사용하고 물에는 TIP3P를 사용합니다. 모두 원자 수준의 모델입니다. 작은 분자는 AmberTools AM1-BCC로 전하를 계산합니다. PLGA는 5개 반복단위로 된 짧은 참조 사슬 10종에서 전하를 계산합니다. 8종은 가운데 반복단위와 양옆 LA/GA 조합을 모두 포함하고, 추가 2종은 LA 말단 조합을 보완합니다. 내부 전하는 각 참조 사슬의 중앙 반복단위에서, 말단 전하는 해당 말단에서 가져옵니다. 인접 LA/GA 종류·말단·원자 역할을 대응시켜 긴 사슬로 이전하며, D/L 중심에는 같은 전하를 사용합니다. 동등한 수소 전하는 평균화하고 각 중성 반복단위의 전하 합을 0으로 맞춘 보정량을 별도 기록합니다. 이 방식은 국소 환경의 전하 이전 근사를 사용하는 **PoC 파라미터화**이며, 실험 loading 또는 분배 자유에너지를 재현한다고 검증된 PLGA force field는 아닙니다.
+
+고분자의 추가 GAFF2 결합 항은 짧은 참조 사슬에서 `parmchk2`로 추출하고, 같은 항의 계수가 서로 다른 경우 중단합니다. 긴 사슬마다 같은 국소 항을 반복 검색하지 않으며, 전체 사슬의 모든 필요한 결합·각도·비틀림 항은 `tleap`에서 실제로 확인합니다. 각 조건은 동일한 준비 도구·force-field 버전으로 생성해 비교합니다.
+
+현재 모든 약물과 PLGA 말단은 **중성 상태**로 설정합니다. 논문에 명시되지 않은 실제 pH·이온화 비율을 모델이 자동으로 결정하지 않습니다. 특히 lawsone과 산 말단의 전하 상태는 본 기작 비교에서 별도로 검토해야 합니다. poloxamer, 염, 용매 제거·세척 과정은 이 국소 분배 모델에 포함하지 않습니다.
+
+분자 생성·양자화학 출력·전하 이전·중성화 기록은 보존합니다. 누락된 force-field 항, 원자 수 불일치, Packmol 미수렴, 심한 분자 간 겹침 또는 GROMACS 입력 오류가 있으면 중단하며, 테스트 허용오차를 완화하거나 `grompp -maxwarn`으로 통과시키지 않습니다.
+
+### 5.2 첫 CPU 계산
+
+입력 준비가 완료된 뒤 제출합니다.
 
 ```bash
-MD_MAXH=0.15 sbatch --time=00:15:00 run_cpu.sbatch cases/poc/model.tpr -nsteps 10000
+cd /home/lee6456/MD
+sbatch run_poc.sbatch cases/poc_lawsone_dmso_input
 ```
 
-최대 약 9분 또는 10,000 step 중 먼저 도달한 시점까지 실행합니다. `md.log`의 `Performance:`에 나오는 ns/day로 필요한 wall time을 추정합니다. 짧은 실행의 처리속도는 근사이며, 6시간 제한은 mechanism의 수렴 보장이 아닙니다.
+기본 요청은 8 CPU, 16 GB, 최대 6시간입니다. 하나의 job에서 에너지 최소화 → NVT 100 ps → NPT 200 ps → 성능 측정용 MD 100 ps를 순서대로 실행합니다. NVT는 1 fs, 이후 MD는 수소 결합 길이를 구속한 2 fs를 사용합니다. 고분자·약물의 위치는 구속하지 않습니다. NPT는 slab의 x/y 면적을 유지하고 z 방향 박스 길이를 이완합니다. 이 시간들은 초기 실행 범위이며, 평형화·분배 자유에너지 수렴을 보장하는 값이 아닙니다.
 
-CPU 병렬 배치를 비교해야 한다면:
+전체 단계가 **하나의 6시간 예산**을 공유하고 종료 전에 checkpoint를 저장합니다. 미완료 단계를 완료로 표시하지 않습니다. 결과는 `/scratch/negishi/lee6456/md_JOBID_UTC시간/`에, Slurm 로그는 제출한 MD 폴더에 남습니다. 이어서 실행할 때는 로그에 출력된 실제 경로를 사용합니다.
 
 ```bash
-MD_NTMPI=2 sbatch run_cpu.sbatch cases/poc/model.tpr
+sbatch run_poc.sbatch --restart /scratch/negishi/lee6456/md_JOBID_UTC시간
 ```
 
-이는 같은 8 CPU에서 2 thread-MPI ranks × 4 OpenMP threads를 사용합니다. thread-MPI 빌드이므로 Slurm의 `--ntasks`는 항상 1로 유지합니다. scratch 상위 경로는 `config.sh` 또는 `MD_SCRATCH_ROOT` 환경변수로 지정할 수 있고, 기본 경로가 없거나 쓸 수 없으면 홈으로 우회하지 않고 오류를 출력합니다. 현재 스크립트는 새 계산 폴더를 생성하는 용도입니다.
+재시작은 동일한 결과 폴더에서 완료된 단계를 건너뛰고 미완료 단계의 checkpoint를 이어갑니다. 정상 완료된 마지막 `benchmark.log`의 `Performance:`가 해당 계의 실제 ns/day입니다.
+
+### 5.3 용매·약물을 바꾸는 방법
+
+DMSO 기준 설정을 복사해 새 이름으로 저장합니다.
+
+```bash
+cp cases/poc_lawsone_dmso.json cases/poc_lawsone_acn.json
+```
+
+복사한 JSON의 `mixture.solvent`를 `"ACN"`으로 바꾼 뒤 제출합니다.
+
+```bash
+sbatch prepare_poc.sbatch cases/poc_lawsone_acn.json
+```
+
+지원하는 용매 값은 `DMSO`, `DMF`, `acetone`, `ACN`이며 약물 `drug.name`은 `lawsone`, `menadione`, `plumbagin`입니다. 새로운 조건은 새로운 출력 폴더를 사용해 기존 입력을 덮어쓰지 않습니다.
+
+**용매만 바꾸고 polymer 설정·box·seed를 유지하면 같은 초기 PLGA 좌표를 재사용합니다.** 반복단위 배열·사슬 입체화학·고분자 topology도 유지되며, 유기용매의 구조·파라미터·분자 수·배치와 혼합계 topology를 새로 만듭니다. PLGA 좌표와 전하 계산은 `MD/cache/`에 저장해 재사용합니다. cache가 없거나 RDKit 버전이 달라도, `cases/*_input/`에 같은 고분자 설정의 완성된 입력이 있으면 그 PLGA PDB 좌표를 그대로 가져옵니다. 새 cache는 좌표를 double precision으로 보존합니다. 용매마다 달라져야 하는 평형 PLGA 구조는 각각의 MD 이완에서 얻습니다. 동일한 초기 구조를 쓰는 것이 평형 구조까지 같게 고정하는 것은 아닙니다.
+
+서로 다른 초기 구조를 비교할 때는 `polymer.seed`를 바꿉니다. 용매 배치만 바꾸려면 `mixture.packing_seed`를 바꿉니다. 약물을 처음부터 고분자 영역에 놓으려면 `drug.initial_region`을 `"polymer"`로 바꿀 수 있습니다. 시작 위치가 다른 두 trajectory의 짧은 체류 시간만으로 평형 분배 자유에너지를 결정하지 않습니다.
+
+## 6. 이미 준비된 TPR의 단독 실행
+
+기존 `run_cpu.sbatch`도 유지됩니다. 이는 준비된 TPR 하나를 실행하는 스크립트이며, 위 여러 단계의 준비·재시작 처리는 `run_poc.sbatch`가 담당합니다.
+
+```bash
+sbatch run_cpu.sbatch cases/my_case/model.tpr
+```
 
 ## 검증 범위와 출처
 
-Bash/Python 문법과 경로·실행 인자 전달을 로컬에서 검사했습니다. 이번 수정에서는 별도 Linux 환경에서 GROMACS 2026.4를 실제 빌드해, 공식 `acetonitrilRF` 검사와 첨부된 TPR을 각각 1·2·4·9 ranks로 실행했습니다. 9 ranks에서는 동일한 힘 비교 오류가 재현됐고, 1·2·4 ranks에서는 통과했습니다. 기본값인 2 ranks × 1 OpenMP thread로 공식 complex 42개와 essentialdynamics 7개도 모두 통과했습니다.
+입력 생성 도구는 별도 Linux 환경의 실제 AmberTools 24.8, RDKit, Packmol, ParmEd와 GROMACS 2026.4로 확인했습니다.
 
-이 재현 환경은 Intel Xeon, GCC 13.3, AVX2_256, mixed precision, thread-MPI, FFTPACK입니다. 사용자 설치본의 GCC 12.2·FFTW 설정은 변경하지 않았습니다. `acetonitrilRF`는 RF 방식을 사용하므로 해당 힘 계산에 FFT를 사용하지 않습니다. Negishi에서 최종 검증은 재제출한 설치 job의 전체 공식 `check`가 수행합니다. PLGA·약물의 본 분자계를 계산한 결과는 아닙니다.
+- 지원하는 약물 3종과 유기용매 4종 모두 AM1-BCC/GAFF2 파라미터화를 완료했습니다. 원자 종류·순서와 모든 공유결합의 원자 쌍이 원래 분자 그래프와 일치하고, 누락된 force-field 항이 없으며 중성 topology를 생성했습니다.
+- PLGA 12-mer + lawsone + DMSO + TIP3P의 8,878원자 혼합계를 실제 조립했습니다. 최소화는 459 step에서 Fmax = 879.966 kJ/mol/nm로 지정 기준 1000 아래에 도달했습니다. NVT 0.1 ps, NPT 0.2 ps, 후속 MD 0.2 ps가 완료됐고, 기록된 에너지는 유한하며 LINCS 경고가 없었습니다. 이 짧은 실행은 파일 연결과 초기 안정성 검사입니다.
+- CPU job의 중간 종료·checkpoint 재시작은 작은 물 계에서 실제 GROMACS로 확인했습니다. 미완료 단계에서 다음 단계로 넘어가지 않고, 같은 결과 폴더에서 이어집니다.
+- 기본 30 × DP90 고분자 구조의 모든 1,350개 입체중심과 비결합 접근거리를 확인했습니다. DMSO → ACN 구조 생성에서는 기존 binary cache가 없는 경우에도 완성된 DMSO 입력을 참조해 30개 PLGA PDB 파일을 바이트 단위까지 동일하게 재사용했습니다. ACN 계의 원자 수는 78,877개로 재계산됐습니다.
+- **기본 80,604원자 전체 계**는 실제 GROMACS 최소화가 1,954 step에서 Fmax = 989.41772 kJ/mol/nm로 수렴했습니다. 이어진 NVT 100 step × 1 fs가 완료됐고 에너지가 유한하며 LINCS 경고가 없었습니다. 최소화 및 NVT 이후에도 1,350개 입체중심의 부호가 모두 유지됐습니다. 검사에서만 NVT를 0.1 ps로 줄였으며, 배포 MDP는 100 ps입니다. 이는 실행 가능한 초기 계의 확인이며 온도·밀도 평형화 또는 분배 기작의 검증이 아닙니다.
+
+SQM이 출력하는 개별 Mulliken 전하는 소수 셋째 자리여서, 일부 중성 분자의 AM1-BCC 출력 전하 합에 약 0.001–0.002 e 잔차가 있었습니다. 코드에서는 SQM의 총전하가 중성임을 확인한 뒤 출력 정밀도 범위 안의 잔차만 보정하고, 원본·보정량을 함께 보존합니다. PLGA의 반복단위 전하 이전에 사용하는 중성화 보정은 별도로 기록합니다. QM 수렴 기준, GROMACS 허용오차 또는 경고 처리 기준은 완화하지 않습니다.
+
+Bash/Python 문법과 경로·실행 인자 전달도 검사했습니다. 이전 설치 문제 진단에서는 별도 Linux 환경에서 GROMACS 2026.4를 실제 빌드해, 공식 `acetonitrilRF` 검사와 첨부된 TPR을 각각 1·2·4·9 ranks로 실행했습니다. 9 ranks에서는 동일한 힘 비교 오류가 재현됐고, 1·2·4 ranks에서는 통과했습니다. 기본값인 2 ranks × 1 OpenMP thread로 공식 complex 42개와 essentialdynamics 7개도 모두 통과했습니다.
+
+이 재현 환경은 Intel Xeon, GCC 13.3, AVX2_256, mixed precision, thread-MPI, FFTPACK입니다. 사용자 설치본의 GCC 12.2·FFTW 설정은 변경하지 않았습니다. `acetonitrilRF`는 RF 방식을 사용하므로 해당 힘 계산에 FFT를 사용하지 않습니다. Negishi에서 설치본의 최종 검증은 설치 job의 전체 공식 `check`가 수행합니다. 실제 PLGA 분배 자유에너지나 실험 loading을 검증한 결과는 아닙니다.
 
 - GROMACS 2026.4와 공식 source/test MD5: https://manual.gromacs.org/2026.4/download.html
 - GCC, CMake, FFTW, SIMD, thread-MPI 및 검사: https://manual.gromacs.org/2026.4/install-guide/index.html
@@ -164,3 +251,7 @@ Bash/Python 문법과 경로·실행 인자 전달을 로컬에서 검사했습�
 - Packmol: https://m3g.github.io/packmol/download.shtml
 - RDKit: https://rdkit.org/docs/Install.html
 - ParmEd: https://parmed.github.io/ParmEd/html/readwrite.html
+- Resomer RG 503 H 재료 사양: https://www.evonik.com/en/products/hc/pr_52021485.html
+- 논문: https://doi.org/10.1002/mame.202500269
+- 고분자 전하 이전 방법론: https://doi.org/10.1021/acs.jcim.3c01691 (이 코드의 GAFF2/Amber AM1-BCC 파라미터 자체를 제공하는 논문은 아님)
+- SQM 개별 Mulliken 전하 출력 정밀도: https://github.com/Amber-MD/AmberClassic/blob/main/src/sqm/qm2_print_charges.F90
