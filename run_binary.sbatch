@@ -88,7 +88,17 @@ if (( MD_PREPARE )); then
     (
         export OMP_NUM_THREADS=1
         source "$MD_ROOT/env.sh" amber
-        python3 code/tools/prepare_binary.py parameters --output input
+        # Amber may put an older python3 on PATH. Keep its tool environment,
+        # but run our driver with the existing preparation environment's Python.
+        MD_PARAMETER_PYTHON="$MD_PREP_PREFIX/bin/python3"
+        [[ -x "$MD_PARAMETER_PYTHON" ]] || {
+            printf 'Preparation Python not found: %s\n' "$MD_PARAMETER_PYTHON" >&2; exit 1;
+        }
+        "$MD_PARAMETER_PYTHON" -E -s -u -c 'import sys
+if sys.version_info < (3, 8):
+    raise SystemExit("Parameter preparation requires Python >= 3.8: " + sys.executable)
+print("Parameter Python: " + sys.executable + " (" + sys.version.split()[0] + ")")'
+        "$MD_PARAMETER_PYTHON" -E -s -u code/tools/prepare_binary.py parameters --output input
     )
     MD_STAGE=assemble
     (
