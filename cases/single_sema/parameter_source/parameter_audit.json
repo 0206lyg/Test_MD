@@ -1,0 +1,1149 @@
+{
+  "status": "PROVISIONAL_PARAMETERS_NOT_EXPERIMENTALLY_VALIDATED",
+  "protein_force_field": "ff14SB",
+  "custom_residues": [
+    {
+      "symmetry_handling": "Antechamber AM1-BCC equivalent-atom charge handling retained; post-prepgen equivalence explicitly checked",
+      "symmetry_checks": [
+        {
+          "atoms": [
+            "CB1",
+            "CB2"
+          ],
+          "final_charge_spread_e": 0.0
+        },
+        {
+          "atoms": [
+            "H002",
+            "H003",
+            "H004",
+            "H005",
+            "H006",
+            "H007"
+          ],
+          "final_charge_spread_e": 0.0
+        }
+      ],
+      "residue": "AIB",
+      "formal_charge": 0,
+      "capped_formula": "C7H14N2O2",
+      "cap_atoms_removed": [
+        "C0",
+        "O0",
+        "CM0",
+        "N0",
+        "CM1",
+        "H008",
+        "H009",
+        "H010",
+        "H011",
+        "H012",
+        "H013",
+        "H014"
+      ],
+      "supplemental_parameters": "Remark line goes here\nMASS\n\nBOND\n\nANGLE\nCT-CX-CT   40.000     109.500   same as CT-CT-CT, penalty score=  0.0\n\nDIHE\nHC-CT-CX-CT   1    0.160         0.000           3.000      same as HC-CT-CT-CT, penalty score=  0.0\n\nIMPROPER\n\nNONBON\n\n\n\n",
+      "charge_sum_before_cap_correction": -0.038999999999999924,
+      "charge_sum_after_cap_correction": 2.0000000000575113e-06,
+      "atom_charge_changes": [
+        {
+          "atom": "N",
+          "capped_AM1BCC_e": -0.6049,
+          "final_polymer_residue_e": -0.596363,
+          "correction_e": 0.008537000000000017
+        },
+        {
+          "atom": "H",
+          "capped_AM1BCC_e": 0.3175,
+          "final_polymer_residue_e": 0.321981,
+          "correction_e": 0.004481000000000013
+        },
+        {
+          "atom": "CA",
+          "capped_AM1BCC_e": 0.0654,
+          "final_polymer_residue_e": 0.066323,
+          "correction_e": 0.0009229999999999933
+        },
+        {
+          "atom": "CB1",
+          "capped_AM1BCC_e": -0.1026,
+          "final_polymer_residue_e": -0.101152,
+          "correction_e": 0.001447999999999991
+        },
+        {
+          "atom": "H002",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "H003",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "H004",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "CB2",
+          "capped_AM1BCC_e": -0.1026,
+          "final_polymer_residue_e": -0.101152,
+          "correction_e": 0.001447999999999991
+        },
+        {
+          "atom": "H005",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "H006",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "H007",
+          "capped_AM1BCC_e": 0.0517,
+          "final_polymer_residue_e": 0.05243,
+          "correction_e": 0.0007299999999999945
+        },
+        {
+          "atom": "C",
+          "capped_AM1BCC_e": 0.6691,
+          "final_polymer_residue_e": 0.678543,
+          "correction_e": 0.00944299999999998
+        },
+        {
+          "atom": "O",
+          "capped_AM1BCC_e": -0.5911,
+          "final_polymer_residue_e": -0.582758,
+          "correction_e": 0.00834199999999996
+        }
+      ],
+      "CX_CT_analogy": "Only absent parameters may use existing CT analogue for CX; exact ff14SB entries retain priority",
+      "provisional": true,
+      "sqm_audit": {
+        "method": "AM1",
+        "scf_tolerance": 1e-10,
+        "completed": true,
+        "geometry_minimization_requested": false,
+        "AM1_geometry_converged": null,
+        "MMFF94s_preoptimization_converged": true,
+        "charge_variant": "AM1-BCC single point on MMFF94s geometry"
+      }
+    },
+    {
+      "symmetry_handling": "Antechamber AM1-BCC equivalent-atom charge handling retained; post-prepgen equivalence explicitly checked",
+      "symmetry_checks": [
+        {
+          "atoms": [
+            "O5",
+            "O6"
+          ],
+          "final_charge_spread_e": 0.0
+        },
+        {
+          "atoms": [
+            "O8",
+            "O9"
+          ],
+          "final_charge_spread_e": 0.0
+        }
+      ],
+      "residue": "SLY",
+      "formal_charge": -2,
+      "capped_formula": "C44H78N6O14-2",
+      "cap_atoms_removed": [
+        "C0",
+        "O0",
+        "CM0",
+        "N0",
+        "CM1",
+        "H072",
+        "H073",
+        "H074",
+        "H075",
+        "H076",
+        "H077",
+        "H078"
+      ],
+      "supplemental_parameters": "Remark line goes here\nMASS\n\nBOND\n\nANGLE\n\nDIHE\n\nIMPROPER\nCT-N -C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score=  6.0)\nCT-O2-C -O2        10.5          180.0         2.0          Using general improper torsional angle  X-O2- C-O2, penalty score=  3.0)\n\nNONBON\n\n\n\n",
+      "charge_sum_before_cap_correction": -1.9800000000000013,
+      "charge_sum_after_cap_correction": -1.9999960000000003,
+      "atom_charge_changes": [
+        {
+          "atom": "N",
+          "capped_AM1BCC_e": -0.5849,
+          "final_polymer_residue_e": -0.585383,
+          "correction_e": -0.0004830000000000112
+        },
+        {
+          "atom": "H",
+          "capped_AM1BCC_e": 0.3725,
+          "final_polymer_residue_e": 0.372192,
+          "correction_e": -0.00030799999999997496
+        },
+        {
+          "atom": "CA",
+          "capped_AM1BCC_e": 0.0477,
+          "final_polymer_residue_e": 0.047661,
+          "correction_e": -3.899999999999737e-05
+        },
+        {
+          "atom": "C4",
+          "capped_AM1BCC_e": -0.0804,
+          "final_polymer_residue_e": -0.080466,
+          "correction_e": -6.599999999999662e-05
+        },
+        {
+          "atom": "C5",
+          "capped_AM1BCC_e": -0.0734,
+          "final_polymer_residue_e": -0.073461,
+          "correction_e": -6.0999999999991616e-05
+        },
+        {
+          "atom": "C6",
+          "capped_AM1BCC_e": -0.0984,
+          "final_polymer_residue_e": -0.098481,
+          "correction_e": -8.099999999999774e-05
+        },
+        {
+          "atom": "C7",
+          "capped_AM1BCC_e": 0.115,
+          "final_polymer_residue_e": 0.114905,
+          "correction_e": -9.500000000001174e-05
+        },
+        {
+          "atom": "N2",
+          "capped_AM1BCC_e": -0.6119,
+          "final_polymer_residue_e": -0.612405,
+          "correction_e": -0.0005049999999999777
+        },
+        {
+          "atom": "C8",
+          "capped_AM1BCC_e": 0.6331,
+          "final_polymer_residue_e": 0.632577,
+          "correction_e": -0.0005230000000000512
+        },
+        {
+          "atom": "C9",
+          "capped_AM1BCC_e": 0.0514,
+          "final_polymer_residue_e": 0.051358,
+          "correction_e": -4.200000000000037e-05
+        },
+        {
+          "atom": "O1",
+          "capped_AM1BCC_e": -0.3976,
+          "final_polymer_residue_e": -0.397928,
+          "correction_e": -0.00032799999999999496
+        },
+        {
+          "atom": "C10",
+          "capped_AM1BCC_e": 0.1294,
+          "final_polymer_residue_e": 0.129293,
+          "correction_e": -0.00010699999999999599
+        },
+        {
+          "atom": "C11",
+          "capped_AM1BCC_e": 0.1014,
+          "final_polymer_residue_e": 0.101316,
+          "correction_e": -8.400000000000074e-05
+        },
+        {
+          "atom": "O2",
+          "capped_AM1BCC_e": -0.4266,
+          "final_polymer_residue_e": -0.426952,
+          "correction_e": -0.00035200000000001896
+        },
+        {
+          "atom": "C12",
+          "capped_AM1BCC_e": 0.1164,
+          "final_polymer_residue_e": 0.116304,
+          "correction_e": -9.599999999999886e-05
+        },
+        {
+          "atom": "C13",
+          "capped_AM1BCC_e": 0.122,
+          "final_polymer_residue_e": 0.121899,
+          "correction_e": -0.00010100000000000386
+        },
+        {
+          "atom": "N3",
+          "capped_AM1BCC_e": -0.6049,
+          "final_polymer_residue_e": -0.6054,
+          "correction_e": -0.000500000000000056
+        },
+        {
+          "atom": "C14",
+          "capped_AM1BCC_e": 0.6571,
+          "final_polymer_residue_e": 0.656557,
+          "correction_e": -0.0005430000000000712
+        },
+        {
+          "atom": "C15",
+          "capped_AM1BCC_e": 0.0554,
+          "final_polymer_residue_e": 0.055354,
+          "correction_e": -4.599999999999743e-05
+        },
+        {
+          "atom": "O3",
+          "capped_AM1BCC_e": -0.4116,
+          "final_polymer_residue_e": -0.41194,
+          "correction_e": -0.00033999999999995145
+        },
+        {
+          "atom": "C16",
+          "capped_AM1BCC_e": 0.1354,
+          "final_polymer_residue_e": 0.135288,
+          "correction_e": -0.00011200000000000099
+        },
+        {
+          "atom": "C17",
+          "capped_AM1BCC_e": 0.1004,
+          "final_polymer_residue_e": 0.100317,
+          "correction_e": -8.299999999999974e-05
+        },
+        {
+          "atom": "O4",
+          "capped_AM1BCC_e": -0.4186,
+          "final_polymer_residue_e": -0.418946,
+          "correction_e": -0.00034599999999995745
+        },
+        {
+          "atom": "C18",
+          "capped_AM1BCC_e": 0.1134,
+          "final_polymer_residue_e": 0.113306,
+          "correction_e": -9.399999999999686e-05
+        },
+        {
+          "atom": "C19",
+          "capped_AM1BCC_e": 0.105,
+          "final_polymer_residue_e": 0.104913,
+          "correction_e": -8.699999999998986e-05
+        },
+        {
+          "atom": "N4",
+          "capped_AM1BCC_e": -0.5839,
+          "final_polymer_residue_e": -0.584382,
+          "correction_e": -0.00048199999999998244
+        },
+        {
+          "atom": "C20",
+          "capped_AM1BCC_e": 0.6741,
+          "final_polymer_residue_e": 0.673543,
+          "correction_e": -0.0005570000000000297
+        },
+        {
+          "atom": "C21",
+          "capped_AM1BCC_e": -0.1584,
+          "final_polymer_residue_e": -0.158531,
+          "correction_e": -0.00013099999999999223
+        },
+        {
+          "atom": "C22",
+          "capped_AM1BCC_e": -0.0694,
+          "final_polymer_residue_e": -0.069457,
+          "correction_e": -5.7000000000001494e-05
+        },
+        {
+          "atom": "C23",
+          "capped_AM1BCC_e": -0.0243,
+          "final_polymer_residue_e": -0.02432,
+          "correction_e": -2.0000000000002655e-05
+        },
+        {
+          "atom": "N5",
+          "capped_AM1BCC_e": -0.5619,
+          "final_polymer_residue_e": -0.562364,
+          "correction_e": -0.00046400000000001995
+        },
+        {
+          "atom": "C24",
+          "capped_AM1BCC_e": 0.6821,
+          "final_polymer_residue_e": 0.681537,
+          "correction_e": -0.0005630000000000912
+        },
+        {
+          "atom": "C25",
+          "capped_AM1BCC_e": -0.1654,
+          "final_polymer_residue_e": -0.165537,
+          "correction_e": -0.00013699999999999823
+        },
+        {
+          "atom": "C26",
+          "capped_AM1BCC_e": -0.0684,
+          "final_polymer_residue_e": -0.068456,
+          "correction_e": -5.6000000000000494e-05
+        },
+        {
+          "atom": "C27",
+          "capped_AM1BCC_e": -0.0764,
+          "final_polymer_residue_e": -0.076463,
+          "correction_e": -6.30000000000075e-05
+        },
+        {
+          "atom": "C28",
+          "capped_AM1BCC_e": -0.0724,
+          "final_polymer_residue_e": -0.07246,
+          "correction_e": -5.9999999999990616e-05
+        },
+        {
+          "atom": "C29",
+          "capped_AM1BCC_e": -0.0744,
+          "final_polymer_residue_e": -0.074461,
+          "correction_e": -6.1000000000005494e-05
+        },
+        {
+          "atom": "C30",
+          "capped_AM1BCC_e": -0.0764,
+          "final_polymer_residue_e": -0.076463,
+          "correction_e": -6.30000000000075e-05
+        },
+        {
+          "atom": "C31",
+          "capped_AM1BCC_e": -0.0764,
+          "final_polymer_residue_e": -0.076463,
+          "correction_e": -6.30000000000075e-05
+        },
+        {
+          "atom": "C32",
+          "capped_AM1BCC_e": -0.0764,
+          "final_polymer_residue_e": -0.076463,
+          "correction_e": -6.30000000000075e-05
+        },
+        {
+          "atom": "C33",
+          "capped_AM1BCC_e": -0.0764,
+          "final_polymer_residue_e": -0.076463,
+          "correction_e": -6.30000000000075e-05
+        },
+        {
+          "atom": "C34",
+          "capped_AM1BCC_e": -0.0754,
+          "final_polymer_residue_e": -0.075462,
+          "correction_e": -6.20000000000065e-05
+        },
+        {
+          "atom": "C35",
+          "capped_AM1BCC_e": -0.0774,
+          "final_polymer_residue_e": -0.077464,
+          "correction_e": -6.40000000000085e-05
+        },
+        {
+          "atom": "C36",
+          "capped_AM1BCC_e": -0.0754,
+          "final_polymer_residue_e": -0.075462,
+          "correction_e": -6.20000000000065e-05
+        },
+        {
+          "atom": "C37",
+          "capped_AM1BCC_e": -0.0754,
+          "final_polymer_residue_e": -0.075462,
+          "correction_e": -6.20000000000065e-05
+        },
+        {
+          "atom": "C38",
+          "capped_AM1BCC_e": -0.0704,
+          "final_polymer_residue_e": -0.070458,
+          "correction_e": -5.8000000000002494e-05
+        },
+        {
+          "atom": "C39",
+          "capped_AM1BCC_e": -0.0454,
+          "final_polymer_residue_e": -0.045438,
+          "correction_e": -3.799999999999637e-05
+        },
+        {
+          "atom": "C40",
+          "capped_AM1BCC_e": -0.2064,
+          "final_polymer_residue_e": -0.20657,
+          "correction_e": -0.00017000000000000348
+        },
+        {
+          "atom": "C41",
+          "capped_AM1BCC_e": 0.9236,
+          "final_polymer_residue_e": 0.922837,
+          "correction_e": -0.0007629999999999582
+        },
+        {
+          "atom": "O5",
+          "capped_AM1BCC_e": -0.8533,
+          "final_polymer_residue_e": -0.854005,
+          "correction_e": -0.0007050000000000667
+        },
+        {
+          "atom": "O6",
+          "capped_AM1BCC_e": -0.8533,
+          "final_polymer_residue_e": -0.854005,
+          "correction_e": -0.0007050000000000667
+        },
+        {
+          "atom": "H070",
+          "capped_AM1BCC_e": 0.0172,
+          "final_polymer_residue_e": 0.017186,
+          "correction_e": -1.4000000000000123e-05
+        },
+        {
+          "atom": "H071",
+          "capped_AM1BCC_e": 0.0172,
+          "final_polymer_residue_e": 0.017186,
+          "correction_e": -1.4000000000000123e-05
+        },
+        {
+          "atom": "H068",
+          "capped_AM1BCC_e": 0.0167,
+          "final_polymer_residue_e": 0.016686,
+          "correction_e": -1.4000000000000123e-05
+        },
+        {
+          "atom": "H069",
+          "capped_AM1BCC_e": 0.0167,
+          "final_polymer_residue_e": 0.016686,
+          "correction_e": -1.4000000000000123e-05
+        },
+        {
+          "atom": "H066",
+          "capped_AM1BCC_e": 0.0422,
+          "final_polymer_residue_e": 0.042165,
+          "correction_e": -3.500000000000031e-05
+        },
+        {
+          "atom": "H067",
+          "capped_AM1BCC_e": 0.0422,
+          "final_polymer_residue_e": 0.042165,
+          "correction_e": -3.500000000000031e-05
+        },
+        {
+          "atom": "H064",
+          "capped_AM1BCC_e": 0.0297,
+          "final_polymer_residue_e": 0.029675,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H065",
+          "capped_AM1BCC_e": 0.0297,
+          "final_polymer_residue_e": 0.029675,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H062",
+          "capped_AM1BCC_e": 0.0367,
+          "final_polymer_residue_e": 0.03667,
+          "correction_e": -3.0000000000002247e-05
+        },
+        {
+          "atom": "H063",
+          "capped_AM1BCC_e": 0.0367,
+          "final_polymer_residue_e": 0.03667,
+          "correction_e": -3.0000000000002247e-05
+        },
+        {
+          "atom": "H060",
+          "capped_AM1BCC_e": 0.0292,
+          "final_polymer_residue_e": 0.029176,
+          "correction_e": -2.3999999999999716e-05
+        },
+        {
+          "atom": "H061",
+          "capped_AM1BCC_e": 0.0292,
+          "final_polymer_residue_e": 0.029176,
+          "correction_e": -2.3999999999999716e-05
+        },
+        {
+          "atom": "H058",
+          "capped_AM1BCC_e": 0.0417,
+          "final_polymer_residue_e": 0.041666,
+          "correction_e": -3.399999999999931e-05
+        },
+        {
+          "atom": "H059",
+          "capped_AM1BCC_e": 0.0417,
+          "final_polymer_residue_e": 0.041666,
+          "correction_e": -3.399999999999931e-05
+        },
+        {
+          "atom": "H056",
+          "capped_AM1BCC_e": 0.0322,
+          "final_polymer_residue_e": 0.032173,
+          "correction_e": -2.6999999999999247e-05
+        },
+        {
+          "atom": "H057",
+          "capped_AM1BCC_e": 0.0322,
+          "final_polymer_residue_e": 0.032173,
+          "correction_e": -2.6999999999999247e-05
+        },
+        {
+          "atom": "H054",
+          "capped_AM1BCC_e": 0.0352,
+          "final_polymer_residue_e": 0.035171,
+          "correction_e": -2.9000000000001247e-05
+        },
+        {
+          "atom": "H055",
+          "capped_AM1BCC_e": 0.0352,
+          "final_polymer_residue_e": 0.035171,
+          "correction_e": -2.9000000000001247e-05
+        },
+        {
+          "atom": "H052",
+          "capped_AM1BCC_e": 0.0417,
+          "final_polymer_residue_e": 0.041666,
+          "correction_e": -3.399999999999931e-05
+        },
+        {
+          "atom": "H053",
+          "capped_AM1BCC_e": 0.0417,
+          "final_polymer_residue_e": 0.041666,
+          "correction_e": -3.399999999999931e-05
+        },
+        {
+          "atom": "H050",
+          "capped_AM1BCC_e": 0.0372,
+          "final_polymer_residue_e": 0.037169,
+          "correction_e": -3.099999999999631e-05
+        },
+        {
+          "atom": "H051",
+          "capped_AM1BCC_e": 0.0372,
+          "final_polymer_residue_e": 0.037169,
+          "correction_e": -3.099999999999631e-05
+        },
+        {
+          "atom": "H048",
+          "capped_AM1BCC_e": 0.0382,
+          "final_polymer_residue_e": 0.038168,
+          "correction_e": -3.199999999999731e-05
+        },
+        {
+          "atom": "H049",
+          "capped_AM1BCC_e": 0.0382,
+          "final_polymer_residue_e": 0.038168,
+          "correction_e": -3.199999999999731e-05
+        },
+        {
+          "atom": "H046",
+          "capped_AM1BCC_e": 0.0357,
+          "final_polymer_residue_e": 0.035671,
+          "correction_e": -2.9000000000001247e-05
+        },
+        {
+          "atom": "H047",
+          "capped_AM1BCC_e": 0.0357,
+          "final_polymer_residue_e": 0.035671,
+          "correction_e": -2.9000000000001247e-05
+        },
+        {
+          "atom": "H044",
+          "capped_AM1BCC_e": 0.0387,
+          "final_polymer_residue_e": 0.038668,
+          "correction_e": -3.199999999999731e-05
+        },
+        {
+          "atom": "H045",
+          "capped_AM1BCC_e": 0.0387,
+          "final_polymer_residue_e": 0.038668,
+          "correction_e": -3.199999999999731e-05
+        },
+        {
+          "atom": "H042",
+          "capped_AM1BCC_e": 0.0477,
+          "final_polymer_residue_e": 0.047661,
+          "correction_e": -3.899999999999737e-05
+        },
+        {
+          "atom": "H043",
+          "capped_AM1BCC_e": 0.0477,
+          "final_polymer_residue_e": 0.047661,
+          "correction_e": -3.899999999999737e-05
+        },
+        {
+          "atom": "H040",
+          "capped_AM1BCC_e": 0.0632,
+          "final_polymer_residue_e": 0.063148,
+          "correction_e": -5.200000000001037e-05
+        },
+        {
+          "atom": "H041",
+          "capped_AM1BCC_e": 0.0632,
+          "final_polymer_residue_e": 0.063148,
+          "correction_e": -5.200000000001037e-05
+        },
+        {
+          "atom": "O7",
+          "capped_AM1BCC_e": -0.6821,
+          "final_polymer_residue_e": -0.682663,
+          "correction_e": -0.0005629999999999802
+        },
+        {
+          "atom": "H039",
+          "capped_AM1BCC_e": 0.3445,
+          "final_polymer_residue_e": 0.344215,
+          "correction_e": -0.0002849999999999797
+        },
+        {
+          "atom": "C42",
+          "capped_AM1BCC_e": 0.9396,
+          "final_polymer_residue_e": 0.938824,
+          "correction_e": -0.0007759999999999989
+        },
+        {
+          "atom": "O8",
+          "capped_AM1BCC_e": -0.8248,
+          "final_polymer_residue_e": -0.825481,
+          "correction_e": -0.0006810000000000427
+        },
+        {
+          "atom": "O9",
+          "capped_AM1BCC_e": -0.8248,
+          "final_polymer_residue_e": -0.825481,
+          "correction_e": -0.0006810000000000427
+        },
+        {
+          "atom": "H038",
+          "capped_AM1BCC_e": 0.0557,
+          "final_polymer_residue_e": 0.055654,
+          "correction_e": -4.599999999999743e-05
+        },
+        {
+          "atom": "H036",
+          "capped_AM1BCC_e": 0.0522,
+          "final_polymer_residue_e": 0.052157,
+          "correction_e": -4.300000000000137e-05
+        },
+        {
+          "atom": "H037",
+          "capped_AM1BCC_e": 0.0522,
+          "final_polymer_residue_e": 0.052157,
+          "correction_e": -4.300000000000137e-05
+        },
+        {
+          "atom": "H034",
+          "capped_AM1BCC_e": 0.0717,
+          "final_polymer_residue_e": 0.071641,
+          "correction_e": -5.9000000000003494e-05
+        },
+        {
+          "atom": "H035",
+          "capped_AM1BCC_e": 0.0717,
+          "final_polymer_residue_e": 0.071641,
+          "correction_e": -5.9000000000003494e-05
+        },
+        {
+          "atom": "O10",
+          "capped_AM1BCC_e": -0.6871,
+          "final_polymer_residue_e": -0.687668,
+          "correction_e": -0.0005679999999999019
+        },
+        {
+          "atom": "H033",
+          "capped_AM1BCC_e": 0.3965,
+          "final_polymer_residue_e": 0.396172,
+          "correction_e": -0.00032799999999999496
+        },
+        {
+          "atom": "H031",
+          "capped_AM1BCC_e": 0.0547,
+          "final_polymer_residue_e": 0.054655,
+          "correction_e": -4.499999999999643e-05
+        },
+        {
+          "atom": "H032",
+          "capped_AM1BCC_e": 0.0547,
+          "final_polymer_residue_e": 0.054655,
+          "correction_e": -4.499999999999643e-05
+        },
+        {
+          "atom": "H029",
+          "capped_AM1BCC_e": 0.0262,
+          "final_polymer_residue_e": 0.026178,
+          "correction_e": -2.2000000000001185e-05
+        },
+        {
+          "atom": "H030",
+          "capped_AM1BCC_e": 0.0262,
+          "final_polymer_residue_e": 0.026178,
+          "correction_e": -2.2000000000001185e-05
+        },
+        {
+          "atom": "H027",
+          "capped_AM1BCC_e": 0.0302,
+          "final_polymer_residue_e": 0.030175,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H028",
+          "capped_AM1BCC_e": 0.0302,
+          "final_polymer_residue_e": 0.030175,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H025",
+          "capped_AM1BCC_e": 0.0527,
+          "final_polymer_residue_e": 0.052656,
+          "correction_e": -4.399999999999543e-05
+        },
+        {
+          "atom": "H026",
+          "capped_AM1BCC_e": 0.0527,
+          "final_polymer_residue_e": 0.052656,
+          "correction_e": -4.399999999999543e-05
+        },
+        {
+          "atom": "H023",
+          "capped_AM1BCC_e": 0.0727,
+          "final_polymer_residue_e": 0.07264,
+          "correction_e": -6.0000000000004494e-05
+        },
+        {
+          "atom": "H024",
+          "capped_AM1BCC_e": 0.0727,
+          "final_polymer_residue_e": 0.07264,
+          "correction_e": -6.0000000000004494e-05
+        },
+        {
+          "atom": "O11",
+          "capped_AM1BCC_e": -0.6381,
+          "final_polymer_residue_e": -0.638627,
+          "correction_e": -0.0005269999999999442
+        },
+        {
+          "atom": "H022",
+          "capped_AM1BCC_e": 0.3865,
+          "final_polymer_residue_e": 0.386181,
+          "correction_e": -0.0003190000000000137
+        },
+        {
+          "atom": "H020",
+          "capped_AM1BCC_e": 0.0437,
+          "final_polymer_residue_e": 0.043664,
+          "correction_e": -3.600000000000131e-05
+        },
+        {
+          "atom": "H021",
+          "capped_AM1BCC_e": 0.0437,
+          "final_polymer_residue_e": 0.043664,
+          "correction_e": -3.600000000000131e-05
+        },
+        {
+          "atom": "H018",
+          "capped_AM1BCC_e": 0.0342,
+          "final_polymer_residue_e": 0.034172,
+          "correction_e": -2.8000000000000247e-05
+        },
+        {
+          "atom": "H019",
+          "capped_AM1BCC_e": 0.0342,
+          "final_polymer_residue_e": 0.034172,
+          "correction_e": -2.8000000000000247e-05
+        },
+        {
+          "atom": "H016",
+          "capped_AM1BCC_e": 0.0302,
+          "final_polymer_residue_e": 0.030175,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H017",
+          "capped_AM1BCC_e": 0.0302,
+          "final_polymer_residue_e": 0.030175,
+          "correction_e": -2.5000000000000716e-05
+        },
+        {
+          "atom": "H014",
+          "capped_AM1BCC_e": 0.0612,
+          "final_polymer_residue_e": 0.061149,
+          "correction_e": -5.099999999999549e-05
+        },
+        {
+          "atom": "H015",
+          "capped_AM1BCC_e": 0.0612,
+          "final_polymer_residue_e": 0.061149,
+          "correction_e": -5.099999999999549e-05
+        },
+        {
+          "atom": "H012",
+          "capped_AM1BCC_e": 0.0742,
+          "final_polymer_residue_e": 0.074139,
+          "correction_e": -6.1000000000005494e-05
+        },
+        {
+          "atom": "H013",
+          "capped_AM1BCC_e": 0.0742,
+          "final_polymer_residue_e": 0.074139,
+          "correction_e": -6.1000000000005494e-05
+        },
+        {
+          "atom": "O12",
+          "capped_AM1BCC_e": -0.6261,
+          "final_polymer_residue_e": -0.626617,
+          "correction_e": -0.0005169999999999897
+        },
+        {
+          "atom": "H011",
+          "capped_AM1BCC_e": 0.3635,
+          "final_polymer_residue_e": 0.3632,
+          "correction_e": -0.00029999999999996696
+        },
+        {
+          "atom": "H009",
+          "capped_AM1BCC_e": 0.0472,
+          "final_polymer_residue_e": 0.047161,
+          "correction_e": -3.899999999999737e-05
+        },
+        {
+          "atom": "H010",
+          "capped_AM1BCC_e": 0.0472,
+          "final_polymer_residue_e": 0.047161,
+          "correction_e": -3.899999999999737e-05
+        },
+        {
+          "atom": "H007",
+          "capped_AM1BCC_e": 0.0512,
+          "final_polymer_residue_e": 0.051158,
+          "correction_e": -4.200000000000037e-05
+        },
+        {
+          "atom": "H008",
+          "capped_AM1BCC_e": 0.0512,
+          "final_polymer_residue_e": 0.051158,
+          "correction_e": -4.200000000000037e-05
+        },
+        {
+          "atom": "H005",
+          "capped_AM1BCC_e": 0.0432,
+          "final_polymer_residue_e": 0.043164,
+          "correction_e": -3.600000000000131e-05
+        },
+        {
+          "atom": "H006",
+          "capped_AM1BCC_e": 0.0432,
+          "final_polymer_residue_e": 0.043164,
+          "correction_e": -3.600000000000131e-05
+        },
+        {
+          "atom": "H003",
+          "capped_AM1BCC_e": 0.0597,
+          "final_polymer_residue_e": 0.059651,
+          "correction_e": -4.900000000000043e-05
+        },
+        {
+          "atom": "H004",
+          "capped_AM1BCC_e": 0.0597,
+          "final_polymer_residue_e": 0.059651,
+          "correction_e": -4.900000000000043e-05
+        },
+        {
+          "atom": "HA",
+          "capped_AM1BCC_e": 0.0707,
+          "final_polymer_residue_e": 0.070642,
+          "correction_e": -5.8000000000002494e-05
+        },
+        {
+          "atom": "C",
+          "capped_AM1BCC_e": 0.6471,
+          "final_polymer_residue_e": 0.646565,
+          "correction_e": -0.0005350000000000632
+        },
+        {
+          "atom": "O",
+          "capped_AM1BCC_e": -0.6121,
+          "final_polymer_residue_e": -0.612606,
+          "correction_e": -0.0005060000000000064
+        }
+      ],
+      "CX_CT_analogy": "Only absent parameters may use existing CT analogue for CX; exact ff14SB entries retain priority",
+      "provisional": true,
+      "sqm_audit": {
+        "method": "AM1",
+        "scf_tolerance": 1e-10,
+        "completed": true,
+        "geometry_minimization_requested": false,
+        "AM1_geometry_converged": null,
+        "MMFF94s_preoptimization_converged": true,
+        "charge_variant": "AM1-BCC single point on MMFF94s geometry"
+      }
+    }
+  ],
+  "charge_method": "Single-point AM1-BCC on converged MMFF94s ACE-X-NME geometries; fully converged AM1 SCF at 1e-10, maxcyc=0; prepgen cap-removal charge correction",
+  "limitations": [
+    "Not the Nature Communications 2025 CHARMM36m/CGenFF parameter set",
+    "Custom AM1-BCC charges are not multiconformer RESP charges",
+    "AIB alpha-carbon and torsions use ff14SB AMBER-type analogies without a bespoke QM torsion fit",
+    "Short MD stability is not force-field validation"
+  ],
+  "charge_geometry_option": "mmff-sp",
+  "geometry_for_charge_calculation": "Converged MMFF94s geometry, then single-point AM1 SCF (maxcyc=0, scfconv=1e-10) and BCC; NOT AM1 geometry-optimized charges",
+  "charge_method_source": "Amber25 Reference Manual sec16.2 tip7 (maxcyc=0 for trusted geometries; caveat about gas-phase anion conformations)",
+  "gamma_glu_geometry_correction": "R-to-S carboxyl-branch reflection",
+  "gamma_glu_identity_source": "https://precision.fda.gov/uniisearch/srs/unii/53axn4nnhx",
+  "formula_at_selected_protonation": {
+    "N": 45,
+    "H": 287,
+    "C": 187,
+    "O": 59
+  },
+  "net_charge_e": -3.9999940156840825,
+  "atom_count": 578,
+  "residue_charges": [
+    {
+      "residue": 1,
+      "name": "HIE",
+      "charge": 0.9999999983536656
+    },
+    {
+      "residue": 2,
+      "name": "AIB",
+      "charge": 1.99941829537309e-06
+    },
+    {
+      "residue": 3,
+      "name": "GLU",
+      "charge": -0.9999999983536654
+    },
+    {
+      "residue": 4,
+      "name": "GLY",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 5,
+      "name": "THR",
+      "charge": 5.487782450686041e-10
+    },
+    {
+      "residue": 6,
+      "name": "PHE",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 7,
+      "name": "THR",
+      "charge": 5.487782450686041e-10
+    },
+    {
+      "residue": 8,
+      "name": "SER",
+      "charge": -2.1951125361852064e-09
+    },
+    {
+      "residue": 9,
+      "name": "ASP",
+      "charge": -1.0000000005487784
+    },
+    {
+      "residue": 10,
+      "name": "VAL",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 11,
+      "name": "SER",
+      "charge": -2.1951125361852064e-09
+    },
+    {
+      "residue": 12,
+      "name": "SER",
+      "charge": -2.1951125361852064e-09
+    },
+    {
+      "residue": 13,
+      "name": "TYR",
+      "charge": -2.743890670231508e-09
+    },
+    {
+      "residue": 14,
+      "name": "LEU",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 15,
+      "name": "GLU",
+      "charge": -0.9999999983536654
+    },
+    {
+      "residue": 16,
+      "name": "GLY",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 17,
+      "name": "GLN",
+      "charge": -3.292668915300112e-09
+    },
+    {
+      "residue": 18,
+      "name": "ALA",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 19,
+      "name": "ALA",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 20,
+      "name": "SLY",
+      "charge": -1.999995987114691
+    },
+    {
+      "residue": 21,
+      "name": "GLU",
+      "charge": -0.9999999983536654
+    },
+    {
+      "residue": 22,
+      "name": "PHE",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 23,
+      "name": "ILE",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 24,
+      "name": "ALA",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 25,
+      "name": "TRP",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 26,
+      "name": "LEU",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 27,
+      "name": "VAL",
+      "charge": -1.0975563791149057e-09
+    },
+    {
+      "residue": 28,
+      "name": "ARG",
+      "charge": 1.0000000016463344
+    },
+    {
+      "residue": 29,
+      "name": "GLY",
+      "charge": -1.0975562680926032e-09
+    },
+    {
+      "residue": 30,
+      "name": "ARG",
+      "charge": 1.0000000016463344
+    },
+    {
+      "residue": 31,
+      "name": "GLY",
+      "charge": -1.000000007134116
+    }
+  ]
+}

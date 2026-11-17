@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+CT-CX-CT   40.000     109.500   same as CT-CT-CT, penalty score=  0.0
+
+DIHE
+HC-CT-CX-CT   1    0.160         0.000           3.000      same as HC-CT-CT-CT, penalty score=  0.0
+
+IMPROPER
+
+NONBON
+
+
+

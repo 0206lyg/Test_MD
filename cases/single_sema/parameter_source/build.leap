@@ -1,0 +1,11 @@
+source leaprc.protein.ff14SB
+loadamberprep AIB/AIB.prepi
+loadamberparams AIB/AIB.frcmod
+loadamberprep SLY/SLY.prepi
+loadamberparams SLY/SLY.frcmod
+mol = loadpdb solute_heavy.pdb
+check mol
+charge mol
+saveamberparm mol solute.prmtop solute.inpcrd
+savepdb mol solute.pdb
+quit

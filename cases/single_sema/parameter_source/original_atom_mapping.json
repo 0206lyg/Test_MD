@@ -1,0 +1,2912 @@
+[
+  {
+    "new_serial": 1,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "N",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a081",
+    "element": "N"
+  },
+  {
+    "new_serial": 2,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "CA",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a085",
+    "element": "C"
+  },
+  {
+    "new_serial": 3,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "CB",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a087",
+    "element": "C"
+  },
+  {
+    "new_serial": 4,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "CD2",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a08a",
+    "element": "C"
+  },
+  {
+    "new_serial": 5,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "CG",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a08c",
+    "element": "C"
+  },
+  {
+    "new_serial": 6,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "NE2",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a08d",
+    "element": "N"
+  },
+  {
+    "new_serial": 7,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "ND1",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a08f",
+    "element": "N"
+  },
+  {
+    "new_serial": 8,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "CE1",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a091",
+    "element": "C"
+  },
+  {
+    "new_serial": 9,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "C",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a093",
+    "element": "C"
+  },
+  {
+    "new_serial": 10,
+    "new_resid": 1,
+    "new_resname": "HIS",
+    "atom_name": "O",
+    "old_resid": 5,
+    "old_resname": "HSPT",
+    "old_serial_field": "2a094",
+    "element": "O"
+  },
+  {
+    "new_serial": 11,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "N",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a095",
+    "element": "N"
+  },
+  {
+    "new_serial": 12,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "CA",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a097",
+    "element": "C"
+  },
+  {
+    "new_serial": 13,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "CB1",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a098",
+    "element": "C"
+  },
+  {
+    "new_serial": 14,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "CB2",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a09c",
+    "element": "C"
+  },
+  {
+    "new_serial": 15,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "C",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a0a0",
+    "element": "C"
+  },
+  {
+    "new_serial": 16,
+    "new_resid": 2,
+    "new_resname": "AIB",
+    "atom_name": "O",
+    "old_resid": 6,
+    "old_resname": "AIB",
+    "old_serial_field": "2a0a1",
+    "element": "O"
+  },
+  {
+    "new_serial": 17,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "N",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0a2",
+    "element": "N"
+  },
+  {
+    "new_serial": 18,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "CA",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0a4",
+    "element": "C"
+  },
+  {
+    "new_serial": 19,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "CB",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0a6",
+    "element": "C"
+  },
+  {
+    "new_serial": 20,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "CG",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0a9",
+    "element": "C"
+  },
+  {
+    "new_serial": 21,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "CD",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0ac",
+    "element": "C"
+  },
+  {
+    "new_serial": 22,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "OE1",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0ad",
+    "element": "O"
+  },
+  {
+    "new_serial": 23,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "OE2",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0ae",
+    "element": "O"
+  },
+  {
+    "new_serial": 24,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "C",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0b0",
+    "element": "C"
+  },
+  {
+    "new_serial": 25,
+    "new_resid": 3,
+    "new_resname": "GLU",
+    "atom_name": "O",
+    "old_resid": 7,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a0b1",
+    "element": "O"
+  },
+  {
+    "new_serial": 26,
+    "new_resid": 4,
+    "new_resname": "GLY",
+    "atom_name": "N",
+    "old_resid": 8,
+    "old_resname": "GLY",
+    "old_serial_field": "2a0b2",
+    "element": "N"
+  },
+  {
+    "new_serial": 27,
+    "new_resid": 4,
+    "new_resname": "GLY",
+    "atom_name": "CA",
+    "old_resid": 8,
+    "old_resname": "GLY",
+    "old_serial_field": "2a0b4",
+    "element": "C"
+  },
+  {
+    "new_serial": 28,
+    "new_resid": 4,
+    "new_resname": "GLY",
+    "atom_name": "C",
+    "old_resid": 8,
+    "old_resname": "GLY",
+    "old_serial_field": "2a0b7",
+    "element": "C"
+  },
+  {
+    "new_serial": 29,
+    "new_resid": 4,
+    "new_resname": "GLY",
+    "atom_name": "O",
+    "old_resid": 8,
+    "old_resname": "GLY",
+    "old_serial_field": "2a0b8",
+    "element": "O"
+  },
+  {
+    "new_serial": 30,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "N",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0b9",
+    "element": "N"
+  },
+  {
+    "new_serial": 31,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "CA",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0bb",
+    "element": "C"
+  },
+  {
+    "new_serial": 32,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "CB",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0bd",
+    "element": "C"
+  },
+  {
+    "new_serial": 33,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "OG1",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0bf",
+    "element": "O"
+  },
+  {
+    "new_serial": 34,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "CG2",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0c1",
+    "element": "C"
+  },
+  {
+    "new_serial": 35,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "C",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0c5",
+    "element": "C"
+  },
+  {
+    "new_serial": 36,
+    "new_resid": 5,
+    "new_resname": "THR",
+    "atom_name": "O",
+    "old_resid": 9,
+    "old_resname": "THR",
+    "old_serial_field": "2a0c6",
+    "element": "O"
+  },
+  {
+    "new_serial": 37,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "N",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0c7",
+    "element": "N"
+  },
+  {
+    "new_serial": 38,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CA",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0c9",
+    "element": "C"
+  },
+  {
+    "new_serial": 39,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CB",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0cb",
+    "element": "C"
+  },
+  {
+    "new_serial": 40,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CG",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0ce",
+    "element": "C"
+  },
+  {
+    "new_serial": 41,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CD1",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0cf",
+    "element": "C"
+  },
+  {
+    "new_serial": 42,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CE1",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0d1",
+    "element": "C"
+  },
+  {
+    "new_serial": 43,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CZ",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0d3",
+    "element": "C"
+  },
+  {
+    "new_serial": 44,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CD2",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0d5",
+    "element": "C"
+  },
+  {
+    "new_serial": 45,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "CE2",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0d7",
+    "element": "C"
+  },
+  {
+    "new_serial": 46,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "C",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0d9",
+    "element": "C"
+  },
+  {
+    "new_serial": 47,
+    "new_resid": 6,
+    "new_resname": "PHE",
+    "atom_name": "O",
+    "old_resid": 10,
+    "old_resname": "PHE",
+    "old_serial_field": "2a0da",
+    "element": "O"
+  },
+  {
+    "new_serial": 48,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "N",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0db",
+    "element": "N"
+  },
+  {
+    "new_serial": 49,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "CA",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0dd",
+    "element": "C"
+  },
+  {
+    "new_serial": 50,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "CB",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0df",
+    "element": "C"
+  },
+  {
+    "new_serial": 51,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "OG1",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0e1",
+    "element": "O"
+  },
+  {
+    "new_serial": 52,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "CG2",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0e3",
+    "element": "C"
+  },
+  {
+    "new_serial": 53,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "C",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0e7",
+    "element": "C"
+  },
+  {
+    "new_serial": 54,
+    "new_resid": 7,
+    "new_resname": "THR",
+    "atom_name": "O",
+    "old_resid": 11,
+    "old_resname": "THR",
+    "old_serial_field": "2a0e8",
+    "element": "O"
+  },
+  {
+    "new_serial": 55,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "N",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0e9",
+    "element": "N"
+  },
+  {
+    "new_serial": 56,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "CA",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0eb",
+    "element": "C"
+  },
+  {
+    "new_serial": 57,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "CB",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0ed",
+    "element": "C"
+  },
+  {
+    "new_serial": 58,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "OG",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0f0",
+    "element": "O"
+  },
+  {
+    "new_serial": 59,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "C",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0f2",
+    "element": "C"
+  },
+  {
+    "new_serial": 60,
+    "new_resid": 8,
+    "new_resname": "SER",
+    "atom_name": "O",
+    "old_resid": 12,
+    "old_resname": "SER",
+    "old_serial_field": "2a0f3",
+    "element": "O"
+  },
+  {
+    "new_serial": 61,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "N",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0f4",
+    "element": "N"
+  },
+  {
+    "new_serial": 62,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "CA",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0f6",
+    "element": "C"
+  },
+  {
+    "new_serial": 63,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "CB",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0f8",
+    "element": "C"
+  },
+  {
+    "new_serial": 64,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "CG",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0fb",
+    "element": "C"
+  },
+  {
+    "new_serial": 65,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "OD1",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0fc",
+    "element": "O"
+  },
+  {
+    "new_serial": 66,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "OD2",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0fd",
+    "element": "O"
+  },
+  {
+    "new_serial": 67,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "C",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a0ff",
+    "element": "C"
+  },
+  {
+    "new_serial": 68,
+    "new_resid": 9,
+    "new_resname": "ASP",
+    "atom_name": "O",
+    "old_resid": 13,
+    "old_resname": "ASPT",
+    "old_serial_field": "2a100",
+    "element": "O"
+  },
+  {
+    "new_serial": 69,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "N",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a101",
+    "element": "N"
+  },
+  {
+    "new_serial": 70,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "CA",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a103",
+    "element": "C"
+  },
+  {
+    "new_serial": 71,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "CB",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a105",
+    "element": "C"
+  },
+  {
+    "new_serial": 72,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "CG1",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a107",
+    "element": "C"
+  },
+  {
+    "new_serial": 73,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "CG2",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a10b",
+    "element": "C"
+  },
+  {
+    "new_serial": 74,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "C",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a10f",
+    "element": "C"
+  },
+  {
+    "new_serial": 75,
+    "new_resid": 10,
+    "new_resname": "VAL",
+    "atom_name": "O",
+    "old_resid": 14,
+    "old_resname": "VAL",
+    "old_serial_field": "2a110",
+    "element": "O"
+  },
+  {
+    "new_serial": 76,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "N",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a111",
+    "element": "N"
+  },
+  {
+    "new_serial": 77,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "CA",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a113",
+    "element": "C"
+  },
+  {
+    "new_serial": 78,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "CB",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a115",
+    "element": "C"
+  },
+  {
+    "new_serial": 79,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "OG",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a118",
+    "element": "O"
+  },
+  {
+    "new_serial": 80,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "C",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a11a",
+    "element": "C"
+  },
+  {
+    "new_serial": 81,
+    "new_resid": 11,
+    "new_resname": "SER",
+    "atom_name": "O",
+    "old_resid": 15,
+    "old_resname": "SER",
+    "old_serial_field": "2a11b",
+    "element": "O"
+  },
+  {
+    "new_serial": 82,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "N",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a11c",
+    "element": "N"
+  },
+  {
+    "new_serial": 83,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "CA",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a11e",
+    "element": "C"
+  },
+  {
+    "new_serial": 84,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "CB",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a120",
+    "element": "C"
+  },
+  {
+    "new_serial": 85,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "OG",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a123",
+    "element": "O"
+  },
+  {
+    "new_serial": 86,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "C",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a125",
+    "element": "C"
+  },
+  {
+    "new_serial": 87,
+    "new_resid": 12,
+    "new_resname": "SER",
+    "atom_name": "O",
+    "old_resid": 16,
+    "old_resname": "SER",
+    "old_serial_field": "2a126",
+    "element": "O"
+  },
+  {
+    "new_serial": 88,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "N",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a127",
+    "element": "N"
+  },
+  {
+    "new_serial": 89,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CA",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a129",
+    "element": "C"
+  },
+  {
+    "new_serial": 90,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CB",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a12b",
+    "element": "C"
+  },
+  {
+    "new_serial": 91,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CG",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a12e",
+    "element": "C"
+  },
+  {
+    "new_serial": 92,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CD1",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a12f",
+    "element": "C"
+  },
+  {
+    "new_serial": 93,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CE1",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a131",
+    "element": "C"
+  },
+  {
+    "new_serial": 94,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CZ",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a133",
+    "element": "C"
+  },
+  {
+    "new_serial": 95,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "OH",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a134",
+    "element": "O"
+  },
+  {
+    "new_serial": 96,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CD2",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a136",
+    "element": "C"
+  },
+  {
+    "new_serial": 97,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "CE2",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a138",
+    "element": "C"
+  },
+  {
+    "new_serial": 98,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "C",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a13a",
+    "element": "C"
+  },
+  {
+    "new_serial": 99,
+    "new_resid": 13,
+    "new_resname": "TYR",
+    "atom_name": "O",
+    "old_resid": 17,
+    "old_resname": "TYR",
+    "old_serial_field": "2a13b",
+    "element": "O"
+  },
+  {
+    "new_serial": 100,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "N",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a13c",
+    "element": "N"
+  },
+  {
+    "new_serial": 101,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "CA",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a13e",
+    "element": "C"
+  },
+  {
+    "new_serial": 102,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "CB",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a140",
+    "element": "C"
+  },
+  {
+    "new_serial": 103,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "CG",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a143",
+    "element": "C"
+  },
+  {
+    "new_serial": 104,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "CD1",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a145",
+    "element": "C"
+  },
+  {
+    "new_serial": 105,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "CD2",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a149",
+    "element": "C"
+  },
+  {
+    "new_serial": 106,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "C",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a14d",
+    "element": "C"
+  },
+  {
+    "new_serial": 107,
+    "new_resid": 14,
+    "new_resname": "LEU",
+    "atom_name": "O",
+    "old_resid": 18,
+    "old_resname": "LEU",
+    "old_serial_field": "2a14e",
+    "element": "O"
+  },
+  {
+    "new_serial": 108,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "N",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a14f",
+    "element": "N"
+  },
+  {
+    "new_serial": 109,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "CA",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a151",
+    "element": "C"
+  },
+  {
+    "new_serial": 110,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "CB",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a153",
+    "element": "C"
+  },
+  {
+    "new_serial": 111,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "CG",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a156",
+    "element": "C"
+  },
+  {
+    "new_serial": 112,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "CD",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a159",
+    "element": "C"
+  },
+  {
+    "new_serial": 113,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "OE1",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a15a",
+    "element": "O"
+  },
+  {
+    "new_serial": 114,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "OE2",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a15b",
+    "element": "O"
+  },
+  {
+    "new_serial": 115,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "C",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a15d",
+    "element": "C"
+  },
+  {
+    "new_serial": 116,
+    "new_resid": 15,
+    "new_resname": "GLU",
+    "atom_name": "O",
+    "old_resid": 19,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a15e",
+    "element": "O"
+  },
+  {
+    "new_serial": 117,
+    "new_resid": 16,
+    "new_resname": "GLY",
+    "atom_name": "N",
+    "old_resid": 20,
+    "old_resname": "GLY",
+    "old_serial_field": "2a15f",
+    "element": "N"
+  },
+  {
+    "new_serial": 118,
+    "new_resid": 16,
+    "new_resname": "GLY",
+    "atom_name": "CA",
+    "old_resid": 20,
+    "old_resname": "GLY",
+    "old_serial_field": "2a161",
+    "element": "C"
+  },
+  {
+    "new_serial": 119,
+    "new_resid": 16,
+    "new_resname": "GLY",
+    "atom_name": "C",
+    "old_resid": 20,
+    "old_resname": "GLY",
+    "old_serial_field": "2a164",
+    "element": "C"
+  },
+  {
+    "new_serial": 120,
+    "new_resid": 16,
+    "new_resname": "GLY",
+    "atom_name": "O",
+    "old_resid": 20,
+    "old_resname": "GLY",
+    "old_serial_field": "2a165",
+    "element": "O"
+  },
+  {
+    "new_serial": 121,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "N",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a166",
+    "element": "N"
+  },
+  {
+    "new_serial": 122,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "CA",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a168",
+    "element": "C"
+  },
+  {
+    "new_serial": 123,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "CB",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a16a",
+    "element": "C"
+  },
+  {
+    "new_serial": 124,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "CG",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a16d",
+    "element": "C"
+  },
+  {
+    "new_serial": 125,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "CD",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a170",
+    "element": "C"
+  },
+  {
+    "new_serial": 126,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "OE1",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a171",
+    "element": "O"
+  },
+  {
+    "new_serial": 127,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "NE2",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a172",
+    "element": "N"
+  },
+  {
+    "new_serial": 128,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "C",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a175",
+    "element": "C"
+  },
+  {
+    "new_serial": 129,
+    "new_resid": 17,
+    "new_resname": "GLN",
+    "atom_name": "O",
+    "old_resid": 21,
+    "old_resname": "GLN",
+    "old_serial_field": "2a176",
+    "element": "O"
+  },
+  {
+    "new_serial": 130,
+    "new_resid": 18,
+    "new_resname": "ALA",
+    "atom_name": "N",
+    "old_resid": 22,
+    "old_resname": "ALA",
+    "old_serial_field": "2a177",
+    "element": "N"
+  },
+  {
+    "new_serial": 131,
+    "new_resid": 18,
+    "new_resname": "ALA",
+    "atom_name": "CA",
+    "old_resid": 22,
+    "old_resname": "ALA",
+    "old_serial_field": "2a179",
+    "element": "C"
+  },
+  {
+    "new_serial": 132,
+    "new_resid": 18,
+    "new_resname": "ALA",
+    "atom_name": "CB",
+    "old_resid": 22,
+    "old_resname": "ALA",
+    "old_serial_field": "2a17b",
+    "element": "C"
+  },
+  {
+    "new_serial": 133,
+    "new_resid": 18,
+    "new_resname": "ALA",
+    "atom_name": "C",
+    "old_resid": 22,
+    "old_resname": "ALA",
+    "old_serial_field": "2a17f",
+    "element": "C"
+  },
+  {
+    "new_serial": 134,
+    "new_resid": 18,
+    "new_resname": "ALA",
+    "atom_name": "O",
+    "old_resid": 22,
+    "old_resname": "ALA",
+    "old_serial_field": "2a180",
+    "element": "O"
+  },
+  {
+    "new_serial": 135,
+    "new_resid": 19,
+    "new_resname": "ALA",
+    "atom_name": "N",
+    "old_resid": 23,
+    "old_resname": "ALA",
+    "old_serial_field": "2a181",
+    "element": "N"
+  },
+  {
+    "new_serial": 136,
+    "new_resid": 19,
+    "new_resname": "ALA",
+    "atom_name": "CA",
+    "old_resid": 23,
+    "old_resname": "ALA",
+    "old_serial_field": "2a183",
+    "element": "C"
+  },
+  {
+    "new_serial": 137,
+    "new_resid": 19,
+    "new_resname": "ALA",
+    "atom_name": "CB",
+    "old_resid": 23,
+    "old_resname": "ALA",
+    "old_serial_field": "2a185",
+    "element": "C"
+  },
+  {
+    "new_serial": 138,
+    "new_resid": 19,
+    "new_resname": "ALA",
+    "atom_name": "C",
+    "old_resid": 23,
+    "old_resname": "ALA",
+    "old_serial_field": "2a189",
+    "element": "C"
+  },
+  {
+    "new_serial": 139,
+    "new_resid": 19,
+    "new_resname": "ALA",
+    "atom_name": "O",
+    "old_resid": 23,
+    "old_resname": "ALA",
+    "old_serial_field": "2a18a",
+    "element": "O"
+  },
+  {
+    "new_serial": 140,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "N",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a18b",
+    "element": "N"
+  },
+  {
+    "new_serial": 141,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "CA",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a18c",
+    "element": "C"
+  },
+  {
+    "new_serial": 142,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C4",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a18d",
+    "element": "C"
+  },
+  {
+    "new_serial": 143,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C5",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a18e",
+    "element": "C"
+  },
+  {
+    "new_serial": 144,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C6",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a18f",
+    "element": "C"
+  },
+  {
+    "new_serial": 145,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C7",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a190",
+    "element": "C"
+  },
+  {
+    "new_serial": 146,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "N2",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a191",
+    "element": "N"
+  },
+  {
+    "new_serial": 147,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C8",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a192",
+    "element": "C"
+  },
+  {
+    "new_serial": 148,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C9",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a193",
+    "element": "C"
+  },
+  {
+    "new_serial": 149,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O1",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a194",
+    "element": "O"
+  },
+  {
+    "new_serial": 150,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C10",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a195",
+    "element": "C"
+  },
+  {
+    "new_serial": 151,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C11",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a196",
+    "element": "C"
+  },
+  {
+    "new_serial": 152,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O2",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a197",
+    "element": "O"
+  },
+  {
+    "new_serial": 153,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C12",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a198",
+    "element": "C"
+  },
+  {
+    "new_serial": 154,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C13",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a199",
+    "element": "C"
+  },
+  {
+    "new_serial": 155,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "N3",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19a",
+    "element": "N"
+  },
+  {
+    "new_serial": 156,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C14",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19b",
+    "element": "C"
+  },
+  {
+    "new_serial": 157,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C15",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19c",
+    "element": "C"
+  },
+  {
+    "new_serial": 158,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O3",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19d",
+    "element": "O"
+  },
+  {
+    "new_serial": 159,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C16",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19e",
+    "element": "C"
+  },
+  {
+    "new_serial": 160,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C17",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a19f",
+    "element": "C"
+  },
+  {
+    "new_serial": 161,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O4",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a0",
+    "element": "O"
+  },
+  {
+    "new_serial": 162,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C18",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a1",
+    "element": "C"
+  },
+  {
+    "new_serial": 163,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C19",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a2",
+    "element": "C"
+  },
+  {
+    "new_serial": 164,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "N4",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a3",
+    "element": "N"
+  },
+  {
+    "new_serial": 165,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C20",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a4",
+    "element": "C"
+  },
+  {
+    "new_serial": 166,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C21",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a5",
+    "element": "C"
+  },
+  {
+    "new_serial": 167,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C22",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a6",
+    "element": "C"
+  },
+  {
+    "new_serial": 168,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C23",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a7",
+    "element": "C"
+  },
+  {
+    "new_serial": 169,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "N5",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a8",
+    "element": "N"
+  },
+  {
+    "new_serial": 170,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C24",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1a9",
+    "element": "C"
+  },
+  {
+    "new_serial": 171,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C25",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1aa",
+    "element": "C"
+  },
+  {
+    "new_serial": 172,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C26",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1ab",
+    "element": "C"
+  },
+  {
+    "new_serial": 173,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C27",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1ac",
+    "element": "C"
+  },
+  {
+    "new_serial": 174,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C28",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1ad",
+    "element": "C"
+  },
+  {
+    "new_serial": 175,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C29",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1ae",
+    "element": "C"
+  },
+  {
+    "new_serial": 176,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C30",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1af",
+    "element": "C"
+  },
+  {
+    "new_serial": 177,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C31",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b0",
+    "element": "C"
+  },
+  {
+    "new_serial": 178,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C32",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b1",
+    "element": "C"
+  },
+  {
+    "new_serial": 179,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C33",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b2",
+    "element": "C"
+  },
+  {
+    "new_serial": 180,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C34",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b3",
+    "element": "C"
+  },
+  {
+    "new_serial": 181,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C35",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b4",
+    "element": "C"
+  },
+  {
+    "new_serial": 182,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C36",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b5",
+    "element": "C"
+  },
+  {
+    "new_serial": 183,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O7",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b6",
+    "element": "O"
+  },
+  {
+    "new_serial": 184,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C42",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b7",
+    "element": "C"
+  },
+  {
+    "new_serial": 185,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O8",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b8",
+    "element": "O"
+  },
+  {
+    "new_serial": 186,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O9",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1b9",
+    "element": "O"
+  },
+  {
+    "new_serial": 187,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O10",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1ba",
+    "element": "O"
+  },
+  {
+    "new_serial": 188,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O11",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1bb",
+    "element": "O"
+  },
+  {
+    "new_serial": 189,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O12",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1bc",
+    "element": "O"
+  },
+  {
+    "new_serial": 190,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1bd",
+    "element": "C"
+  },
+  {
+    "new_serial": 191,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O",
+    "old_resid": 24,
+    "old_resname": "SCH1",
+    "old_serial_field": "2a1be",
+    "element": "O"
+  },
+  {
+    "new_serial": 192,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C37",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a1ff",
+    "element": "C"
+  },
+  {
+    "new_serial": 193,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C38",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a200",
+    "element": "C"
+  },
+  {
+    "new_serial": 194,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C39",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a201",
+    "element": "C"
+  },
+  {
+    "new_serial": 195,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C40",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a202",
+    "element": "C"
+  },
+  {
+    "new_serial": 196,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "C41",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a203",
+    "element": "C"
+  },
+  {
+    "new_serial": 197,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O5",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a204",
+    "element": "O"
+  },
+  {
+    "new_serial": 198,
+    "new_resid": 20,
+    "new_resname": "SLY",
+    "atom_name": "O6",
+    "old_resid": 25,
+    "old_resname": "SCH2",
+    "old_serial_field": "2a205",
+    "element": "O"
+  },
+  {
+    "new_serial": 199,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "N",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a20f",
+    "element": "N"
+  },
+  {
+    "new_serial": 200,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "CA",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a211",
+    "element": "C"
+  },
+  {
+    "new_serial": 201,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "CB",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a213",
+    "element": "C"
+  },
+  {
+    "new_serial": 202,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "CG",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a216",
+    "element": "C"
+  },
+  {
+    "new_serial": 203,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "CD",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a219",
+    "element": "C"
+  },
+  {
+    "new_serial": 204,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "OE1",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a21a",
+    "element": "O"
+  },
+  {
+    "new_serial": 205,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "OE2",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a21b",
+    "element": "O"
+  },
+  {
+    "new_serial": 206,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "C",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a21d",
+    "element": "C"
+  },
+  {
+    "new_serial": 207,
+    "new_resid": 21,
+    "new_resname": "GLU",
+    "atom_name": "O",
+    "old_resid": 26,
+    "old_resname": "GLUT",
+    "old_serial_field": "2a21e",
+    "element": "O"
+  },
+  {
+    "new_serial": 208,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "N",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a21f",
+    "element": "N"
+  },
+  {
+    "new_serial": 209,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CA",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a221",
+    "element": "C"
+  },
+  {
+    "new_serial": 210,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CB",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a223",
+    "element": "C"
+  },
+  {
+    "new_serial": 211,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CG",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a226",
+    "element": "C"
+  },
+  {
+    "new_serial": 212,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CD1",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a227",
+    "element": "C"
+  },
+  {
+    "new_serial": 213,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CE1",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a229",
+    "element": "C"
+  },
+  {
+    "new_serial": 214,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CZ",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a22b",
+    "element": "C"
+  },
+  {
+    "new_serial": 215,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CD2",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a22d",
+    "element": "C"
+  },
+  {
+    "new_serial": 216,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "CE2",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a22f",
+    "element": "C"
+  },
+  {
+    "new_serial": 217,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "C",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a231",
+    "element": "C"
+  },
+  {
+    "new_serial": 218,
+    "new_resid": 22,
+    "new_resname": "PHE",
+    "atom_name": "O",
+    "old_resid": 27,
+    "old_resname": "PHE",
+    "old_serial_field": "2a232",
+    "element": "O"
+  },
+  {
+    "new_serial": 219,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "N",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a233",
+    "element": "N"
+  },
+  {
+    "new_serial": 220,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "CA",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a235",
+    "element": "C"
+  },
+  {
+    "new_serial": 221,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "CB",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a237",
+    "element": "C"
+  },
+  {
+    "new_serial": 222,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "CG2",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a239",
+    "element": "C"
+  },
+  {
+    "new_serial": 223,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "CG1",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a23d",
+    "element": "C"
+  },
+  {
+    "new_serial": 224,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "CD",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a240",
+    "element": "C"
+  },
+  {
+    "new_serial": 225,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "C",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a244",
+    "element": "C"
+  },
+  {
+    "new_serial": 226,
+    "new_resid": 23,
+    "new_resname": "ILE",
+    "atom_name": "O",
+    "old_resid": 28,
+    "old_resname": "ILE",
+    "old_serial_field": "2a245",
+    "element": "O"
+  },
+  {
+    "new_serial": 227,
+    "new_resid": 24,
+    "new_resname": "ALA",
+    "atom_name": "N",
+    "old_resid": 29,
+    "old_resname": "ALA",
+    "old_serial_field": "2a246",
+    "element": "N"
+  },
+  {
+    "new_serial": 228,
+    "new_resid": 24,
+    "new_resname": "ALA",
+    "atom_name": "CA",
+    "old_resid": 29,
+    "old_resname": "ALA",
+    "old_serial_field": "2a248",
+    "element": "C"
+  },
+  {
+    "new_serial": 229,
+    "new_resid": 24,
+    "new_resname": "ALA",
+    "atom_name": "CB",
+    "old_resid": 29,
+    "old_resname": "ALA",
+    "old_serial_field": "2a24a",
+    "element": "C"
+  },
+  {
+    "new_serial": 230,
+    "new_resid": 24,
+    "new_resname": "ALA",
+    "atom_name": "C",
+    "old_resid": 29,
+    "old_resname": "ALA",
+    "old_serial_field": "2a24e",
+    "element": "C"
+  },
+  {
+    "new_serial": 231,
+    "new_resid": 24,
+    "new_resname": "ALA",
+    "atom_name": "O",
+    "old_resid": 29,
+    "old_resname": "ALA",
+    "old_serial_field": "2a24f",
+    "element": "O"
+  },
+  {
+    "new_serial": 232,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "N",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a250",
+    "element": "N"
+  },
+  {
+    "new_serial": 233,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CA",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a252",
+    "element": "C"
+  },
+  {
+    "new_serial": 234,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CB",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a254",
+    "element": "C"
+  },
+  {
+    "new_serial": 235,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CG",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a257",
+    "element": "C"
+  },
+  {
+    "new_serial": 236,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CD1",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a258",
+    "element": "C"
+  },
+  {
+    "new_serial": 237,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "NE1",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a25a",
+    "element": "N"
+  },
+  {
+    "new_serial": 238,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CE2",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a25c",
+    "element": "C"
+  },
+  {
+    "new_serial": 239,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CD2",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a25d",
+    "element": "C"
+  },
+  {
+    "new_serial": 240,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CE3",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a25e",
+    "element": "C"
+  },
+  {
+    "new_serial": 241,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CZ3",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a260",
+    "element": "C"
+  },
+  {
+    "new_serial": 242,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CZ2",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a262",
+    "element": "C"
+  },
+  {
+    "new_serial": 243,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "CH2",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a264",
+    "element": "C"
+  },
+  {
+    "new_serial": 244,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "C",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a266",
+    "element": "C"
+  },
+  {
+    "new_serial": 245,
+    "new_resid": 25,
+    "new_resname": "TRP",
+    "atom_name": "O",
+    "old_resid": 30,
+    "old_resname": "TRP",
+    "old_serial_field": "2a267",
+    "element": "O"
+  },
+  {
+    "new_serial": 246,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "N",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a268",
+    "element": "N"
+  },
+  {
+    "new_serial": 247,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "CA",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a26a",
+    "element": "C"
+  },
+  {
+    "new_serial": 248,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "CB",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a26c",
+    "element": "C"
+  },
+  {
+    "new_serial": 249,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "CG",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a26f",
+    "element": "C"
+  },
+  {
+    "new_serial": 250,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "CD1",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a271",
+    "element": "C"
+  },
+  {
+    "new_serial": 251,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "CD2",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a275",
+    "element": "C"
+  },
+  {
+    "new_serial": 252,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "C",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a279",
+    "element": "C"
+  },
+  {
+    "new_serial": 253,
+    "new_resid": 26,
+    "new_resname": "LEU",
+    "atom_name": "O",
+    "old_resid": 31,
+    "old_resname": "LEU",
+    "old_serial_field": "2a27a",
+    "element": "O"
+  },
+  {
+    "new_serial": 254,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "N",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a27b",
+    "element": "N"
+  },
+  {
+    "new_serial": 255,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "CA",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a27d",
+    "element": "C"
+  },
+  {
+    "new_serial": 256,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "CB",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a27f",
+    "element": "C"
+  },
+  {
+    "new_serial": 257,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "CG1",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a281",
+    "element": "C"
+  },
+  {
+    "new_serial": 258,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "CG2",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a285",
+    "element": "C"
+  },
+  {
+    "new_serial": 259,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "C",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a289",
+    "element": "C"
+  },
+  {
+    "new_serial": 260,
+    "new_resid": 27,
+    "new_resname": "VAL",
+    "atom_name": "O",
+    "old_resid": 32,
+    "old_resname": "VAL",
+    "old_serial_field": "2a28a",
+    "element": "O"
+  },
+  {
+    "new_serial": 261,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "N",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a28b",
+    "element": "N"
+  },
+  {
+    "new_serial": 262,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "CA",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a28d",
+    "element": "C"
+  },
+  {
+    "new_serial": 263,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "CB",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a28f",
+    "element": "C"
+  },
+  {
+    "new_serial": 264,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "CG",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a292",
+    "element": "C"
+  },
+  {
+    "new_serial": 265,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "CD",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a295",
+    "element": "C"
+  },
+  {
+    "new_serial": 266,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "NE",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a298",
+    "element": "N"
+  },
+  {
+    "new_serial": 267,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "CZ",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a29a",
+    "element": "C"
+  },
+  {
+    "new_serial": 268,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "NH1",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a29b",
+    "element": "N"
+  },
+  {
+    "new_serial": 269,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "NH2",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a29e",
+    "element": "N"
+  },
+  {
+    "new_serial": 270,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "C",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2a1",
+    "element": "C"
+  },
+  {
+    "new_serial": 271,
+    "new_resid": 28,
+    "new_resname": "ARG",
+    "atom_name": "O",
+    "old_resid": 33,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2a2",
+    "element": "O"
+  },
+  {
+    "new_serial": 272,
+    "new_resid": 29,
+    "new_resname": "GLY",
+    "atom_name": "N",
+    "old_resid": 34,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2a3",
+    "element": "N"
+  },
+  {
+    "new_serial": 273,
+    "new_resid": 29,
+    "new_resname": "GLY",
+    "atom_name": "CA",
+    "old_resid": 34,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2a5",
+    "element": "C"
+  },
+  {
+    "new_serial": 274,
+    "new_resid": 29,
+    "new_resname": "GLY",
+    "atom_name": "C",
+    "old_resid": 34,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2a8",
+    "element": "C"
+  },
+  {
+    "new_serial": 275,
+    "new_resid": 29,
+    "new_resname": "GLY",
+    "atom_name": "O",
+    "old_resid": 34,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2a9",
+    "element": "O"
+  },
+  {
+    "new_serial": 276,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "N",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2aa",
+    "element": "N"
+  },
+  {
+    "new_serial": 277,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "CA",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2ac",
+    "element": "C"
+  },
+  {
+    "new_serial": 278,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "CB",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2ae",
+    "element": "C"
+  },
+  {
+    "new_serial": 279,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "CG",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2b1",
+    "element": "C"
+  },
+  {
+    "new_serial": 280,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "CD",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2b4",
+    "element": "C"
+  },
+  {
+    "new_serial": 281,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "NE",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2b7",
+    "element": "N"
+  },
+  {
+    "new_serial": 282,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "CZ",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2b9",
+    "element": "C"
+  },
+  {
+    "new_serial": 283,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "NH1",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2ba",
+    "element": "N"
+  },
+  {
+    "new_serial": 284,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "NH2",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2bd",
+    "element": "N"
+  },
+  {
+    "new_serial": 285,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "C",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2c0",
+    "element": "C"
+  },
+  {
+    "new_serial": 286,
+    "new_resid": 30,
+    "new_resname": "ARG",
+    "atom_name": "O",
+    "old_resid": 35,
+    "old_resname": "ARGT",
+    "old_serial_field": "2a2c1",
+    "element": "O"
+  },
+  {
+    "new_serial": 287,
+    "new_resid": 31,
+    "new_resname": "GLY",
+    "atom_name": "N",
+    "old_resid": 36,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2c2",
+    "element": "N"
+  },
+  {
+    "new_serial": 288,
+    "new_resid": 31,
+    "new_resname": "GLY",
+    "atom_name": "CA",
+    "old_resid": 36,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2c4",
+    "element": "C"
+  },
+  {
+    "new_serial": 289,
+    "new_resid": 31,
+    "new_resname": "GLY",
+    "atom_name": "C",
+    "old_resid": 36,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2c7",
+    "element": "C"
+  },
+  {
+    "new_serial": 290,
+    "new_resid": 31,
+    "new_resname": "GLY",
+    "atom_name": "OT1",
+    "old_resid": 36,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2c8",
+    "element": "O"
+  },
+  {
+    "new_serial": 291,
+    "new_resid": 31,
+    "new_resname": "GLY",
+    "atom_name": "OT2",
+    "old_resid": 36,
+    "old_resname": "GLY",
+    "old_serial_field": "2a2c9",
+    "element": "O"
+  }
+]

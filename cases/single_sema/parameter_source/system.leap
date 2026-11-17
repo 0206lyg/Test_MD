@@ -1,0 +1,15 @@
+source leaprc.protein.ff14SB
+source leaprc.water.opc
+loadamberprep AIB/AIB.prepi
+loadamberparams AIB/AIB.frcmod
+loadamberprep SLY/SLY.prepi
+loadamberparams SLY/SLY.frcmod
+mol = loadpdb solute_heavy.pdb
+solvateOct mol OPCBOX 10.000000
+addIonsRand mol Na+ 0
+addIonsRand mol Na+ 16 Cl- 16
+check mol
+charge mol
+saveamberparm mol system.prmtop system.inpcrd
+savepdb mol system.pdb
+quit

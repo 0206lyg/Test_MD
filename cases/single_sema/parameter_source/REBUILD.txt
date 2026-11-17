@@ -1,0 +1,19 @@
+This is an optional developer workflow. A normal sbatch run uses the shipped
+GROMACS topology/coordinates and DOES NOT rerun parameter generation.
+
+Dependencies for rebuilding: Python >=3.9, RDKit, NumPy, ParmEd, AmberTools 24;
+AMBERHOME and the AmberTools executables must refer to the same installation.
+Run from the existing MD project root in that environment:
+
+python tools/build_sema_parameters.py --reference cases/single_sema/parameter_source/reference_from_natcomm.pdb --out build_single_sema --charge-geometry mmff-sp
+
+python tools/solvate_sema_parameters.py --parameters build_single_sema --assets rebuilt_single_sema --provenance cases/single_sema/parameter_source/coordinate_provenance.json --salt-reference-volume-nm3 179.4389683743936
+
+The salt-count reference volume is from an initial pilot NPT run. This is a
+calibration for this box/model at 298.15 K, not a universal molecular volume.
+Production analysis measures the actual concentration. Random ion placement
+may differ between rebuilds; the shipped box itself is fixed by checksums.
+
+The alternative --charge-geometry mmff-am1opt requests full AM1 optimization.
+That constitutes a DIFFERENT charge-generation protocol and requires new
+auditing. It is not the method used for this bundled pilot topology.

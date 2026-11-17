@@ -1,0 +1,100 @@
+{
+  "scope": "Actual local short MD execution and analysis. No remote Negishi submission and no default 1 ns production test.",
+  "gromacs": "2024.5 conda-forge non-MPI CPU",
+  "cpu_threads": 4,
+  "protocol": {
+    "em": "Fmax < 1000 kJ/mol/nm",
+    "nvt_ps": 10,
+    "npt_ps": 20,
+    "production_ps": 20
+  },
+  "slurm_harness": "Local wrapper forwards real GROMACS commands; tested removal of conflicting SLURM_TRES_PER_TASK. Does not test actual Slurm scheduling.",
+  "run_status": {
+    "status": "complete",
+    "stage": "production",
+    "reason": "All requested MD steps completed; physical validation may remain incomplete.",
+    "completed_stages": [
+      "em",
+      "nvt",
+      "npt",
+      "production"
+    ],
+    "scope": "short implementation/initial-behavior screen; not full force-field validation"
+  },
+  "salt_mM": {
+    "mean": 148.3873089067705,
+    "min": 147.63313754897192,
+    "max": 148.95629785216568,
+    "std": 0.5558223285574955,
+    "n": 3
+  },
+  "temperature_K": {
+    "mean": 297.949854,
+    "std": 1.880341629723504,
+    "first_half_mean": 297.45638420000006,
+    "second_half_mean": 298.3610788333333,
+    "finite": true,
+    "n": 11
+  },
+  "minimum_periodic_copy_distance_nm": {
+    "mean": 2.696001808118788,
+    "min": 2.670098892269723,
+    "max": 2.731484868144065,
+    "std": 0.025960147410201542,
+    "n": 3
+  },
+  "stereocenters": {
+    "centers_per_frame": 30,
+    "frames_checked": 3,
+    "mismatches": [],
+    "minimum_abs_volume_nm3": 0.0018377080000000225,
+    "note": "Geometry checked against manifest CIP ordering; absent centers are not implicitly validated."
+  },
+  "parameter_audit": "coverage checked; custom force-field physics unvalidated",
+  "sanity_alerts": [],
+  "experimental_validation": "not performed",
+  "asset_checksums": {
+    "NOTICE.txt": "a74752722e36232e7eec0ff0a2b6f45a01434706bdf244ced30bce188d126901",
+    "index.ndx": "a1c2311325c5739b35cbdc2216709c9bc5b1c9a373b5ccb0f8fa58f9c6d16aa0",
+    "manifest.json": "9de489f97edc841e89ccff3feba034e5dc06ca38887f058f2e339f2a1ba279b6",
+    "parameter_source/AIB/AIB.frcmod": "f103293452bcd8ffd55bac15d5788112d975006ac7d4593db25cbef4b9f49f3a",
+    "parameter_source/AIB/AIB.prepi": "3b0e1b37f3f4c04e4f590faef27a5838c75edba14e4f166505ba8b6a8bccfc53",
+    "parameter_source/AIB/PARMCHK_CX_CT.DAT": "0775cc1ca1c54d92c599806642649935c2dec9835fff2ce3cf3887da618612c1",
+    "parameter_source/AIB/capped.mol2": "e93c097bc516bd21eae2a291e60c34afe8ad5f01036cf2281061f376c0dc72cd",
+    "parameter_source/AIB/charged.ac": "7607a4a161fce48f12c007430749960d1a7d0a5d3ab327858df27a7f26028232",
+    "parameter_source/AIB/residue.mc": "1429136f27edbba342430c240a92eebe54161b7096f6cacc5bd3b9c7e8435d31",
+    "parameter_source/AIB/sqm.in": "4311d69074c8123a54932dc7fa4e6341e00a80aec7f34029de2f1ecaaf89ac88",
+    "parameter_source/AIB/sqm.out": "8d0f47cc0210697643724ae743f9bd8972c8c8c28f2dcc17316491e3926afea4",
+    "parameter_source/AIB/typed.ac": "72387d7a6fbaa1f5f2ffcc2936f36d8296b5c206dd2e590393d55985f1b1bb71",
+    "parameter_source/REBUILD.txt": "8ee335c00381f3fbbc6fb878657a2baad2c9223b437b28381de74fbfdc9a0123",
+    "parameter_source/SLY/PARMCHK_CX_CT.DAT": "0775cc1ca1c54d92c599806642649935c2dec9835fff2ce3cf3887da618612c1",
+    "parameter_source/SLY/SLY.frcmod": "45ecd49596fc731a023c032e4b3f0f2296cb4aa490c7635e2d1ba59e9ad34c42",
+    "parameter_source/SLY/SLY.prepi": "8234b0e2035453fe8f3d22daa974634c1276dc4b1f0ea7d510b675839c82b75b",
+    "parameter_source/SLY/capped.mol2": "e3d6a41cda041a46df5b85d7bc291f4024bb29d27e6e75e7fc561f8c8fcde33c",
+    "parameter_source/SLY/charged.ac": "963dd1251993de0a98ec49c60f240fccbf6935d9f38b2147ca556306247eb5f6",
+    "parameter_source/SLY/residue.mc": "d872b3f2216e91b091709885eabd874a6eedb02cb844400fd7b5bedfcdfd2f4b",
+    "parameter_source/SLY/sqm.in": "2a652ac5cdca32b8647c2455fad279f940d060e20ff7a80f4f8bd1173e8adfb7",
+    "parameter_source/SLY/sqm.out": "387b7323ea72b110156f89c9ad0c84d19a34e3cafd2357cee8692fb0cbc6b02a",
+    "parameter_source/SLY/typed.ac": "45ca5803d83e38ab64a7b2eba666abf72b8847a592998c4032b871ec94c1fb4d",
+    "parameter_source/build.leap": "e0bd79644204c03e6579b42b07ca68e23fa4f3fdc43a16e7ec0e8673c3afb626",
+    "parameter_source/coordinate_provenance.json": "68d75071242dd4991d3276cea0a9898d68cb95861267ece5c9c2076a2f95b50c",
+    "parameter_source/original_atom_mapping.json": "77734f78d541efb6a25e12abf02b98042b38521e18476dc61e5beb556d83a181",
+    "parameter_source/original_coordinate_stereo_audit.json": "cf8ae07748cd3e96eeb1571499cc81ddd88691c90339e73cfe4b4dd809e432a2",
+    "parameter_source/parameter_audit.json": "a289b001d702206bb3c47561510ec82228b6a58b9cdffecb8c306003d36002e4",
+    "parameter_source/reference_from_natcomm.pdb": "4125fb6d173b45f3e703afde41f2bee637f5d8cbcfe56112f7b7b7af898682f9",
+    "parameter_source/solute.inpcrd": "bdfdbc6361ddbfcd59255575b40dbafc3dc7ba28c6eb5e125c808718b36ca9ca",
+    "parameter_source/solute.pdb": "205deff50c819e2b19bf68ccc961bf8aaddc0f12ef731a21e71fe60b3a80e4d3",
+    "parameter_source/solute.prmtop": "aa43c5dc7a5fb4430e94ebc4c121f9101b6c7fbba29353aeaeb5c8206ef385f4",
+    "parameter_source/solute_heavy.pdb": "a7ca07c4a222c45883ab38675aede863640b3f12969e3e0d9927da8e0db6a431",
+    "parameter_source/system.leap": "3089414eeb644333d3913d41266376c064232052a764cfdfc6f0206611f9db6d",
+    "posre_sema.itp": "487af30013c1f6214e69dbd0ad4982c2a9ec0bade977f42ce4229374b82e8d91",
+    "system.gro": "6f86f395b12305dfd6b239f2846a168020a5d83113c29c232f27c84fb827bc07",
+    "topol.top": "5ffa62fec703ccbaf95036d31ee7ac54c234ab126b0dc5b1d5339b3d08427d43"
+  },
+  "script_checksums": {
+    "tools/analyze_single_sema.py": "496000407dd94821de0d5f9ad83fa97659183ca831b690a4649423e8e313cb06",
+    "tools/build_sema_parameters.py": "bf7f713998acfb5ee2b25711e36c7a230d3643f9352c879803422eb0fbfa3125",
+    "tools/prepare_single_sema.py": "0c13dc075643ad2d060403c5bfc8fa0952977e06fcf038fc5634fdaf89a1ebe2",
+    "tools/solvate_sema_parameters.py": "4999711acea4626916ab84c9ecd235ce051ae4077831208ff257458947f525b3"
+  }
+}

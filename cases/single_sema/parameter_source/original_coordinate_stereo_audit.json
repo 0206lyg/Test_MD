@@ -1,0 +1,388 @@
+{
+  "alpha_stereocenters": [
+    {
+      "resid": 1,
+      "resname": "HIS",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.3190669999999978,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 3,
+      "resname": "GLU",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.373679999999996,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 5,
+      "resname": "THR",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.6609580000000297,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 6,
+      "resname": "PHE",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.22966000000001,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 7,
+      "resname": "THR",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.2641079999999634,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 8,
+      "resname": "SER",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.345432000000009,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 9,
+      "resname": "ASP",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.1952880000000072,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 10,
+      "resname": "VAL",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.6455479999999514,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 11,
+      "resname": "SER",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.526974999999989,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 12,
+      "resname": "SER",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.1326619999999785,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 13,
+      "resname": "TYR",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.071964000000001,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 14,
+      "resname": "LEU",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.372783999999994,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 15,
+      "resname": "GLU",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.6509630000000124,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 17,
+      "resname": "GLN",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.5150390000000176,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 18,
+      "resname": "ALA",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.45374,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 19,
+      "resname": "ALA",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.669799000000028,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 20,
+      "resname": "SLY",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "C4"
+      ],
+      "triple_product_A3": 2.4477619999999973,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 21,
+      "resname": "GLU",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.0097870000000038,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 22,
+      "resname": "PHE",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.622818999999978,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 23,
+      "resname": "ILE",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.4847159999999766,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 24,
+      "resname": "ALA",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.465628000000005,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 25,
+      "resname": "TRP",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.152511999999976,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 26,
+      "resname": "LEU",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.319932999999967,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 27,
+      "resname": "VAL",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.177105000000004,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 28,
+      "resname": "ARG",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.688697000000004,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    },
+    {
+      "resid": 30,
+      "resname": "ARG",
+      "center": "CA",
+      "priorities_1_2_3": [
+        "N",
+        "C",
+        "CB"
+      ],
+      "triple_product_A3": 2.093618999999992,
+      "expected": "S",
+      "assigned_by_sign": "S"
+    }
+  ],
+  "gamma_glu_triple_product_A3": -2.6382920000000207,
+  "gamma_glu_assigned": "R",
+  "gamma_glu_expected": "S",
+  "method": "Oriented volume of CIP-ranked three nonhydrogen neighbors relative tocenter. No sulfur-containingcenters. Positive determinant correspondsS forimplicitlowestpriorityH.",
+  "source": "PublishedVideo10firstframe;coordinatesunaltered",
+  "sidechain_stereocenters": [
+    {
+      "resid": 5,
+      "resname": "THR",
+      "center": "CB",
+      "priorities_1_2_3": [
+        "OG1",
+        "CA",
+        "CG2"
+      ],
+      "triple_product_A3": -2.558845000000024,
+      "assigned_by_sign": "R",
+      "expected": "R"
+    },
+    {
+      "resid": 7,
+      "resname": "THR",
+      "center": "CB",
+      "priorities_1_2_3": [
+        "OG1",
+        "CA",
+        "CG2"
+      ],
+      "triple_product_A3": -2.532073999999964,
+      "assigned_by_sign": "R",
+      "expected": "R"
+    },
+    {
+      "resid": 23,
+      "resname": "ILE",
+      "center": "CB",
+      "priorities_1_2_3": [
+        "CA",
+        "CG1",
+        "CG2"
+      ],
+      "triple_product_A3": 2.773023999999994,
+      "assigned_by_sign": "S",
+      "expected": "S"
+    }
+  ]
+}

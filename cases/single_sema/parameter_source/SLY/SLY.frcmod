@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+
+IMPROPER
+CT-N -C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score=  6.0)
+CT-O2-C -O2        10.5          180.0         2.0          Using general improper torsional angle  X-O2- C-O2, penalty score=  3.0)
+
+NONBON
+
+
+

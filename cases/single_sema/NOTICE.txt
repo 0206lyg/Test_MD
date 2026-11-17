@@ -1,0 +1,32 @@
+Coordinate attribution
+======================
+Kyle J. Colston, Kyle T. Faivre and Severin T. Schneebeli,
+"Permeation enhancer-induced membrane defects assist the oral absorption
+of peptide drugs", Nature Communications 16, 9512 (2025).
+https://doi.org/10.1038/s41467-025-64891-0
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Starting coordinates: Supplementary Data 1, first frame of Supplementary
+Video 10. One complete semaglutide was extracted; source atom mappings,
+archive checksum and frame checksum are supplied in parameter_source/.
+
+Modifications: removed source CpHMD hydrogens; merged modified Lys/linker
+residues; renumbered 31 peptide residues; converted atom names to Amber;
+corrected gamma-Glu C23 R geometry to S by reflecting its carboxyl branch;
+regenerated hydrogens for the selected fixed protonation state; solvated
+and added ions. The FDA identity specifies L-gamma-glutamyl:
+https://precision.fda.gov/uniisearch/srs/unii/53axn4nnhx
+
+No complete CHARMM36m/CGenFF force-field topology was present in the public
+Supplementary Data 1 archive. The bundled AMBER-derived topology is a
+separately generated provisional pilot model, not the authors' force field.
+
+Parameter-generation software/data: AmberTools 24.8 (ff14SB, AMBER atom
+types, AM1-BCC, parmchk2, OPC and Li-Merz 12-6 OPC ions), RDKit 2024.09.2,
+and ParmEd 4.3.1. The custom charge method, analogies and limitations are
+recorded in parameter_source/parameter_audit.json. The single-point
+AM1-BCC variant follows the option described in the Amber reference
+manual's Antechamber tips (2025, section 16.2, tip 7). It does not establish
+solution-state force-field accuracy. Native parameter data retain their
+original software/data provenance.

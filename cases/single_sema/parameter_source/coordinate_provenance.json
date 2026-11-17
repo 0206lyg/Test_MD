@@ -1,0 +1,23 @@
+{
+  "article_doi": "10.1038/s41467-025-64891-0",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-64891-0/MediaObjects/41467_2025_64891_MOESM20_ESM.zip",
+  "zip_md5": "68533dbbef9e3a8a3eccb4a9842596cf",
+  "source_pdb": "sema_research/natcomm/data1/Supplementary_Data_1/Trajectory_shown_in_Supplementary_Video_10_First_Frame.pdb",
+  "source_sha256": "4533cb812e388672b6cc0a7fa8594e29833722e52d21828e6dd1b5d5f6e61ac5",
+  "original_solute_atoms": 585,
+  "original_elements": {
+    "N": 45,
+    "H": 294,
+    "C": 187,
+    "O": 59
+  },
+  "heavy_atoms": 291,
+  "heavy_elements": {
+    "N": 45,
+    "C": 187,
+    "O": 59
+  },
+  "normalized_peptide_residues": 31,
+  "note": "Coordinate reference only. Source contains CpHMD proton-bearing/dummy H positions. Complete force-field parameters not provided in supplementary dataset.",
+  "license": "CC BY 4.0 article; cite Colston,Faivre,Schneebeli2025 and mark modifications"
+}
