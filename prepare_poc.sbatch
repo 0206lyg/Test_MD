@@ -30,17 +30,10 @@ MD_PREP_STAGE=structures
 trap 'printf "Preparation failed during %s; see the Slurm log above.\n" "$MD_PREP_STAGE" >&2' ERR
 (
     source "$MD_ROOT/env.sh" prep
-    # Coordinate push-off uses SciPy. Older installations of this bundle did
-    # not explicitly request it. Add only this missing preparation dependency
-    # on the compute node, without rebuilding GROMACS or upgrading the env.
-    if ! python3 -c 'import scipy.optimize, scipy.spatial' >/dev/null 2>&1; then
-        printf 'Adding the missing SciPy coordinate-preparation dependency.\n'
-        conda install --yes --prefix "$MD_PREP_PREFIX" --override-channels \
-            --channel conda-forge --solver libmamba --freeze-installed scipy
-        python3 -c 'import scipy.optimize, scipy.spatial'
-        mkdir -p "$MD_ROOT/software-info"
-        conda list --prefix "$MD_PREP_PREFIX" --explicit > "$MD_ROOT/software-info/prep-explicit.txt"
-    fi
+    python3 -c 'import scipy.optimize, scipy.spatial' || {
+        printf 'Missing preparation dependency SciPy. Run sbatch setup_cpu.sbatch.\n' >&2
+        exit 1
+    }
     python3 "$MD_ROOT/tools/prepare_case.py" structures --config "$MD_CASE_CONFIG" --output "$MD_CASE_OUTPUT"
 )
 MD_PREP_STAGE=parameters

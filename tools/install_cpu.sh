@@ -18,6 +18,8 @@ printf 'Build jobs: %s; regression tests: %s thread-MPI ranks x 1 OpenMP thread\
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
 export PYTHONUNBUFFERED=1 PYTHONNOUSERSITE=1
 mkdir -p "$MD_ROOT"/{software,src,build,downloads,envs,cache/conda-pkgs,tmp,software-info,cases}
+exec 9>"$MD_ROOT/envs/.setup-cpu.lock"
+flock -n 9 || { printf 'Another CPU setup is in progress.\n' >&2; exit 1; }
 export TMPDIR="$MD_ROOT/tmp"
 export CONDA_PKGS_DIRS="$MD_ROOT/cache/conda-pkgs"
 export CONDA_ENVS_PATH="$MD_ROOT/envs"
@@ -70,7 +72,10 @@ fi
     if [[ ! -f "$MD_PREP_PREFIX/conda-meta/history" ]]; then
         conda create --yes --prefix "$MD_PREP_PREFIX" \
             --override-channels --channel conda-forge --strict-channel-priority \
-            --solver libmamba python=3.11 packmol rdkit parmed
+            --solver libmamba python=3.11 packmol rdkit parmed scipy
+    elif ! "$MD_PREP_PREFIX/bin/python3" -E -s -c 'import scipy.optimize, scipy.spatial' >/dev/null 2>&1; then
+        conda install --yes --prefix "$MD_PREP_PREFIX" --override-channels \
+            --channel conda-forge --solver libmamba --freeze-installed scipy
     fi
     conda list --prefix "$MD_CMAKE_PREFIX" --explicit > "$MD_ROOT/software-info/cmake-explicit.txt"
     conda list --prefix "$MD_PREP_PREFIX" --explicit > "$MD_ROOT/software-info/prep-explicit.txt"
@@ -81,12 +86,81 @@ fi
 from importlib.metadata import version
 from rdkit import Chem
 import parmed
+import scipy.optimize, scipy.spatial
 assert Chem.MolFromSmiles('CS(=O)C') is not None
 for package in ('rdkit', 'ParmEd'):
     print(f'{package}: {version(package)}')
 print('Preparation imports OK')
 PY
 )
+
+# All DPD cases share a wheel environment isolated from the preparation packages.
+(
+    source "$MD_ROOT/env.sh" prep
+    if [[ ! -x $MD_DPD_PYTHON ]]; then
+        "$MD_PREP_PREFIX/bin/python3" -E -s -m venv "$MD_DPD_PREFIX"
+    fi
+    export PIP_CACHE_DIR="$MD_ROOT/cache/pip-dpd" PIP_DISABLE_PIP_VERSION_CHECK=1
+    packages=("lammps==$MD_LAMMPS_VERSION" 'mpich==5.0.2' 'numpy==2.2.6' 'scipy==1.15.3')
+    if ! "$MD_DPD_PYTHON" -E -s - "${packages[@]}" <<'PY'
+from importlib.metadata import PackageNotFoundError, version
+import sys
+for spec in sys.argv[1:]:
+    name, wanted = spec.split("==")
+    try:
+        installed = version(name)
+    except PackageNotFoundError:
+        sys.exit(1)
+    if installed != wanted:
+        sys.exit(1)
+PY
+    then
+        "$MD_DPD_PYTHON" -E -s -m pip install --only-binary=:all: "${packages[@]}"
+    fi
+    "$MD_DPD_PYTHON" -E -s -m pip check
+    "$MD_DPD_PYTHON" -E -s -m pip freeze > "$MD_ROOT/software-info/dpd-packages.txt"
+    source "$MD_ROOT/env.sh" dpd
+    export OMP_NUM_THREADS="$MD_BUILD_JOBS" OMP_DYNAMIC=FALSE
+    "$MD_DPD_PYTHON" -E -s - <<'PY'
+import os
+import numpy as np
+from lammps import lammps
+import scipy.ndimage, scipy.spatial
+
+engine = lammps(cmdargs=["-screen", "none", "-log", "none", "-sf", "omp",
+                         "-pk", "omp", os.environ["OMP_NUM_THREADS"]])
+try:
+    engine.commands_string("""units lj
+atom_style molecular
+region cell block 0 6 0 6 0 6
+create_box 1 cell bond/types 1
+create_atoms 1 single 2 2 2
+create_atoms 1 single 2.7 2 2
+mass 1 1.0
+comm_modify vel yes
+pair_style dpd/omp 1.0 1.0 48727
+pair_coeff * * 25 4.5 1.0
+bond_style harmonic
+bond_coeff 1 10.0 0.7
+fix integrate all nve
+run 0 post no""")
+    if not np.isfinite(engine.numpy.extract_atom("f")[:2]).all():
+        raise RuntimeError("Nonfinite DPD forces at step zero")
+finally:
+    engine.close()
+print("LAMMPS DPD/OpenMP runtime ready")
+PY
+)
+
+# Existing installations can add dependencies without rebuilding validated GROMACS.
+if [[ ${MD_REBUILD_GROMACS:-0} != 1 && -x $MD_GMX_PREFIX/bin/gmx && -f $MD_GMX_PREFIX/.validated ]]; then
+    if (source "$MD_ROOT/env.sh" md && "$GMX" --version 2>&1 | awk -v wanted="$MD_GROMACS_VERSION" \
+        '$1 == "GROMACS" && $2 == "version:" && $3 == wanted {found=1} END {exit !found}'); then
+        printf '\nMD CPU SETUP COMPLETE. Reusing validated GROMACS at %s.\n' "$MD_GMX_PREFIX"
+        exit 0
+    fi
+    printf 'Installed GROMACS executable failed its version check; rebuilding.\n' >&2
+fi
 
 # Configure with the native GCC compiler and without an activated Conda env.
 source "$MD_ROOT/env.sh" build
@@ -119,10 +193,12 @@ if [[ ! -f "$MD_SOURCE_DIR/.unpacked" ]]; then
     tar -xzf "$MD_ROOT/downloads/gromacs-2026.4.tar.gz" -C "$MD_ROOT/src"
     touch "$MD_SOURCE_DIR/.unpacked"
 fi
-if [[ ! -f "$MD_TEST_DIR/.unpacked" ]]; then
-    tar -xzf "$MD_ROOT/downloads/regressiontests-2026.4.tar.gz" -C "$MD_ROOT/src"
-    touch "$MD_TEST_DIR/.unpacked"
-fi
+# Some existing checkouts track .unpacked but omit binary test references.
+# Fill missing members while preserving existing local edits to a completed extraction.
+MD_TEST_TAR_OPTIONS=()
+if [[ -f "$MD_TEST_DIR/.unpacked" ]]; then MD_TEST_TAR_OPTIONS+=(--skip-old-files); fi
+tar "${MD_TEST_TAR_OPTIONS[@]}" -xzf "$MD_ROOT/downloads/regressiontests-2026.4.tar.gz" -C "$MD_ROOT/src"
+touch "$MD_TEST_DIR/.unpacked"
 
 # Zen3 CPU, mixed precision, thread-MPI + OpenMP, one node. No GPU dependency.
 # Unix Makefiles is required for this bundled FFTW build workflow.
@@ -183,5 +259,6 @@ date -u +%Y-%m-%dT%H:%M:%SZ > "$MD_GMX_PREFIX/.validated"
 printf '\nMD CPU SETUP COMPLETE\n'
 printf 'GROMACS: source "%s/env.sh" md\n' "$MD_ROOT"
 printf 'Preparation: source "%s/env.sh" prep\n' "$MD_ROOT"
+printf 'LAMMPS DPD: source "%s/env.sh" dpd\n' "$MD_ROOT"
 printf 'AmberTools: source "%s/env.sh" amber\n' "$MD_ROOT"
 printf 'Results will be created under: %s\n' "$MD_SCRATCH_ROOT"

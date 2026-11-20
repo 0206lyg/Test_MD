@@ -9,6 +9,7 @@
 #SBATCH --time=06:00:00
 #SBATCH --output=setup_md_cpu_%j.out
 
+# Common installer for GROMACS, molecular preparation and LAMMPS DPD.
 set -Eeuo pipefail
 export MD_ROOT="${MD_ROOT:-$HOME/MD}"
 [[ -f "$MD_ROOT/tools/install_cpu.sh" ]] || { printf 'Extract the ZIP into your home directory to create ~/MD.\n' >&2; exit 1; }
