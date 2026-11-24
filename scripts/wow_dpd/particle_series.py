@@ -121,9 +121,8 @@ def composition(inside, types, layout):
                 dcm_wt_fraction_particle=d_mass/(d_mass+p_mass))
 
 
-def measure(step, types, xyz, length, orig, pockets, layout, grid_nm, smooth_nm, deep_nm, probe_nm):
-    if len(types) != len(orig) or not np.all((types == orig) | ((orig == DCM) & (types == WATER))):
-        raise ValueError('Frame IDs or types incompatible with initial geometry and DCM-to-water sink')
+def carrier_grid(types, xyz, length, grid_nm, smooth_nm):
+    """Recenter on PLGA and compute organic minus water density on a periodic grid."""
     polymer = (types == LA) | (types == GA)
     moment = np.exp((2j*np.pi/length)*xyz[polymer]).mean(axis=0)
     if np.min(abs(moment)) < 0.05:
@@ -133,14 +132,62 @@ def measure(step, types, xyz, length, orig, pockets, layout, grid_nm, smooth_nm,
     n = max(4, int(np.ceil(length/grid_nm)))
     shape, h = (n, n, n), length/n
     bins = np.ravel_multi_index(np.minimum((pos/h).astype(int), n-1).T, shape)
+
     def density(mask):
         grid = np.bincount(bins[mask], minlength=n**3).reshape(shape).astype(float)
         return gaussian_filter(grid, smooth_nm/h, mode='wrap')
+
     water = types == WATER
     dcm = types == DCM
     # Interface defined where water and organic carrier densities are equal. Peptide
     # is a tracer in this operation and can occupy either aqueous or organic domains.
     contrast = density(polymer | dcm)-density(water)
+    return pos, bins, h, contrast
+
+
+def aqueous_domains(contrast):
+    """Label water-rich voxels and identify components connected to a box face."""
+    wet_domains, n_wet = label(contrast < 0)
+    external = np.zeros(n_wet+1, dtype=bool)
+    for face in box_faces(wet_domains):
+        external[face] = True
+    external[0] = False
+    return wet_domains, external
+
+
+def initial_pocket_domains(types, xyz_nm, length, pocket, n_expected):
+    """Map the water in each initial W1 pocket onto the trajectory analysis grid.
+
+    A pocket is closed and distinct when its water-rich voxels all belong to
+    one isolated component and no other pocket uses the same component. Beads
+    in interfacial/organic voxels (label zero) do not define an aqueous path.
+    """
+    _, bins, _, contrast = carrier_grid(types, np.asarray(xyz_nm, dtype=float), length, 0.5, 0.7)
+    domains, exterior = aqueous_domains(contrast)
+    inner = (types == WATER) & (pocket > 0)
+    origin = pocket[inner]
+    labels = domains.ravel()[bins[inner]]
+    domain_ids, bath_connected = [], []
+    unsplit = True
+    for index in range(1, n_expected + 1):
+        ids, counts = np.unique(labels[(origin == index) & (labels != 0)], return_counts=True)
+        dominant = int(ids[counts.argmax()]) if len(ids) else 0
+        domain_ids.append(dominant)
+        bath_connected.append(bool(exterior[ids].any()))
+        unsplit = unsplit and len(ids) == 1
+    closed = {d for d, bath in zip(domain_ids, bath_connected) if d and not bath}
+    return dict(resolved_w1_count=len(closed), domain_ids=domain_ids,
+                bath_connected=bath_connected,
+                all_distinct_and_closed=unsplit and len(closed) == n_expected)
+
+
+def measure(step, types, xyz, length, orig, pockets, layout, grid_nm, smooth_nm, deep_nm, probe_nm):
+    if len(types) != len(orig) or not np.all((types == orig) | ((orig == DCM) & (types == WATER))):
+        raise ValueError('Frame IDs or types incompatible with initial geometry and DCM-to-water sink')
+    pos, bins, h, contrast = carrier_grid(types, xyz, length, grid_nm, smooth_nm)
+    polymer = (types == LA) | (types == GA)
+    water = types == WATER
+    dcm = types == DCM
     domains, n_organic = label(contrast > 0)
     if n_organic == 0:
         raise ValueError('No organic-rich carrier')
@@ -150,11 +197,7 @@ def measure(step, types, xyz, length, orig, pockets, layout, grid_nm, smooth_nm,
         raise ValueError('Main organic phase reaches a recentered box face; no isolated envelope')
     hull = ConvexHull(surface_vertices(largest, contrast, h))
     inside = hull_test(pos, hull, 0)
-    wet_domains, n_wet = label(contrast < 0)
-    external = np.zeros(n_wet+1, dtype=bool)
-    for face in box_faces(wet_domains):
-        external[face] = True
-    external[0] = False
+    wet_domains, external = aqueous_domains(contrast)
     wet_in = inside & water
     wi = np.flatnonzero(wet_in)
     domain_at_water = wet_domains.ravel()[bins[wi]]

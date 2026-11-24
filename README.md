@@ -19,15 +19,18 @@ From the repository root (default `~/MD`), run `sbatch setup_cpu.sbatch` once af
 
 ## W/O/W extraction and results
 
+Edit the input block at the top of `run_wow_sema.sbatch`, then submit it without arguments. `DROPLET_DIAMETER_NM=39.2` is the wet diameter at the O/W₂ boundary, `W1_COUNT=10` selects 1–10 equal-volume pockets, and `INIT_SEED=20261120` controls the initial configuration. At fixed diameter, pocket count and seed preserve the amounts of PLGA, DCM, W₁ water and drug. The generator places pockets randomly within the available volume with a 1.05 nm minimum oil film. It checks the actual bead density for separate W₁ regions disconnected from W₂ at step zero. Each fresh job builds its coordinates on scratch from compact templates. Set `CHECK_INPUT=1` to generate the same files and check step zero before production. Command-line overrides remain available (`bash run_wow_sema.sbatch --help`).
+
 The default job requests 8 CPU threads and up to 48 h for 778,156 beads. After a 1,000-step closed relaxation, the code attempts DCM exchange in the external water every 100 steps. Every 1,000 extraction steps it saves the particle composition and coordinates. The first sampled particle with **DCM/(DCM + PLGA) ≤ 5 wt% by mass** is the endpoint.
 
 | File under the scratch run directory | What to read |
 |---|---|
+| `code/wow_dpd/initial/layout.json`, `initial_preview.svg` in the same folder | Generated composition, pocket geometry and preview. |
 | `result/particle.csv` | Local `dcm_wt_fraction_particle`, internal water fraction, water origins and connectivity to the bath. |
 | `result/sink.csv` | Eligible and exchanged DCM counts at every exchange decision. |
 | `result/trajectory.lammpstrj` | Full bead coordinates including the endpoint frame. Multiply coordinates by 0.70 for nm. |
 | `result/state.json` | `target_reached`, `paused` or `max_steps`, plus the committed step and restart file. |
 
-Copy the **Results directory** path printed in the job log to resume, for example `sbatch run_wow_sema.sbatch --resume /absolute/path/to/wow_sema_run`. For a run at its cumulative step cap, append `--max-steps 3000000` to extend it. Use `--check-input` for a zero-step input check. The source, inputs and water-analysis code are in `scripts/wow_dpd/`.
+Set `RESUME_DIR` to the **Results directory** printed in the job log to continue a production run, including a run created with the older fixed input. The job reuses its saved coordinates, code, and options. Set `RESUME_MAX_STEPS` to extend the cumulative cap if needed.
 
 For binary mixtures, use `sbatch run_binary.sbatch --continue RUN_DIR` to resume or `sbatch postprocess_binary.sbatch RUN_DIR` to analyze saved frames. Single-peptide results are in `analysis/summary.json`; `sbatch postprocess_single_sema.sbatch RUN_DIR` repeats that analysis. Prepared PLGA/drug runs resume with `sbatch run_poc.sbatch --restart RUN_DIR`.
